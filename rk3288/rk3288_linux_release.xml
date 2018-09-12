@@ -46,7 +46,7 @@
 	<project path="external/rk_pcba_test" name="rk_pcba_test" upstream="master" revision="fa3d220a8a9e8c46250f8242e90c404d342d46a5"/>
 	<project path="external/ueventd" name="ueventd" upstream="master" revision="6131251e513d708fde4156639f2707decbc6fb29"/>
 	<project path="external/xserver" name="xserver" upstream="rockchip-1.18" revision="6f770de04d50422af48f83e17de7197ed0a76fdb"/>
-	<project path="kernel" name="kernel" upstream="release-4.4" revision="cc20bc020b16e9b924de509e2bcdfd1fae6bc99e"/>
+	<project path="kernel" name="kernel" upstream="stable" revision="cc20bc020b16e9b924de509e2bcdfd1fae6bc99e"/>
 	<project path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" name="gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" upstream="master" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1"/>
 	<project path="rkbin" name="rkbin" upstream="master" revision="ffb36c0a2df9dd6b38f2da8f842f26ddc5990800"/>
 	<project path="rootfs" name="rk-rootfs-build" upstream="master" revision="274d45c14a4cb4fc97996f1c1e849ed12060a5db"/>
@@ -57,5 +57,5 @@
 		<linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3288-package-file"/>
 		<linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3288-mkupdate.bat"/>
 	</project>
-	<project path="u-boot" name="u-boot" upstream="release" revision="b2cd2d96bc14551bca204d181933920fda4e78dd"/>
+	<project path="u-boot" name="u-boot" upstream="stable" revision="b2cd2d96bc14551bca204d181933920fda4e78dd"/>
 </manifest>
