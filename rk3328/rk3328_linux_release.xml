@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="." name="firefly-linux" review="https://github.com/FireflyTeam"/>
+  <remote fetch="." name="firefly-linux" review="git@168.168.0.253:Linux_SDK"/>
   
   <default remote="firefly-linux" revision="master" sync-j="4"/>
   

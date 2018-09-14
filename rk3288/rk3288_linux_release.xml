@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote fetch="." name="firefly-linux" review="https://github.com/FireflyTeam"/>
+	<remote fetch="." name="firefly-linux" review="git@168.168.0.253:Linux_SDK"/>
 	<default remote="firefly-linux" revision="master" sync-j="4"/>
 
 	<project path="app/camera" name="camera" upstream="master" revision="291866bcbabb706f48398883fbcc16d9808f7ef0"/>
