@@ -14,7 +14,7 @@
   <project name="camera" path="app/camera" revision="291866bcbabb706f48398883fbcc16d9808f7ef0" upstream="master"/>
   <project name="camera_engine_cifisp" path="external/camera_engine_cifisp" revision="8b85c704d2af804f6cfd281b641f50ab7b20a0ed" upstream="master"/>
   <project name="camera_engine_rkisp" path="external/camera_engine_rkisp" revision="e0016ff6507b5812f807e861ea80cb07667734f1" upstream="master"/>
-  <project name="device-custom" path="device/rockchip" revision="23bee10cfa2f585bc53eeda87354de1b2f00371f" upstream="master">
+  <project name="device-custom" path="device/rockchip" revision="6cbdc77822bc86a75ed7d93c995215d71c64ea09" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -45,7 +45,7 @@
   <project name="rkwifibt" path="external/rkwifibt" revision="b5030536b6df9a019c9a46f7a4c8dcd44239c251" upstream="master"/>
   <project name="settings" path="app/settings" revision="ec4f67a2df498893539eb2435d14348d97ecc462" upstream="master"/>
   <project name="tensorflow" path="external/tensorflow" revision="e1877bb157a775d76ec8c0b68467aef6d053bbb2" upstream="master"/>
-  <project name="tools" revision="da026b65be1aea9c911a891a0c4b7aaed0184c5c" upstream="master">
+  <project name="tools" revision="4c14052dbde7fd62c158a6adf864444a7d992a4c" upstream="master">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3399-config.cfg"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3399-package-file"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3399-mkupdate.bat"/>
