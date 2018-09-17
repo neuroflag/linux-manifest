@@ -45,7 +45,7 @@
   <project name="rkwifibt" path="external/rkwifibt" revision="b5030536b6df9a019c9a46f7a4c8dcd44239c251" upstream="master"/>
   <project name="settings" path="app/settings" revision="ec4f67a2df498893539eb2435d14348d97ecc462" upstream="master"/>
   <project name="tensorflow" path="external/tensorflow" revision="e1877bb157a775d76ec8c0b68467aef6d053bbb2" upstream="master"/>
-  <project name="tools" revision="21e780a91d1d622f82b5de00d5c89749ca2c69fc" upstream="master">
+  <project name="tools" revision="1662d71b3c98716ce44cd973907f7946fad63f48" upstream="master">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3399-config.cfg"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3399-package-file"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3399-mkupdate.bat"/>
