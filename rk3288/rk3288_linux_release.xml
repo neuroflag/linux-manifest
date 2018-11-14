@@ -13,7 +13,7 @@
 		<linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
 		<linkfile dest="Makefile" src="build/Makefile"/>
 	</project>
-	<project path="device/rockchip/" name="device-custom" upstream="master" revision="8707a62168b8cfb4c954960184baa35f156262e1">
+	<project path="device/rockchip/" name="device-custom" upstream="master" revision="20f5be7133e9bd57d2e48e28aad8b0895f8b4938">
 		<linkfile dest="build.sh" src="common/build.sh"/>
 		<linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
 		<linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
