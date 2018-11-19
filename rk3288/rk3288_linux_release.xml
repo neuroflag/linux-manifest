@@ -14,12 +14,15 @@
   <project name="camera" path="app/camera" revision="291866bcbabb706f48398883fbcc16d9808f7ef0" upstream="master"/>
   <project name="camera_engine_cifisp" path="external/camera_engine_cifisp" revision="8b85c704d2af804f6cfd281b641f50ab7b20a0ed" upstream="master"/>
   <project name="camera_engine_rkisp" path="external/camera_engine_rkisp" revision="e0016ff6507b5812f807e861ea80cb07667734f1" upstream="master"/>
-  <project name="device-custom" path="device/rockchip" revision="20f5be7133e9bd57d2e48e28aad8b0895f8b4938" upstream="master">
+  <project name="device-custom" path="device/rockchip" revision="713b42b5e38c9409201eba4eb4564d05cc896588" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
     <linkfile dest="device/rockchip/.BoardConfig.mk" src="rk3288/BoardConfig.mk"/>
-  </project>
+    <linkfile dest="rockdev/version.sh" src="common/pack/version.sh"/>
+    <linkfile dest="rockdev/commit" src="common/pack/commit"/>
+    <linkfile dest="rockdev/README.txt" src="common/pack/README.txt"/>
+</project>
   <project name="distro" revision="5bdb50e629e3fee3954635eb678399424a77ad78" upstream="master"/>
   <project name="dl" path="buildroot/dl" revision="9706155226abf00e9cba5bf600fdd98c5daf9eef" upstream="master"/>
   <project name="docs" revision="a1e8facc74dc84e899709a825c97d7ad04da6fa2" upstream="master"/>
@@ -45,7 +48,7 @@
   <project name="rkwifibt" path="external/rkwifibt" revision="b5030536b6df9a019c9a46f7a4c8dcd44239c251" upstream="master"/>
   <project name="settings" path="app/settings" revision="ec4f67a2df498893539eb2435d14348d97ecc462" upstream="master"/>
   <project name="tensorflow" path="external/tensorflow" revision="e1877bb157a775d76ec8c0b68467aef6d053bbb2" upstream="master"/>
-  <project name="tools" revision="487ee807a6ad27da83c3353f8f5cc357ea0e55e3" upstream="master">
+  <project name="tools" revision="898158c75f25225b0ad30e59d5a4fe920dc30448" upstream="master">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3399-config.cfg"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3399-package-file"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3399-mkupdate.bat"/>
