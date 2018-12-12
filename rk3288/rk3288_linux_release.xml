@@ -14,11 +14,10 @@
   <project name="camera" path="app/camera" revision="291866bcbabb706f48398883fbcc16d9808f7ef0" upstream="master"/>
   <project name="camera_engine_cifisp" path="external/camera_engine_cifisp" revision="8b85c704d2af804f6cfd281b641f50ab7b20a0ed" upstream="master"/>
   <project name="camera_engine_rkisp" path="external/camera_engine_rkisp" revision="e0016ff6507b5812f807e861ea80cb07667734f1" upstream="master"/>
-  <project name="device-custom" path="device/rockchip" revision="9b902630a7fdd7bfd558134680cd02003552a69b" upstream="master">
+  <project name="device-custom" path="device/rockchip" revision="1f7e1f7e9c4a9df616b1cd58fd015022c7ca98a2" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
-    <linkfile dest="device/rockchip/.BoardConfig.mk" src="rk3288/BoardConfig.mk"/>
     <linkfile dest="rockdev/version.sh" src="common/pack/version.sh"/>
     <linkfile dest="rockdev/commit" src="common/pack/commit"/>
     <linkfile dest="rockdev/README.txt" src="common/pack/README.txt"/>
@@ -52,8 +51,6 @@
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3399-config.cfg"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3399-package-file"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3399-mkupdate.bat"/>
-    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3288-mkupdate.sh"/>
-    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3288-ubuntu-package-file"/>
   </project>
   <project name="u-boot" revision="d80ac02301a3f85fee7d153e3a67f173e014cf71" upstream="stable"/>
   <project name="video" path="app/video" revision="4ce9c5ae8094ff0bc30f9ac6ec9c5c5173f69dd9" upstream="master"/>
