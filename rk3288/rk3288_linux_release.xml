@@ -4,17 +4,17 @@
   
   <default remote="firefly-linux" revision="master" sync-j="4"/>
   
-  <project name="QLauncher" path="app/QLauncher" revision="0dd9497ec64309b4512f07e01c92723c60927d88" upstream="master"/>
-  <project name="alsa-config" path="external/alsa-config" revision="fb3f7a7ac3170a97926d314c108a8352b409da88" upstream="master"/>
-  <project name="audioservice" path="external/audioservice" revision="ec7efbf4cbb023a655228a1260fb83258fd667c1" upstream="master"/>
-  <project name="buildroot" revision="6ba46dfa63549f676d808a31fca1d131af8287dd" upstream="master">
+  <project name="QLauncher" path="app/QLauncher" revision="master"/>
+  <project name="alsa-config" path="external/alsa-config" revision="master"/>
+  <project name="audioservice" path="external/audioservice" revision="master"/>
+  <project name="buildroot" revision="master">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
-  <project name="camera" path="app/camera" revision="291866bcbabb706f48398883fbcc16d9808f7ef0" upstream="master"/>
-  <project name="camera_engine_cifisp" path="external/camera_engine_cifisp" revision="8b85c704d2af804f6cfd281b641f50ab7b20a0ed" upstream="master"/>
-  <project name="camera_engine_rkisp" path="external/camera_engine_rkisp" revision="e0016ff6507b5812f807e861ea80cb07667734f1" upstream="master"/>
-  <project name="device-custom" path="device/rockchip" revision="1f7e1f7e9c4a9df616b1cd58fd015022c7ca98a2" upstream="master">
+  <project name="camera" path="app/camera" revision="master"/>
+  <project name="camera_engine_cifisp" path="external/camera_engine_cifisp" revision="master"/>
+  <project name="camera_engine_rkisp" path="external/camera_engine_rkisp" revision="master"/>
+  <project name="device-custom" path="device/rockchip" revision="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -22,36 +22,36 @@
     <linkfile dest="rockdev/commit" src="common/pack/commit"/>
     <linkfile dest="rockdev/README.txt" src="common/pack/README.txt"/>
 </project>
-  <project name="distro" revision="5bdb50e629e3fee3954635eb678399424a77ad78" upstream="master"/>
-  <project name="dl" path="buildroot/dl" revision="9706155226abf00e9cba5bf600fdd98c5daf9eef" upstream="master"/>
-  <project name="docs" revision="a1e8facc74dc84e899709a825c97d7ad04da6fa2" upstream="master"/>
-  <project name="ffmpeg" path="external/ffmpeg" revision="c8b57d4333b1bc5c4125fdac8fbf4625c399fc9c" upstream="master"/>
-  <project name="gallery" path="app/gallery" revision="8cdb4c492c7e0be5803675409958f816bcd56cc3" upstream="master"/>
-  <project name="gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
-  <project name="gstreamer-camera" path="external/gstreamer-camera" revision="7b8a9b33f95a0a7c65fd76d4f4e3f6778fce8ea7" upstream="master"/>
-  <project name="gstreamer-rockchip" path="external/gstreamer-rockchip" revision="aadf6ab77c53055f8be85c18bace6918e04e3f9c" upstream="master"/>
-  <project name="kernel" revision="6abe8041333b334957522f7704c0093690a76cb3" upstream="stable-4.4-rk3288-linux"/>
-  <project name="libdrm-rockchip" path="external/libdrm-rockchip" revision="ea6c1f85b8691f0c2ecda16fb9919eeec3dafd48" upstream="rockchip-2.4.68"/>
-  <project name="libmali" path="external/libmali" revision="9840771868ebda1f6c2a17dd24dcd674ef0ca36a" upstream="29mirror"/>
-  <project name="linux-rga" path="external/linux-rga" revision="eb14310e72e2f76eb78c0d6dafc350af8a25c3d8" upstream="master"/>
-  <project name="mpp" path="external/mpp" revision="67e80ebfe46558c2eb50218e57b50d51d6df2be2" upstream="release"/>
-  <project name="mpv" path="external/mpv" revision="2739ea80b7137daf3f9a39fd3a2ddfd787a6b964" upstream="master"/>
-  <project name="music" path="app/music" revision="40a4da13e82f32d83369f7777479a196d9f58576" upstream="master"/>
-  <project name="powermanager" path="external/powermanager" revision="d257b3c0a1eee68972296d975395f7bd8bfff7db" upstream="master"/>
-  <project name="recovery" path="external/recovery" revision="8d004833b17ccb64df5f508129c49a512aa08ad0" upstream="develop"/>
-  <project name="rk-rootfs-build" path="rootfs" revision="6673840f2e7bc7d3cbb93610ed2d0b29cfc92c90" upstream="master"/>
-  <project name="rk_pcba_test" path="external/rk_pcba_test" revision="2ccfffb377f3824d5fb4bf530742119882843449" upstream="master"/>
-  <project name="rkbin" revision="f36c853dde883d2a3985039f1f5c2b855e426d79" upstream="29mirror"/>
-  <project name="rkssd" path="external/rkssd" revision="1c50d336e770a8ce09ae33b3e09d2783d5b4c2d9" upstream="master"/>
-  <project name="rkupdate" path="external/rkupdate" revision="22e96f050b9f0b834a09a6e372ec709a688b5316" upstream="master"/>
-  <project name="rkwifibt" path="external/rkwifibt" revision="b5030536b6df9a019c9a46f7a4c8dcd44239c251" upstream="master"/>
-  <project name="settings" path="app/settings" revision="ec4f67a2df498893539eb2435d14348d97ecc462" upstream="master"/>
-  <project name="tensorflow" path="external/tensorflow" revision="e1877bb157a775d76ec8c0b68467aef6d053bbb2" upstream="master"/>
-  <project name="tools" revision="898158c75f25225b0ad30e59d5a4fe920dc30448" upstream="master">
+  <project name="distro" revision="master"/>
+  <project name="dl" path="buildroot/dl" revision="master"/>
+  <project name="docs" revision="master"/>
+  <project name="ffmpeg" path="external/ffmpeg" revision="master"/>
+  <project name="gallery" path="app/gallery" revision="master"/>
+  <project name="gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="master"/>
+  <project name="gstreamer-camera" path="external/gstreamer-camera" revision="master"/>
+  <project name="gstreamer-rockchip" path="external/gstreamer-rockchip" revision="master"/>
+  <project name="kernel" revision="stable-4.4-rk3288-linux"/>
+  <project name="libdrm-rockchip" path="external/libdrm-rockchip" revision="rockchip-2.4.68"/>
+  <project name="libmali" path="external/libmali" revision="29mirror"/>
+  <project name="linux-rga" path="external/linux-rga" revision="master"/>
+  <project name="mpp" path="external/mpp" revision="release"/>
+  <project name="mpv" path="external/mpv" revision="master"/>
+  <project name="music" path="app/music" revision="master"/>
+  <project name="powermanager" path="external/powermanager" revision="master"/>
+  <project name="recovery" path="external/recovery" revision="develop"/>
+  <project name="rk-rootfs-build" path="rootfs" revision="master"/>
+  <project name="rk_pcba_test" path="external/rk_pcba_test" revision="master"/>
+  <project name="rkbin" revision="29mirror"/>
+  <project name="rkssd" path="external/rkssd" revision="master"/>
+  <project name="rkupdate" path="external/rkupdate" revision="master"/>
+  <project name="rkwifibt" path="external/rkwifibt" revision="master"/>
+  <project name="settings" path="app/settings" revision="master"/>
+  <project name="tensorflow" path="external/tensorflow" revision="master"/>
+  <project name="tools" revision="master">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3399-config.cfg"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3399-package-file"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3399-mkupdate.bat"/>
   </project>
-  <project name="u-boot" revision="d80ac02301a3f85fee7d153e3a67f173e014cf71" upstream="stable"/>
-  <project name="video" path="app/video" revision="4ce9c5ae8094ff0bc30f9ac6ec9c5c5173f69dd9" upstream="master"/>
+  <project name="u-boot" revision="stable-4.4-rk3288-linux"/>
+  <project name="video" path="app/video" revision="master"/>
 </manifest>
