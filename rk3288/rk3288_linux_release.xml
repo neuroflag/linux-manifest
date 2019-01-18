@@ -47,6 +47,7 @@
   <project name="rkwifibt" path="external/rkwifibt" revision="master"/>
   <project name="settings" path="app/settings" revision="master"/>
   <project name="tensorflow" path="external/tensorflow" revision="master"/>
+  <project name="bluez-alsa" path="external/bluez-alsa" revision="master"/>
   <project name="tools" revision="master">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3399-config.cfg"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3399-package-file"/>
