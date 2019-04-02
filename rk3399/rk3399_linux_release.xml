@@ -21,6 +21,7 @@
     <linkfile dest="rockdev/version.sh" src="common/pack/version.sh"/>
     <linkfile dest="rockdev/commit" src="common/pack/commit"/>
     <linkfile dest="rockdev/README.txt" src="common/pack/README.txt"/>
+    <linkfile dest="all_pack.sh" src="common/all_pack.sh"/>
   </project>
   <project name="distro" revision="master"/>
   <project name="dl" path="buildroot/dl" revision="master"/>
