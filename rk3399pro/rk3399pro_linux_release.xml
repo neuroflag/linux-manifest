@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="." name="firefly-linux" review="git@168.168.0.253:Linux_SDK"/>
+  <default remote="firefly-linux" revision="master" sync-j="4"/>
+
+<project name="external/libdrm" path="external/libdrm" revision="rk3399pro/firefly"/>
+<project name="external/security/rk_tee_user" path="external/security/rk_tee_user" revision="rk3399pro/firefly"/>
+<project name="u-boot" path="u-boot" revision="rk3399pro/firefly"/>
+<project name="npu/u-boot" path="npu/u-boot" revision="rk3399pro/firefly"/>
+<project name="app/QLauncher" path="app/QLauncher" revision="rk3399pro/firefly"/>
+<project name="app/camera" path="app/camera" revision="rk3399pro/firefly"/>
+<project name="app/demo" path="app/demo" revision="rk3399pro/firefly"/>
+<project name="app/gallery" path="app/gallery" revision="rk3399pro/firefly"/>
+<project name="app/music" path="app/music" revision="rk3399pro/firefly"/>
+<project name="app/settings" path="app/settings" revision="rk3399pro/firefly"/>
+<project name="app/video" path="app/video" revision="rk3399pro/firefly"/>
+<project name="buildroot/dl" path="buildroot/dl" revision="rk3399pro/firefly"/>
+<project name="npu/buildroot/dl" path="npu/buildroot/dl" revision="rk3399pro/firefly"/>
+<project name="device/rockchip" path="device/rockchip" revision="rk3399pro/firefly">
+<linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
+<linkfile dest="build.sh" src="common/build.sh"/>
+<linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
+<linkfile dest="device/rockchip/.BoardConfig.mk" src="rk3399pro/BoardConfig.mk"/>
+</project>
+<project name="npu/device/rockchip" path="npu/device/rockchip" revision="rk3399pro/firefly">
+<linkfile dest="npu/mkfirmware.sh" src="common/mkfirmware.sh"/>
+<linkfile dest="npu/build.sh" src="common/build.sh"/>
+<linkfile dest="npu/rkflash.sh" src="common/rkflash.sh"/>
+<linkfile dest="npu/device/rockchip/.BoardConfig.mk" src="rk3399pro-npu/BoardConfig.mk"/>
+</project>
+<project name="distro" path="distro" revision="rk3399pro/firefly"/>
+<project name="docs" path="docs" revision="rk3399pro/firefly"/>
+<project name="external/alsa-config" path="external/alsa-config" revision="rk3399pro/firefly"/>
+<project name="external/audioservice" path="external/audioservice" revision="rk3399pro/firefly"/>
+<project name="external/bluez-alsa" path="external/bluez-alsa" revision="rk3399pro/firefly"/>
+<project name="external/camera_engine_cifisp" path="external/camera_engine_cifisp" revision="rk3399pro/firefly"/>
+<project name="external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="rk3399pro/firefly"/>
+<project name="external/ffmpeg" path="external/ffmpeg" revision="rk3399pro/firefly"/>
+<project name="external/gst-plugins-rockchip" path="external/gst-plugins-rockchip" revision="rk3399pro/firefly"/>
+<project name="external/gstreamer-camera" path="external/gstreamer-camera" revision="rk3399pro/firefly"/>
+<project name="external/minigui" path="external/minigui" revision="rk3399pro/firefly"/>
+<project name="external/mpv" path="external/mpv" revision="rk3399pro/firefly"/>
+<project name="external/powermanager" path="external/powermanager" revision="rk3399pro/firefly"/>
+<project name="npu/external/powermanager" path="npu/external/powermanager" revision="rk3399pro/firefly"/>
+<project name="external/rk_pcba_test" path="external/rk_pcba_test" revision="rk3399pro/firefly"/>
+<project name="external/rknn_demo" path="external/rknn_demo" revision="rk3399pro/firefly"/>
+<project name="npu/external/rknpu" path="npu/external/rknpu" revision="rk3399pro/firefly"/>
+<project name="external/rknpu" path="external/rknpu" revision="rk3399pro/firefly"/>
+<project name="external/rkscript" path="external/rkscript" revision="rk3399pro/firefly"/>
+<project name="external/rkssd" path="external/rkssd" revision="rk3399pro/firefly"/>
+<project name="external/rkupdate" path="external/rkupdate" revision="rk3399pro/firefly"/>
+<project name="external/rkwifibt" path="external/rkwifibt" revision="rk3399pro/firefly"/>
+<project name="external/softapDemo" path="external/softapDemo" revision="rk3399pro/firefly"/>
+<project name="external/softapServer" path="external/softapServer" revision="rk3399pro/firefly"/>
+<project name="external/tensorflow" path="external/tensorflow" revision="rk3399pro/firefly"/>
+<project name="external/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="rk3399pro/firefly"/>
+<project name="external/libmali" path="external/libmali" revision="rk3399pro/firefly"/>
+<project name="external/linux-rga" path="external/linux-rga" revision="rk3399pro/firefly"/>
+<project name="external/recovery" path="external/recovery" revision="rk3399pro/firefly"/>
+<project name="debian" path="debian" revision="rk3399pro/firefly"/>
+<project name="external/security/bin" path="external/security/bin" revision="rk3399pro/firefly"/>
+<project name="tools" path="tools" revision="rk3399pro/firefly">
+<linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3399-config.cfg"/>
+<linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3399-package-file"/>
+<linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3399-mkupdate.bat"/>
+<linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3399-mkupdate.sh"/>
+<linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3399-package-file"/>
+</project>
+<project name="kernel" path="kernel" revision="rk3399pro/firefly"/>
+<project name="npu/kernel" path="npu/kernel" revision="rk3399pro/firefly"/>
+<project name="external/mpp" path="external/mpp" revision="rk3399pro/firefly"/>
+<project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="rk3399pro/firefly"/>
+<project name="npu/prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="npu/prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="rk3399pro/firefly"/>
+<project name="buildroot" path="buildroot" revision="rk3399pro/firefly">
+<linkfile dest="Makefile" src="build/Makefile"/>
+<linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
+</project>
+<project name="npu/buildroot" path="npu/buildroot" revision="rk3399pro/firefly">
+<linkfile dest="npu/Makefile" src="build/Makefile"/>
+<linkfile dest="npu/envsetup.sh" src="build/envsetup.sh"/>
+</project>
+<project name="rkbin" path="rkbin" revision="rk3399pro/firefly"/>
+<project name="npu/rkbin" path="npu/rkbin" revision="rk3399pro/firefly"/>
+</manifest>

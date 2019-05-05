@@ -1,58 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="firefly-linux" review="git@168.168.0.253:Linux_SDK"/>
-  
   <default remote="firefly-linux" revision="master" sync-j="4"/>
-  
-  <project name="QLauncher" path="app/QLauncher" revision="master"/>
-  <project name="alsa-config" path="external/alsa-config" revision="master"/>
-  <project name="audioservice" path="external/audioservice" revision="master"/>
-  <project name="buildroot" revision="master">
-    <linkfile dest="Makefile" src="build/Makefile"/>
-    <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
-  </project>
-  <project name="camera" path="app/camera" revision="master"/>
-  <project name="camera_engine_cifisp" path="external/camera_engine_cifisp" revision="master"/>
-  <project name="camera_engine_rkisp" path="external/camera_engine_rkisp" revision="master"/>
-  <project name="device-custom" path="device/rockchip" revision="master">
-    <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
-    <linkfile dest="build.sh" src="common/build.sh"/>
-    <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
-    <linkfile dest="rockdev/version.sh" src="common/pack/version.sh"/>
-    <linkfile dest="rockdev/commit" src="common/pack/commit"/>
-    <linkfile dest="rockdev/README.txt" src="common/pack/README.txt"/>
+
+<project name="app/QLauncher" path="app/QLauncher" revision="rk3288/firefly"/>
+<project name="external/alsa-config" path="external/alsa-config" revision="rk3288/firefly"/>
+<project name="external/audioservice" path="external/audioservice" revision="rk3288/firefly"/>
+<project name="buildroot" path="buildroot" revision="rk3288/firefly">
+<linkfile dest="Makefile" src="build/Makefile"/>
+<linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
 </project>
-  <project name="distro" revision="master"/>
-  <project name="dl" path="buildroot/dl" revision="master"/>
-  <project name="docs" revision="master"/>
-  <project name="ffmpeg" path="external/ffmpeg" revision="master"/>
-  <project name="gallery" path="app/gallery" revision="master"/>
-  <project name="gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="master"/>
-  <project name="gstreamer-camera" path="external/gstreamer-camera" revision="master"/>
-  <project name="gstreamer-rockchip" path="external/gstreamer-rockchip" revision="master"/>
-  <project name="kernel" revision="stable-4.4-rk3288-linux"/>
-  <project name="libdrm-rockchip" path="external/libdrm-rockchip" revision="rockchip-2.4.68"/>
-  <project name="libmali" path="external/libmali" revision="29mirror"/>
-  <project name="linux-rga" path="external/linux-rga" revision="master"/>
-  <project name="mpp" path="external/mpp" revision="release"/>
-  <project name="mpv" path="external/mpv" revision="master"/>
-  <project name="music" path="app/music" revision="master"/>
-  <project name="powermanager" path="external/powermanager" revision="master"/>
-  <project name="recovery" path="external/recovery" revision="develop"/>
-  <project name="rk-rootfs-build" path="rootfs" revision="master"/>
-  <project name="rk_pcba_test" path="external/rk_pcba_test" revision="master"/>
-  <project name="rkbin" revision="29mirror"/>
-  <project name="rkssd" path="external/rkssd" revision="master"/>
-  <project name="rkupdate" path="external/rkupdate" revision="master"/>
-  <project name="rkwifibt" path="external/rkwifibt" revision="master"/>
-  <project name="settings" path="app/settings" revision="master"/>
-  <project name="tensorflow" path="external/tensorflow" revision="master"/>
-  <project name="bluez-alsa" path="external/bluez-alsa" revision="master"/>
-  <project name="tools" revision="master">
-    <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3399-config.cfg"/>
-    <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3399-package-file"/>
-    <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3399-mkupdate.bat"/>
-  </project>
-  <project name="u-boot" revision="stable-4.4-rk3288-linux"/>
-  <project name="video" path="app/video" revision="master"/>
+<project name="app/camera" path="app/camera" revision="rk3288/firefly"/>
+<project name="external/camera_engine_cifisp" path="external/camera_engine_cifisp" revision="rk3288/firefly"/>
+<project name="external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="rk3288/firefly"/>
+<project name="device/rockchip" path="device/rockchip" revision="rk3288/firefly">
+<linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
+<linkfile dest="build.sh" src="common/build.sh"/>
+<linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
+<linkfile dest="device/rockchip/.BoardConfig.mk" src="rk3288/BoardConfig.mk"/>
+</project>
+<project name="buildroot/dl" path="buildroot/dl" revision="rk3288/firefly"/>
+<project name="docs" path="docs" revision="rk3288/firefly"/>
+<project name="external/ffmpeg" path="external/ffmpeg" revision="rk3288/firefly"/>
+<project name="app/gallery" path="app/gallery" revision="rk3288/firefly"/>
+<project name="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="rk3288/firefly"/>
+<project name="external/gstreamer-camera" path="external/gstreamer-camera" revision="rk3288/firefly"/>
+<project name="external/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="rk3288/firefly"/>
+<project name="kernel" path="kernel" revision="rk3288/firefly"/>
+<project name="external/libdrm-rockchip" path="external/libdrm-rockchip" revision="rk3288/firefly"/>
+<project name="external/libmali" path="external/libmali" revision="rk3288/firefly"/>
+<project name="external/linux-rga" path="external/linux-rga" revision="rk3288/firefly"/>
+<project name="external/mpp" path="external/mpp" revision="rk3288/firefly"/>
+<project name="external/mpv" path="external/mpv" revision="rk3288/firefly"/>
+<project name="app/music" path="app/music" revision="rk3288/firefly"/>
+<project name="external/powermanager" path="external/powermanager" revision="rk3288/firefly"/>
+<project name="external/recovery" path="external/recovery" revision="rk3288/firefly"/>
+<project name="rootfs" path="rootfs" revision="rk3288/firefly"/>
+<project name="external/rk_pcba_test" path="external/rk_pcba_test" revision="rk3288/firefly"/>
+<project name="rkbin" path="rkbin" revision="rk3288/firefly"/>
+<project name="external/rkssd" path="external/rkssd" revision="rk3288/firefly"/>
+<project name="external/rkupdate" path="external/rkupdate" revision="rk3288/firefly"/>
+<project name="external/rkwifibt" path="external/rkwifibt" revision="rk3288/firefly"/>
+<project name="app/settings" path="app/settings" revision="rk3288/firefly"/>
+<project name="external/tensorflow" path="external/tensorflow" revision="rk3288/firefly"/>
+<project name="tools" path="tools" revision="rk3288/firefly">
+<linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3288-config.cfg"/>
+<linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3288-package-file"/>
+<linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3288-mkupdate.bat"/>
+<linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3288-mkupdate.sh"/>
+<linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3288-package-file"/>
+</project>
+<project name="u-boot" path="u-boot" revision="rk3288/firefly"/>
+<project name="app/video" path="app/video" revision="rk3288/firefly"/>
 </manifest>

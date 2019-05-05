@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote fetch="ssh://git@www.rockchip.com.cn/linux/" name="rk"/>
+
+<default remote="rk" sync-j="4"/>
+
+<project name="u-boot" path="u-boot" revision="px30/firefly"/>
+<project name="app/QLauncher" path="app/QLauncher" revision="px30/firefly"/>
+<project name="app/camera" path="app/camera" revision="px30/firefly"/>
+<project name="app/gallery" path="app/gallery" revision="px30/firefly"/>
+<project name="app/music" path="app/music" revision="px30/firefly"/>
+<project name="app/settings" path="app/settings" revision="px30/firefly"/>
+<project name="app/video" path="app/video" revision="px30/firefly"/>
+<project name="buildroot/dl" path="buildroot/dl" revision="px30/firefly"/>
+<project name="device/rockchip" path="device/rockchip" revision="px30/firefly">
+<linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
+<linkfile dest="build.sh" src="common/build.sh"/>
+<linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
+<linkfile dest="device/rockchip/.BoardConfig.mk" src="px30/BoardConfig.mk"/>
+</project>
+<project name="distro" path="distro" revision="px30/firefly"/>
+<project name="docs" path="docs" revision="px30/firefly"/>
+<project name="external/alsa-config" path="external/alsa-config" revision="px30/firefly"/>
+<project name="external/audioservice" path="external/audioservice" revision="px30/firefly"/>
+<project name="external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="px30/firefly"/>
+<project name="external/ffmpeg" path="external/ffmpeg" revision="px30/firefly"/>
+<project name="external/gst-plugins-rockchip" path="external/gst-plugins-rockchip" revision="px30/firefly"/>
+<project name="external/minigui" path="external/minigui" revision="px30/firefly"/>
+<project name="external/mpv" path="external/mpv" revision="px30/firefly"/>
+<project name="external/powermanager" path="external/powermanager" revision="px30/firefly"/>
+<project name="external/rk_pcba_test" path="external/rk_pcba_test" revision="px30/firefly"/>
+<project name="external/rkupdate" path="external/rkupdate" revision="px30/firefly"/>
+<project name="external/rkwifibt" path="external/rkwifibt" revision="px30/firefly"/>
+<project name="external/softapDemo" path="external/softapDemo" revision="px30/firefly"/>
+<project name="external/softapServer" path="external/softapServer" revision="px30/firefly"/>
+<project name="external/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="px30/firefly"/>
+<project name="external/libdrm-rockchip" path="external/libdrm-rockchip" revision="px30/firefly"/>
+<project name="external/libmali" path="external/libmali" revision="px30/firefly"/>
+<project name="external/linux-rga" path="external/linux-rga" revision="px30/firefly"/>
+<project name="external/recovery" path="external/recovery" revision="px30/firefly"/>
+<project name="tools" path="tools" revision="px30/firefly">
+<linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/px30-config.cfg"/>
+<linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/px30-package-file"/>
+<linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/px30-mkupdate.bat"/>
+<linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/px30-mkupdate.sh"/>
+<linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/px30-package-file"/>
+</project>
+<project name="kernel" path="kernel" revision="px30/firefly"/>
+<project name="external/mpp" path="external/mpp" revision="px30/firefly"/>
+<project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="px30/firefly"/>
+<project name="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="px30/firefly"/>
+<project name="buildroot" path="buildroot" revision="px30/firefly">
+<linkfile dest="Makefile" src="build/Makefile"/>
+<linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
+</project>
+<project name="rkbin" path="rkbin" revision="px30/firefly"/>
+</manifest>
