@@ -14,7 +14,7 @@
 <project name="app/camera" path="app/camera" revision="rk3399/firefly"/>
 <project name="external/camera_engine_cifisp" path="external/camera_engine_cifisp" revision="rk3399/firefly"/>
 <project name="external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="rk3399/firefly"/>
-<project name="device/rockchip" path="device/rockchip" revision="rk3399/firefly">
+<project name="device/rockchip" path="device/rockchip" revision="firefly">
 <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
 <linkfile dest="build.sh" src="common/build.sh"/>
 <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>

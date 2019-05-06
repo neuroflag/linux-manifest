@@ -16,7 +16,7 @@
 <project name="app/video" path="app/video" revision="rk3399pro/firefly"/>
 <project name="buildroot/dl" path="buildroot/dl" revision="rk3399pro/firefly"/>
 <project name="npu/buildroot/dl" path="npu/buildroot/dl" revision="rk3399pro/firefly"/>
-<project name="device/rockchip" path="device/rockchip" revision="rk3399pro/firefly">
+<project name="device/rockchip" path="device/rockchip" revision="firefly">
 <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
 <linkfile dest="build.sh" src="common/build.sh"/>
 <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
