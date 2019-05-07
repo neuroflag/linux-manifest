@@ -6,6 +6,7 @@
 <project name="app/QLauncher" path="app/QLauncher" revision="rk3288/firefly"/>
 <project name="external/alsa-config" path="external/alsa-config" revision="rk3288/firefly"/>
 <project name="external/audioservice" path="external/audioservice" revision="rk3288/firefly"/>
+<project name="external/bluez-alsa" path="external/bluez-alsa" revision="rk3288/firefly"/>
 <project name="buildroot" path="buildroot" revision="rk3288/firefly">
 <linkfile dest="Makefile" src="build/Makefile"/>
 <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
