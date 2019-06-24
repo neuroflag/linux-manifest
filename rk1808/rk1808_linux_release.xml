@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="." name="firefly-linux" review="git@168.168.0.253:Linux_SDK"/>
+  <default remote="firefly-linux" revision="master" sync-j="4"/>
+
+<project name="external/RKNPUTools" path="external/RKNPUTools" revision="rk1808/firefly"/>
+<project name="u-boot" path="u-boot" revision="rk1808/firefly"/>
+<project name="buildroot/dl" path="buildroot/dl" revision="rk1808/firefly"/>
+<project name="device/rockchip" path="device/rockchip" revision="rk1808/firefly">
+<linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
+<linkfile dest="build.sh" src="common/build.sh"/>
+<linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
+<linkfile dest="device/rockchip/.BoardConfig.mk" src="rk1808/BoardConfig.mk"/>
+</project>
+<project name="docs" path="docs" revision="rk1808/firefly"/>
+<project name="app/QLauncher" path="app/QLauncher" revision="rk1808/firefly"/>
+<project name="external/alsa-config" path="external/alsa-config" revision="rk1808/firefly"/>
+<project name="external/audioservice" path="external/audioservice" revision="rk1808/firefly"/>
+<project name="external/bluez-alsa" path="external/bluez-alsa" revision="rk1808/firefly"/>
+<project name="external/camera_engine_cifisp" path="external/camera_engine_cifisp" revision="rk1808/firefly"/>
+<project name="external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="rk1808/firefly"/>
+<project name="external/ffmpeg" path="external/ffmpeg" revision="rk1808/firefly"/>
+<project name="external/gstreamer-camera" path="external/gstreamer-camera" revision="rk1808/firefly"/>
+<project name="external/minigui" path="external/minigui" revision="rk1808/firefly"/>
+<project name="external/mpv" path="external/mpv" revision="rk1808/firefly"/>
+<project name="external/powermanager" path="external/powermanager" revision="rk1808/firefly"/>
+<project name="external/rk_pcba_test" path="external/rk_pcba_test" revision="rk1808/firefly"/>
+<project name="external/rknpu" path="external/rknpu" revision="rk1808/firefly"/>
+<project name="external/rknn_demo" path="external/rknn_demo" revision="rk1808/firefly"/>
+<project name="external/rkupdate" path="external/rkupdate" revision="rk1808/firefly"/>
+<project name="external/rkwifibt" path="external/rkwifibt" revision="rk1808/firefly"/>
+<project name="external/rkscript" path="external/rkscript" revision="rk1808/firefly"/>
+<project name="external/uvc_app" path="external/uvc_app" revision="rk1808/firefly"/>
+<project name="external/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="rk1808/firefly"/>
+<project name="external/linux-rga" path="external/linux-rga" revision="rk1808/firefly"/>
+<project name="external/recovery" path="external/recovery" revision="rk1808/firefly"/>
+<project name="tools" path="tools" revision="rk1808/firefly">
+<linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk1808-config.cfg"/>
+<linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk1808-package-file"/>
+<linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk1808-mkupdate.bat"/>
+<linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk1808-mkupdate.sh"/>
+<linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk1808-package-file"/>
+</project>
+<project name="kernel" path="kernel" revision="rk1808/firefly"/>
+<project name="external/mpp" path="external/mpp" revision="rk1808/firefly"/>
+<project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="rk1808/firefly"/>
+<project name="buildroot" path="buildroot" revision="rk1808/firefly">
+<linkfile dest="Makefile" src="build/Makefile"/>
+<linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
+</project>
+<project name="rkbin" path="rkbin" revision="rk1808/firefly"/>
+<project name="external/rknn-toolkit" path="external/rknn-toolkit" revision="rk1808/firefly"/>
+</manifest>
