@@ -13,6 +13,7 @@
 <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
 </project>
 <project name="app/camera" path="app/camera" revision="firefly"/>
+<project name="app/demo" path="app/demo" revision="firefly"/>
 <project name="external/camera_engine_cifisp" path="external/camera_engine_cifisp" revision="firefly"/>
 <project name="external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="firefly"/>
 <project name="device/rockchip" path="device/rockchip" revision="firefly">
