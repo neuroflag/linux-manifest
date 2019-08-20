@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="." name="firefly-linux" review="git@168.168.0.253:Linux_SDK"/>
+  <remote fetch="ssh://git@git.t-firefly.com:8022/rk-linux" name="firefly-linux"/>
   <default remote="firefly-linux" revision="master" sync-j="4"/>
 
 <project name="u-boot" path="u-boot" revision="px30/firefly"/>
@@ -10,7 +10,7 @@
 <project name="app/music" path="app/music" revision="px30/firefly"/>
 <project name="app/settings" path="app/settings" revision="px30/firefly"/>
 <project name="app/video" path="app/video" revision="px30/firefly"/>
-<project name="buildroot/dl" path="buildroot/dl" revision="px30/firefly"/>
+<project name="buildroot-dl" path="buildroot/dl" revision="px30/firefly"/>
 <project name="device/rockchip" path="device/rockchip" revision="firefly">
 <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
 <linkfile dest="build.sh" src="common/build.sh"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="." name="firefly-linux" review="git@168.168.0.253:Linux_SDK"/>
+  <remote fetch="ssh://git@git.t-firefly.com:8022/rk-linux" name="firefly-linux"/>
   <default remote="firefly-linux" revision="master" sync-j="4"/>
 
 <project name="app/QLauncher" path="app/QLauncher" revision="firefly"/>
@@ -22,7 +22,7 @@
 <linkfile dest="device/rockchip/.BoardConfig.mk" src="rk3328/BoardConfig.mk"/>
 </project>
 <project name="distro" path="distro" revision="rk3399/firefly"/>
-<project name="buildroot/dl" path="buildroot/dl" revision="firefly"/>
+<project name="buildroot-dl" path="buildroot/dl" revision="firefly"/>
 <project name="docs" path="docs" revision="rk3399/firefly"/>
 <project name="external/ffmpeg" path="external/ffmpeg" revision="firefly"/>
 <project name="app/gallery" path="app/gallery" revision="firefly"/>
