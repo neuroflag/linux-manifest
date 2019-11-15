@@ -30,7 +30,7 @@
 <project name="external/gst-plugins-rockchip" path="external/gst-plugins-rockchip" revision="firefly"/>
 <project name="external/gstreamer-camera" path="external/gstreamer-camera" revision="firefly"/>
 <project name="external/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="firefly"/>
-<project name="kernel" path="kernel" revision="rk3399/firefly"/>
+<project name="kernel" path="kernel" revision="rk3328/firefly"/>
 <project name="external/libdrm-rockchip" path="external/libdrm-rockchip" revision="firefly"/>
 <project name="external/libmali" path="external/libmali" revision="firefly"/>
 <project name="external/linux-rga" path="external/linux-rga" revision="firefly"/>
@@ -42,7 +42,7 @@
 <project name="rootfs" path="rootfs" revision="rk3399/firefly"/>
 <project name="external/rk_pcba_test" path="external/rk_pcba_test" revision="firefly"/>
 <project name="external/security/rk_tee_user" path="external/security/rk_tee_user" revision="rk3399/firefly"/>
-<project name="rkbin" path="rkbin" revision="firefly"/>
+<project name="rkbin" path="rkbin" revision="rk3328/firefly"/>
 <project name="external/rkscript" path="external/rkscript" revision="firefly"/>
 <project name="external/rkssd" path="external/rkssd" revision="firefly"/>
 <project name="external/rkupdate" path="external/rkupdate" revision="firefly"/>
@@ -56,6 +56,6 @@
 <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3399-mkupdate.sh"/>
 <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3399-package-file"/>
 </project>
-<project name="u-boot" path="u-boot" revision="rk3399/firefly"/>
+<project name="u-boot" path="u-boot" revision="rk3328/firefly"/>
 <project name="app/video" path="app/video" revision="firefly"/>
 </manifest>
