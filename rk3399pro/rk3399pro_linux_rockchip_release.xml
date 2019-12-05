@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="ssh://git@git.t-firefly.com:8022/rk-linux" name="firefly-linux"/>
+  <default remote="firefly-linux" revision="master" sync-j="4"/>
+
+<project name="external/RKNPUTools" path="external/RKNPUTools" revision="rk3399pro/rockchip"/>
+<project name="external/libdrm" path="external/libdrm" revision="rk3399pro/rockchip"/>
+<project name="external/security/rk_tee_user" path="external/security/rk_tee_user" revision="rk3399pro/rockchip"/>
+<project name="u-boot" path="u-boot" revision="rk3399pro/rockchip"/>
+<project name="npu/u-boot" path="npu/u-boot" revision="rk3399pro/rockchip"/>
+<project name="app/QLauncher" path="app/QLauncher" revision="rk3399pro/rockchip"/>
+<project name="app/demo" path="app/demo" revision="rk3399pro/rockchip"/>
+<project name="npu/app/n4" path="npu/app/n4" revision="rk3399pro/rockchip"/>
+<project name="app/qcamera" path="app/qcamera" revision="rk3399pro/rockchip"/>
+<project name="app/qfm" path="app/qfm" revision="rk3399pro/rockchip"/>
+<project name="app/qplayer" path="app/qplayer" revision="rk3399pro/rockchip"/>
+<project name="app/qsetting" path="app/qsetting" revision="rk3399pro/rockchip"/>
+<project name="yocto/build/conf" path="yocto/build/conf" revision="rk3399pro/rockchip"/>
+<project name="buildroot-dl" path="buildroot/dl" revision="rk3399pro/rockchip"/>
+<project name="npu/buildroot-dl" path="npu/buildroot/dl" revision="rk3399pro/rockchip"/>
+<project name="device/rockchip" path="device/rockchip" revision="rk3399pro/rockchip">
+<linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
+<linkfile dest="build.sh" src="common/build.sh"/>
+<linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
+<linkfile dest="device/rockchip/.BoardConfig.mk" src="rk3399pro/BoardConfig.mk"/>
+</project>
+<project name="npu/device/rockchip" path="npu/device/rockchip" revision="rk3399pro/rockchip">
+<linkfile dest="npu/mkfirmware.sh" src="common/mkfirmware.sh"/>
+<linkfile dest="npu/build.sh" src="common/build.sh"/>
+<linkfile dest="npu/rkflash.sh" src="common/rkflash.sh"/>
+<linkfile dest="npu/device/rockchip/.BoardConfig.mk" src="rk3399pro-npu/BoardConfig.mk"/>
+</project>
+<project name="distro" path="distro" revision="rk3399pro/rockchip"/>
+<project name="docs" path="docs" revision="rk3399pro/rockchip"/>
+<project name="external/DuerClientSDK" path="external/DuerClientSDK" revision="rk3399pro/rockchip"/>
+<project name="external/LocalPlayer" path="external/LocalPlayer" revision="rk3399pro/rockchip"/>
+<project name="external/wakeWordAgent" path="external/wakeWordAgent" revision="rk3399pro/rockchip"/>
+<project name="external/alsa-config" path="external/alsa-config" revision="rk3399pro/rockchip"/>
+<project name="external/app" path="external/app" revision="rk3399pro/rockchip"/>
+<project name="external/audioservice" path="external/audioservice" revision="rk3399pro/rockchip"/>
+<project name="external/avb" path="external/avb" revision="rk3399pro/rockchip"/>
+<project name="external/ble_wificonfig" path="external/ble_wificonfig" revision="rk3399pro/rockchip"/>
+<project name="external/bluetooth_bsa" path="external/bluetooth_bsa" revision="rk3399pro/rockchip"/>
+<project name="external/bluez-alsa" path="external/bluez-alsa" revision="rk3399pro/rockchip"/>
+<project name="external/broadcom_bsa" path="external/broadcom_bsa" revision="rk3399pro/rockchip"/>
+<project name="external/cae_vad" path="external/cae_vad" revision="rk3399pro/rockchip"/>
+<project name="external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="rk3399pro/rockchip"/>
+<project name="npu/external/camera_engine_rkisp" path="npu/external/camera_engine_rkisp" revision="rk3399pro/rockchip"/>
+<project name="external/chromium" path="external/chromium" revision="rk3399pro/rockchip"/>
+<project name="external/deviceio" path="external/deviceio" revision="rk3399pro/rockchip"/>
+<project name="external/eq_drc_process" path="external/eq_drc_process" revision="rk3399pro/rockchip"/>
+<project name="external/iflytekSDK" path="external/iflytekSDK" revision="rk3399pro/rockchip"/>
+<project name="external/ipc_share_memory" path="external/ipc_share_memory" revision="rk3399pro/rockchip"/>
+<project name="external/ladspaSDK" path="external/ladspaSDK" revision="rk3399pro/rockchip"/>
+<project name="external/minigui" path="external/minigui" revision="rk3399pro/rockchip"/>
+<project name="external/minigui_desktop" path="external/minigui_desktop" revision="rk3399pro/rockchip"/>
+<project name="external/mpv" path="external/mpv" revision="rk3399pro/rockchip"/>
+<project name="external/powermanager" path="external/powermanager" revision="rk3399pro/rockchip"/>
+<project name="npu/external/powermanager" path="npu/external/powermanager" revision="rk3399pro/rockchip"/>
+<project name="external/rk_hw_vad" path="external/rk_hw_vad" revision="rk3399pro/rockchip"/>
+<project name="external/rk_pcba_test" path="external/rk_pcba_test" revision="rk3399pro/rockchip"/>
+<project name="external/rk_webui" path="external/rk_webui" revision="rk3399pro/rockchip"/>
+<project name="external/rknn_demo" path="external/rknn_demo" revision="rk3399pro/rockchip"/>
+<project name="external/rknpu" path="external/rknpu" revision="rk3399pro/rockchip"/>
+<project name="npu/external/rknpu" path="npu/external/rknpu" revision="rk3399pro/rockchip"/>
+<project name="external/rknpu-fw" path="external/rknpu-fw" revision="rk3399pro/rockchip"/>
+<project name="external/rkscript" path="external/rkscript" revision="rk3399pro/rockchip"/>
+<project name="npu/external/rkscript" path="npu/external/rkscript" revision="rk3399pro/rockchip"/>
+<project name="external/rkssd" path="external/rkssd" revision="rk3399pro/rockchip"/>
+<project name="external/rkupdate" path="external/rkupdate" revision="rk3399pro/rockchip"/>
+<project name="external/rkwifibt" path="external/rkwifibt" revision="rk3399pro/rockchip"/>
+<project name="external/rtc_demo" path="external/rtc_demo" revision="rk3399pro/rockchip"/>
+<project name="external/softapDemo" path="external/softapDemo" revision="rk3399pro/rockchip"/>
+<project name="external/softapServer" path="external/softapServer" revision="rk3399pro/rockchip"/>
+<project name="external/tensorflow" path="external/tensorflow" revision="rk3399pro/rockchip"/>
+<project name="external/update_engine" path="external/update_engine" revision="rk3399pro/rockchip"/>
+<project name="external/uvc_app" path="external/uvc_app" revision="rk3399pro/rockchip"/>
+<project name="external/wifiAutoSetup" path="external/wifiAutoSetup" revision="rk3399pro/rockchip"/>
+<project name="external/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="rk3399pro/rockchip"/>
+<project name="docs-soc_internal" path="docs/soc_internal" revision="rk3399pro/rockchip"/>
+<project name="external/libmali" path="external/libmali" revision="rk3399pro/rockchip"/>
+<project name="external/linux-rga" path="external/linux-rga" revision="rk3399pro/rockchip"/>
+<project name="npu/external/linux-rga" path="npu/external/linux-rga" revision="rk3399pro/rockchip"/>
+<project name="yocto/poky" path="yocto/poky" revision="rk3399pro/rockchip">
+<linkfile dest="yocto/scripts" src="scripts"/>
+<linkfile dest="yocto/bitbake" src="bitbake"/>
+<linkfile dest="yocto/meta-poky" src="meta-poky"/>
+<linkfile dest="yocto/.templateconf" src=".templateconf"/>
+<linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
+<linkfile dest="yocto/README.md" src="../../.repo/manifests/README_yocto.md"/>
+</project>
+<project name="external/recovery" path="external/recovery" revision="rk3399pro/rockchip"/>
+<project name="debian" path="debian" revision="rk3399pro/rockchip"/>
+<project name="external/rkmedia" path="external/rkmedia" revision="rk3399pro/rockchip"/>
+<project name="npu/external/rkmedia" path="npu/external/rkmedia" revision="rk3399pro/rockchip"/>
+<project name="external/security/bin" path="external/security/bin" revision="rk3399pro/rockchip"/>
+<project name="tools" path="tools" revision="rk3399pro/rockchip">
+<linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3399-config.cfg"/>
+<linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3399-package-file"/>
+<linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3399-mkupdate.bat"/>
+<linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3399-mkupdate.sh"/>
+<linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3399-package-file"/>
+</project>
+<project name="yocto/meta-openembedded" path="yocto/meta-openembedded" revision="rk3399pro/rockchip"/>
+<project name="yocto/meta-rockchip" path="yocto/meta-rockchip" revision="rk3399pro/rockchip"/>
+<project name="yocto/meta-browser" path="yocto/meta-browser" revision="rk3399pro/rockchip"/>
+<project name="yocto/meta-clang" path="yocto/meta-clang" revision="rk3399pro/rockchip"/>
+<project name="yocto/meta-qt5" path="yocto/meta-qt5" revision="rk3399pro/rockchip"/>
+<project name="yocto/meta-rust" path="yocto/meta-rust" revision="rk3399pro/rockchip"/>
+<project name="kernel" path="kernel" revision="rk3399pro/rockchip"/>
+<project name="npu/kernel" path="npu/kernel" revision="rk3399pro/rockchip"/>
+<project name="external/mpp" path="external/mpp" revision="rk3399pro/rockchip"/>
+<project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="rk3399pro/rockchip"/>
+<project name="npu/prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="npu/prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="rk3399pro/rockchip"/>
+<project name="buildroot" path="buildroot" revision="rk3399pro/rockchip">
+<linkfile dest="Makefile" src="build/Makefile"/>
+<linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
+</project>
+<project name="npu/buildroot" path="npu/buildroot" revision="rk3399pro/rockchip">
+<linkfile dest="npu/Makefile" src="build/Makefile"/>
+<linkfile dest="npu/envsetup.sh" src="build/envsetup.sh"/>
+</project>
+<project name="rkbin" path="rkbin" revision="rk3399pro/rockchip"/>
+<project name="npu/rkbin" path="npu/rkbin" revision="rk3399pro/rockchip"/>
+<project name="external/rknn-toolkit" path="external/rknn-toolkit" revision="rk3399pro/rockchip"/>
+<project name="external/rockx" path="external/rockx" revision="rk3399pro/rockchip"/>
+</manifest>
