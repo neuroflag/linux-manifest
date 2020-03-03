@@ -7,20 +7,22 @@
 - 3. 与平台相关，如内核、u-boot等分支，可以使用不同的分支管理。
 
 附上：
-1. 必须同一分支管理的仓库：
+## 1. 必须同一分支管理的仓库：
+
 device/rockchip
 tools
 
-2. 尽量同一分支管理的仓库：
-rkbin/
-app/*
-buildroot/
-distro/
-docs/
-external/
-prebuilts/
-rk-rootfs-build/
+## 2. 尽量同一分支管理的仓库：
 
-3.可以使用不同分支管理的仓库：
+rkbin
+app
+buildroot
+distro
+docs
+external
+prebuilts
+rk-rootfs-build
+
+## 3. 可以使用不同分支管理的仓库：
 kernel
 u-boot
