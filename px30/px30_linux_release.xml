@@ -3,7 +3,7 @@
   <remote fetch="ssh://git@git.t-firefly.com:8022/rk-linux" name="firefly-linux"/>
   <default remote="firefly-linux" revision="master" sync-j="4"/>
 
-<project name="u-boot" path="u-boot" revision="px30/firefly-20191106"/>
+<project name="u-boot" path="u-boot" revision="px30/firefly"/>
 <project name="app/QLauncher" path="app/QLauncher" revision="px30/firefly"/>
 <project name="app/camera" path="app/camera" revision="px30/firefly"/>
 <project name="app/gallery" path="app/gallery" revision="px30/firefly"/>
@@ -37,14 +37,14 @@
 <project name="external/libmali" path="external/libmali" revision="px30/firefly"/>
 <project name="external/linux-rga" path="external/linux-rga" revision="px30/firefly"/>
 <project name="external/recovery" path="external/recovery" revision="firefly"/>
-<project name="tools" path="tools" revision="px30/firefly">
+<project name="tools" path="tools" revision="firefly">
 <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/px30-config.cfg"/>
 <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/px30-package-file"/>
 <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/px30-mkupdate.bat"/>
 <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/px30-mkupdate.sh"/>
 <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/px30-package-file"/>
 </project>
-<project name="kernel" path="kernel" revision="px30/firefly-20191106"/>
+<project name="kernel" path="kernel" revision="px30/firefly"/>
 <project name="external/mpp" path="external/mpp" revision="px30/firefly"/>
 <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="px30/firefly"/>
 <project name="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="px30/firefly"/>
