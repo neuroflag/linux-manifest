@@ -50,7 +50,7 @@
 <project name="external/rkwifibt" path="external/rkwifibt" revision="firefly"/>
 <project name="app/settings" path="app/settings" revision="firefly"/>
 <project name="external/tensorflow" path="external/tensorflow" revision="firefly"/>
-<project name="tools" path="tools" revision="rk3399/firefly">
+<project name="tools" path="tools" revision="firefly">
 <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3399-config.cfg"/>
 <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3399-package-file"/>
 <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3399-mkupdate.bat"/>
