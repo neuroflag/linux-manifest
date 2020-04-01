@@ -3,22 +3,29 @@
   <remote fetch="ssh://git@git.t-firefly.com:8022/rk-linux" name="firefly-linux"/>
   <default remote="firefly-linux" revision="master" sync-j="4"/>
 
+<project name="external/LocalPlayer" path="external/LocalPlayer" revision="firefly"/>
 <project name="app/QLauncher" path="app/QLauncher" revision="firefly"/>
+<project name="external/RKNPUTools" path="external/RKNPUTools" revision="firefly"/>
 <project name="external/alsa-config" path="external/alsa-config" revision="firefly"/>
+<project name="external/app" path="external/app" revision="firefly"/>
 <project name="external/audioservice" path="external/audioservice" revision="firefly"/>
+<project name="external/avb" path="external/avb" revision="firefly"/>
+<project name="external/security/bin" path="external/security/bin" revision="firefly"/>
 <project name="external/bluez-alsa" path="external/bluez-alsa" revision="firefly"/>
 <project name="buildroot" path="buildroot" revision="firefly">
 <linkfile dest="Makefile" src="build/Makefile"/>
 <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
 </project>
-<project name="app/demo" path="app/demo" revision="firefly"/>
 <project name="external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="firefly"/>
+<project name="external/chromium" path="external/chromium" revision="firefly"/>
+<project name="app/demo" path="app/demo" revision="firefly"/>
 <project name="device/rockchip" path="device/rockchip" revision="firefly">
 <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
 <linkfile dest="build.sh" src="common/build.sh"/>
 <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
 <linkfile dest="device/rockchip/.BoardConfig.mk" src="rk3288/BoardConfig.mk"/>
 </project>
+<project name="external/deviceio_release" path="external/deviceio_release" revision="firefly"/>
 <project name="buildroot-dl" path="buildroot/dl" revision="firefly"/>
 <project name="docs" path="docs" revision="rk3288/firefly"/>
 <project name="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="rk3288/firefly"/>
@@ -27,44 +34,33 @@
 <project name="external/libdrm-rockchip" path="external/libdrm-rockchip" revision="firefly"/>
 <project name="external/libmali" path="external/libmali" revision="firefly"/>
 <project name="external/linux-rga" path="external/linux-rga" revision="firefly"/>
+<project name="external/minigui" path="external/minigui" revision="firefly"/>
 <project name="external/mpp" path="external/mpp" revision="firefly"/>
 <project name="external/mpv" path="external/mpv" revision="firefly"/>
-<project name="external/powermanager" path="external/powermanager" revision="firefly"/>
-<project name="external/recovery" path="external/recovery" revision="firefly"/>
-<project name="rootfs" path="rootfs" revision="rk3288/firefly"/>
-<project name="external/rk_pcba_test" path="external/rk_pcba_test" revision="firefly"/>
-<project name="rkbin" path="rkbin" revision="rk3288/firefly"/>
-<project name="external/rkscript" path="external/rkscript" revision="firefly"/>
-<project name="external/rkssd" path="external/rkssd" revision="firefly"/>
-<project name="external/rkupdate" path="external/rkupdate" revision="firefly"/>
-<project name="external/rkwifibt" path="external/rkwifibt" revision="firefly"/>
-<project name="app/settings" path="app/qsettings" revision="firefly"/>
-<project name="external/tensorflow" path="external/tensorflow" revision="firefly"/>
-<project name="external/security/bin" path="external/security/bin" revision="firefly"/>
-<project name="external/security/rk_tee_user" path="external/security/rk_tee_user" revision="firefly"/>
-<project name="external/LocalPlayer" path="external/LocalPlayer" revision="firefly"/>
-<project name="external/RKNPUTools" path="external/RKNPUTools" revision="firefly"/>
-<project name="external/wakeWordAgent" path="external/wakeWordAgent" revision="firefly"/>
-<project name="external/app" path="external/app" revision="firefly"/>
-<project name="external/avb" path="external/avb" revision="firefly"/>
-<project name="external/minigui" path="external/minigui" revision="firefly"/>
 <project name="app/multicamera" path="app/multicamera" revision="firefly"/>
 <project name="app/multivideoplayer" path="app/multivideoplayer" revision="firefly"/>
+<project name="external/powermanager" path="external/powermanager" revision="firefly"/>
 <project name="app/qcamera" path="app/qcamera" revision="firefly"/>
 <project name="app/qfm" path="app/qfm" revision="firefly"/>
 <project name="app/qplayer" path="app/qplayer" revision="firefly"/>
-<project name="external/deviceio_release" path="external/deviceio_release" revision="firefly"/>
+<project name="external/recovery" path="external/recovery" revision="firefly"/>
+<project name="rootfs" path="rootfs" revision="rk3288/firefly"/>
+<project name="external/rk_pcba_test" path="external/rk_pcba_test" revision="firefly"/>
+<project name="external/security/rk_tee_user" path="external/security/rk_tee_user" revision="firefly"/>
+<project name="rkbin" path="rkbin" revision="rk3288/firefly"/>
 <project name="external/rkmedia" path="external/rkmedia" revision="firefly"/>
-<project name="external/rktoolkit" path="external/rktoolkit" revision="firefly"/>
-<project name="external/softapDemo" path="external/softapDemo" revision="firefly"/>
-<project name="external/softapServer" path="external/softapServer" revision="firefly"/>
-<project name="external/update_engine" path="external/update_engine" revision="firefly"/>
-<project name="external/uvc_app" path="external/uvc_app" revision="firefly"/>
-<project name="external/wifiAutoSetup" path="external/wifiAutoSetup" revision="firefly"/>
-<project name="external/chromium" path="external/chromium" revision="firefly"/>
+<project name="external/rknn-toolkit" path="external/rknn-toolkit" revision="firefly"/>
 <project name="external/rknn_demo" path="external/rknn_demo" revision="firefly"/>
 <project name="external/rknpu" path="external/rknpu" revision="firefly"/>
-<project name="external/rknn-toolkit" path="external/rknn-toolkit" revision="firefly"/>
+<project name="external/rkscript" path="external/rkscript" revision="firefly"/>
+<project name="external/rkssd" path="external/rkssd" revision="firefly"/>
+<project name="external/rktoolkit" path="external/rktoolkit" revision="firefly"/>
+<project name="external/rkupdate" path="external/rkupdate" revision="firefly"/>
+<project name="external/rkwifibt" path="external/rkwifibt" revision="firefly"/>
+<project name="app/settings" path="app/qsetting" revision="firefly"/>
+<project name="external/softapDemo" path="external/softapDemo" revision="firefly"/>
+<project name="external/softapServer" path="external/softapServer" revision="firefly"/>
+<project name="external/tensorflow" path="external/tensorflow" revision="firefly"/>
 <project name="tools" path="tools" revision="firefly">
 <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3288-config.cfg"/>
 <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3288-package-file"/>
@@ -73,4 +69,8 @@
 <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3288-package-file"/>
 </project>
 <project name="u-boot" path="u-boot" revision="rk3288/firefly"/>
+<project name="external/update_engine" path="external/update_engine" revision="firefly"/>
+<project name="external/uvc_app" path="external/uvc_app" revision="firefly"/>
+<project name="external/wakeWordAgent" path="external/wakeWordAgent" revision="firefly"/>
+<project name="external/wifiAutoSetup" path="external/wifiAutoSetup" revision="firefly"/>
 </manifest>
