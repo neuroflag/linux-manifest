@@ -81,7 +81,7 @@
   <project name="external/wifiAutoSetup"/>
   <project name="kernel" revision="rk3399pro/firefly"/>
   <project name="npu/app/n4"/>
-  <project name="npu/buildroot">
+  <project name="npu/buildroot"/>
   <project name="npu/buildroot/dl" revision="firefly"/>
   <project name="npu/device/rockchip">
     <linkfile dest="npu/mkfirmware.sh" src="common/mkfirmware.sh"/>
@@ -93,7 +93,7 @@
   <project name="npu/external/linux-rga"/>
   <project name="npu/external/powermanager"/>
   <project name="npu/external/rktoolkit"/>
-  <project name="npu/rkmedia"/>
+  <project name="npu/external/rkmedia"/>
   <project name="npu/external/rknpu"/>
   <project name="npu/external/rkscript"/>
   <project name="npu/kernel"/>
