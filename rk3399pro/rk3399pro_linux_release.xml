@@ -82,7 +82,7 @@
   <project name="kernel" revision="rk3399pro/firefly"/>
   <project name="npu/app/n4"/>
   <project name="npu/buildroot"/>
-  <project name="npu/buildroot/dl" revision="firefly"/>
+  <project name="npu/buildroot-dl" path="npu/buildroot/dl"/>
   <project name="npu/device/rockchip">
     <linkfile dest="npu/mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="npu/build.sh" src="common/build.sh"/>
