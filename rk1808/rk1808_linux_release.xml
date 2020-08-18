@@ -68,6 +68,7 @@
   <project name="external/wakeWordAgent"/>
   <project name="external/wifiAutoSetup"/>
   <project name="external/rockface"/>
+  <project name="external/rockx"/>
   <project name="kernel" revision="rk1808/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu"/>
   <project name="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf"/>
