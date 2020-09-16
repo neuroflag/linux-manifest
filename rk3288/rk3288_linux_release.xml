@@ -77,4 +77,31 @@
     <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
     <linkfile dest="yocto/README.md" src="../../.repo/manifests/README_yocto.md"/>
   </project>
+  <project name="docs-soc_internal" path="docs/.Socs"/>
+  <project name="external/RKNPUTools"/>
+  <project name="external/app"/>
+  <project name="external/ble_wificonfig"/>
+  <project name="external/bluetooth_bsa"/>
+  <project name="external/broadcom_bsa"/>
+  <project name="external/cae_vad"/>
+  <project name="external/eq_drc_process"/>
+  <project name="external/ipc_share_memory"/>
+  <project name="external/minigui"/>
+  <project name="external/minigui_desktop"/>
+  <project name="external/rk_hw_vad"/>
+  <project name="external/rk_webui"/>
+  <project name="external/rkmedia"/>
+  <project name="external/rknn-toolkit"/>
+  <project name="external/rknn_demo"/>
+  <project name="external/rknpu"/>
+  <project name="external/rkssd"/>
+  <project name="external/rockx"/>
+  <project name="external/rtc_demo"/>
+  <project name="external/tensorflow"/>
+  <project name="external/uvc_app"/>
+  <project name="external/wakeWordAgent"/>
+  <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu"/>
+  <project name="yocto/meta-browser"/>
+  <project name="yocto/meta-clang"/>
+  <project name="yocto/meta-rust"/>
 </manifest>
