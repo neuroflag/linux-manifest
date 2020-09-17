@@ -77,7 +77,9 @@
     <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
     <linkfile dest="yocto/README.md" src="../../.repo/manifests/README_yocto.md"/>
   </project>
-  <project name="docs-soc_internal" path="docs/.Socs"/>
+  <project name="docs-soc_internal" path="docs/.Socs">
+    <linkfile dest="docs/RK3288" src="RK3288"/>
+  </project>
   <project name="external/RKNPUTools"/>
   <project name="external/app"/>
   <project name="external/ble_wificonfig"/>

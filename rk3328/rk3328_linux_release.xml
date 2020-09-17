@@ -89,7 +89,9 @@
     <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
     <linkfile dest="yocto/README.md" src="../../.repo/manifests/README_yocto.md"/>
   </project>
-  <project name="docs-soc_internal" path="docs/.Socs"/>
+  <project name="docs-soc_internal" path="docs/.Socs">
+    <linkfile dest="docs/RK3328" src="RK3328"/>
+  </project>
   <project name="external/ble_wificonfig"/>
   <project name="external/bluetooth_bsa"/>
   <project name="external/broadcom_bsa"/>

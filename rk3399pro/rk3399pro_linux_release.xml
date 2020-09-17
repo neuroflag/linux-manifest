@@ -6,6 +6,7 @@
   
   <project name="app/QLauncher"/>
   <project name="app/demo"/>
+  <project name="app/multicamera"/>
   <project name="app/multivideoplayer"/>
   <project name="app/qcamera"/>
   <project name="app/qfm"/>
@@ -24,7 +25,9 @@
   </project>
   <project name="distro"/>
   <project name="docs"/>
-  <project name="docs-soc_internal" path="docs/Soc_internal"/>
+  <project name="docs-soc_internal" path="docs/.Socs">
+    <linkfile dest="docs/RK3399PRO" src="RK3399PRO"/>
+  </project>
   <project name="download" path="distro/download"/>
   <project name="external/DuerClientSDK"/>
   <project name="external/LocalPlayer"/>
