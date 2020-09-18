@@ -6,7 +6,7 @@
   
   <project name="external/RKNPUTools"/>
   <project name="external/libdrm-rockchip" path="external/libdrm"/>
-  <project name="external/security/rk_tee_user"/>
+  <project name="external/security/rk_tee_user" revision="rv1109/firefly"/>
   <project name="u-boot" revision="rv1109/firefly"/>
   <project name="app/libIPCProtocol"/>
   <project name="app/camera"/>
@@ -60,7 +60,7 @@
   <project name="external/tensorflow"/>
   <project name="external/uac_app"/>
   <project name="external/update_engine"/>
-  <project name="external/uvc_app"/>
+  <project name="external/uvc_app" revision="rv1109/firefly"/>
   <project name="external/wifiAutoSetup"/>
   <project name="docs-soc_internal" path="docs/Socs" >
     <linkfile dest="docs/RV1126_RV1109" src="RV1126_RV1109"/>
