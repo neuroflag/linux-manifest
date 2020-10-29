@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="ssh://git@git.t-firefly.com:8022/rk-linux" name="firefly-linux"/>
-  
+
   <default remote="firefly-linux" revision="firefly" sync-j="4"/>
-  
+
   <project name="external/RKNPUTools"/>
   <project name="external/libdrm-rockchip" path="external/libdrm"/>
   <project name="external/security/rk_tee_user" revision="rv1109/firefly"/>
   <project name="u-boot" revision="rv1109/firefly"/>
+  <project name="app/aiserver"/>
   <project name="app/libIPCProtocol"/>
   <project name="app/QFacialGate"/>
   <project name="app/camera"/>
+  <project name="app/CameraFactoryTestServer"/>
   <project name="app/dbserver"/>
-  <project name="app/demo"/>
   <project name="app/eptz_demo"/>
-  <project name="app/ficial_gate"/>
   <project name="app/ipc-daemon"/>
   <project name="app/libgdbus"/>
   <project name="app/librkdb"/>
@@ -43,6 +43,7 @@
   <project name="external/broadcom_bsa"/>
   <project name="external/camera_engine_rkaiq"/>
   <project name="external/common_algorithm"/>
+  <project name="external/deviceio_release"/>
   <project name="external/eq_drc_process"/>
   <project name="external/isp2-ipc"/>
   <project name="external/minigui"/>
@@ -60,13 +61,12 @@
   <project name="external/rtc_demo"/>
   <project name="external/tensorflow"/>
   <project name="external/uac_app"/>
-  <project name="external/update_engine"/>
   <project name="external/uvc_app" revision="rv1109/firefly"/>
   <project name="external/wifiAutoSetup"/>
   <project name="docs-soc_internal" path="docs/Socs" >
     <linkfile dest="docs/RV1126_RV1109" src="RV1126_RV1109"/>
   </project>
-  <project name="external/linux-rga"/>
+  <project name="external/linux-rga" revision="rv1109/firefly"/>
   <project name="external/recovery"/>
   <project name="external/rkmedia"/>
   <project name="external/rockit"/>
