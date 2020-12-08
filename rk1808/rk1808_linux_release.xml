@@ -4,21 +4,8 @@
 
   <default remote="firefly-linux" revision="firefly" sync-j="4"/>
 
-  <project name="app/QLauncher"/>
-  <project name="app/demo"/>
-  <project name="app/multicamera"/>
-  <project name="app/multivideoplayer"/>
-  <project name="app/qcamera"/>
-  <project name="app/qfm"/>
-  <project name="app/qplayer"/>
-  <project name="app/settings" path="app/qsetting"/>
-  <project name="app/face_detect"/>
-  <project name="app/ficial_gate"/>
-  <project name="app/pose_body"/>
-  <project name="buildroot">
-    <linkfile dest="Makefile" src="build/Makefile"/>
-    <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
-  </project>
+  <project name="external/RKNPUTools" />
+  <project name="u-boot" revision="rk1808/firefly"/>
   <project name="buildroot-dl" path="buildroot/dl"/>
   <project name="device/rockchip">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
@@ -26,54 +13,36 @@
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
     <linkfile dest="device/rockchip/.BoardConfig.mk" src="rk1808/BoardConfig.mk"/>
   </project>
-  <project name="distro"/>
   <project name="docs"/>
-  <project name="download" path="distro/download"/>
-  <project name="external/LocalPlayer"/>
-  <project name="external/RKNPUTools"/>
-  <project name="external/alsa-config"/>
-  <project name="external/app"/>
-  <project name="external/audioservice"/>
-  <project name="external/avb"/>
-  <project name="external/bluez-alsa"/>
-  <project name="external/camera_engine_rkisp"/>
-  <project name="external/chromium"/>
-  <project name="external/deviceio_release"/>
-  <project name="external/gstreamer-rockchip"/>
-  <project name="external/libdrm-rockchip" path="external/libdrm"/>
-  <project name="external/libmali"/>
-  <project name="external/linux-rga"/>
-  <project name="external/minigui" revision="cda3af8062fa6ed9903a40ca61c088278708966f" upstream="firefly"/>
-  <project name="external/mpp"/>
-  <project name="external/mpv"/>
-  <project name="external/powermanager"/>
-  <project name="external/recovery"/>
-  <project name="external/rk_pcba_test"/>
-  <project name="external/rkmedia" revision="14240b3ee093e737a8e0d5481787a44af30055eb" upstream="firefly"/>
-  <project name="external/rknn-toolkit"/>
-  <project name="external/rknn_demo"/>
-  <project name="external/rknpu"/>
-  <project name="external/rkscript"/>
-  <project name="external/rkssd"/>
+  <project name="app/QLauncher" />
+  <project name="app/qcamera" />
+  <project name="app/qfm" />
+  <project name="app/qplayer" />
+  <project name="app/qsetting" />
+  <project name="app/demo" />
+  <project name="app/ficial_gate" />
+  <project name="app/face_detect" />
+  <project name="app/pose_body" />
+  <project name="external/alsa-config" />
+  <project name="external/audioservice" />
+  <project name="external/bluez-alsa" />
+  <project name="external/broadcom_bsa" />
+  <project name="external/camera_engine_rkisp" />
+  <project name="external/minigui" />
+  <project name="external/mpv" />
+  <project name="external/rk_pcba_test" />
+  <project name="external/rkmedia" />
+  <project name="external/rknpu" />
+  <project name="external/rknn_demo" />
   <project name="external/rktoolkit"/>
-  <project name="external/rkupdate"/>
-  <project name="external/rkwifibt"/>
-  <project name="external/security/bin"/>
-  <project name="external/security/rk_tee_user"/>
-  <project name="external/softapDemo"/>
-  <project name="external/softapServer"/>
-  <project name="external/tensorflow"/>
-  <project name="external/update_engine"/>
-  <project name="external/uvc_app"/>
-  <project name="external/wakeWordAgent"/>
-  <project name="external/wifiAutoSetup"/>
-  <project name="external/rockface"/>
-  <project name="external/rockx"/>
-  <project name="kernel" revision="rk1808/firefly"/>
-  <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu"/>
-  <project name="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf"/>
-  <project name="rk-rootfs-build" path="debian"/>
-  <project name="rkbin"/>
+  <project name="external/rkupdate" />
+  <project name="external/rkwifibt" />
+  <project name="external/rkscript" />
+  <project name="external/update_engine" />
+  <project name="external/uvc_app" />
+  <project name="external/gstreamer-rockchip" />
+  <project name="external/linux-rga" />
+  <project name="external/recovery" />
   <project name="tools">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk1808-config.cfg"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk1808-package-file"/>
@@ -81,17 +50,15 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk1808-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk1808-package-file"/>
   </project>
-  <project name="u-boot" revision="rk1808/firefly"/>
-  <project name="yocto/build/conf"/>
-  <project name="yocto/meta-openembedded"/>
-  <project name="yocto/meta-qt5"/>
-  <project name="yocto/meta-rockchip"/>
-  <project name="yocto/poky">
-    <linkfile dest="yocto/scripts" src="scripts"/>
-    <linkfile dest="yocto/bitbake" src="bitbake"/>
-    <linkfile dest="yocto/meta-poky" src="meta-poky"/>
-    <linkfile dest="yocto/.templateconf" src=".templateconf"/>
-    <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
-    <linkfile dest="yocto/README.md" src="../../.repo/manifests/README_yocto.md"/>
-  </project>
+  <project name="kernel" revision="rk1808/firefly"/>
+  <project name="external/mpp" />
+  <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu"/>
+  <project name="external/rockx" />
+  <project name="external/rockface" />
+  <project name="buildroot">
+	<linkfile dest="Makefile" src="build/Makefile"/>
+	<linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
+	</project>
+  <project name="rkbin" />
+  <project name="external/rknn-toolkit" />
 </manifest>
