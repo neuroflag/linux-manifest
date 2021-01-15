@@ -91,4 +91,5 @@
   <project name="external/rknn-toolkit"/>
   <project name="external/rockface"/>
   <project name="external/rockx"/>
+  <project name="arcface_app" path="external/arcface_app"/>
 </manifest>
