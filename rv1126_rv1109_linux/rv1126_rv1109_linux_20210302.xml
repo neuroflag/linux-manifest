@@ -21,7 +21,6 @@
   <project name="app/smart_display_service" revision="dd08120a6871afc209d5295e6fe687f6f9545ba6" upstream="firefly"/>
   <project name="app/storage_manager" revision="d729725c0f6b055e537cfd451ecd8fde202f12b4" upstream="firefly"/>
   <project name="app/video" revision="b81dab76a6ebccba5b43738092bd88e9073acbdb" upstream="firefly"/>
-  <project name="arcface_app" path="external/arcface_app" revision="d976575ecf9d95d18cb4fe78b9500b650bf3dea4" upstream="firefly"/>
   <project name="buildroot" revision="0cbda7511bcae66ac6ab6655b935fa193695e59c" upstream="firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
@@ -37,6 +36,7 @@
   <project name="docs-soc_internal" path="docs/Socs" revision="b23debba90a44988da337312f48e1f94d1efb038" upstream="firefly">
     <linkfile dest="docs/RV1126_RV1109" src="RV1126_RV1109"/>
   </project>
+  <project name="external/arcface_app" path="external/arcface_app" revision="d976575ecf9d95d18cb4fe78b9500b650bf3dea4" upstream="firefly"/>
   <project name="external/CallFunIpc" revision="b23fcde9739d9bdcc3c477caa0a845355825711f" upstream="firefly"/>
   <project name="external/RKNPUTools" revision="bbfd35a822f5f2f15ce2943d4d4ff0342a883c79" upstream="firefly"/>
   <project name="external/alsa-config" revision="84f68eecd5e17bbfdf474ea575efc6524fbd5477" upstream="firefly"/>
