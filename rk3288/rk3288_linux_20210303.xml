@@ -12,7 +12,7 @@
   <project name="app/qfm" revision="cb38ba939c7ebdb1d205b68290754a115269c7e4" upstream="firefly"/>
   <project name="app/qplayer" revision="6b658230a246ccebb425fdfcd368b11457d4635b" upstream="firefly"/>
   <project name="app/settings" path="app/qsetting" revision="38ad29efe3f415a4f3b03d1857eb322ce00c8add" upstream="firefly"/>
-  <project name="buildroot" revision="0cbda7511bcae66ac6ab6655b935fa193695e59c" upstream="firefly">
+  <project name="buildroot" revision="7f253b7ebdf363eb75421a4b15e1ac1baedd3036" upstream="firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
