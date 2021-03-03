@@ -51,7 +51,7 @@
   <project name="external/deviceio_release" revision="d98f6f29fb15556dff5b08e8b9adf63dc1a8ff4e" upstream="firefly"/>
   <project name="external/eq_drc_process" revision="757d3c8539ed049e4f176679a2d9d9d7072a15a8" upstream="firefly"/>
   <project name="external/isp2-ipc" revision="ff509a1c0dd000ca285b423388e31f23f49635ba" upstream="firefly"/>
-  <project name="external/libdrm-rockchip" path="external/libdrm" revision="6b4258541a585426b128a365be89c11a1c363e02" upstream="firefly"/>
+  <project name="external/libdrm" path="external/libdrm" revision="6b4258541a585426b128a365be89c11a1c363e02" upstream="firefly"/>
   <project name="external/linux-rga" revision="4ccf1c4e1a5b776c0e3072aef0a8e1f29125d4ed" upstream="rv1126_rv1109/firefly"/>
   <project name="external/minigui" revision="7d62f417571778ef1fd6bccc0a07bc762793ef4f" upstream="firefly"/>
   <project name="external/minigui_desktop" revision="9fa64dabb6bae25c07c2fc6ed40de6123f71f493" upstream="firefly"/>
