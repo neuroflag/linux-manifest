@@ -49,7 +49,7 @@
   <project name="external/tensorflow" revision="e1877bb157a775d76ec8c0b68467aef6d053bbb2" upstream="firefly"/>
   <project name="kernel" revision="137245c081d29812a8d640589e27aa5245997992" upstream="px30/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="firefly"/>
-  <project name="rkbin" revision="1774e1c8ad41346a70cacfc8b04d105ee83c5106" upstream="firefly"/>
+  <project name="rkbin" revision="ef99e9f14f8804f65c1930fe577982a2d662c03a" upstream="firefly"/>
   <project name="tools" revision="0a2057ca63c98ce22098f247381d1458e4c679ef" upstream="firefly">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/px30-config.cfg"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/px30-package-file"/>
