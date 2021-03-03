@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="https://gitlab.com/firefly-linux" name="firefly-linux-gitlab"/>
   
-  <default remote="firefly-linux" revision="firefly" sync-j="4"/>
+  <default remote="firefly-linux-gitlab" revision="firefly" sync-j="4"/>
   
   <project name="app/CameraFactoryTestServer" revision="4bf562db7718264772ed9c52e1afc54ccebc8356" upstream="firefly"/>
   <project name="app/QFacialGate" revision="7c6e84dc947b0fc68b733621236b8dd6ea3e76cd" upstream="firefly"/>
