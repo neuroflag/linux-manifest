@@ -51,7 +51,7 @@
   <project name="external/update_engine" revision="ef212877ada6fe629f52485113b35a81ab31009b" upstream="firefly"/>
   <project name="external/uvc_app" revision="7905a9f812f3c6b14fabff0f5c04dfbfab298fed" upstream="firefly"/>
   <project name="external/deviceio_release" revision="f1c13ffd07e3b3ea7ef8a1249b1c690415b6fcfd" upstream="firefly"/>
-  <project name="kernel" revision="a60aa50c06b1e5eef55afda6355cdd05d494727e" upstream="rk1808/firefly"/>
+  <project name="kernel" revision="28c82e205514163c754287d37d3ae5c6c06f0ef7" upstream="rk1808/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="firefly"/>
   <project name="rkbin" revision="1774e1c8ad41346a70cacfc8b04d105ee83c5106" upstream="firefly"/>
   <project name="tools" revision="0a2057ca63c98ce22098f247381d1458e4c679ef" upstream="firefly">
