@@ -10,7 +10,7 @@
   <project name="app/qcamera" revision="a7a3850fd13a1c9d91ec19bda5baf3d2246abf2e" upstream="firefly"/>
   <project name="app/qfm" revision="cb38ba939c7ebdb1d205b68290754a115269c7e4" upstream="firefly"/>
   <project name="app/qplayer" revision="6b658230a246ccebb425fdfcd368b11457d4635b" upstream="firefly"/>
-  <project name="app/settings" path="app/qsetting" revision="38ad29efe3f415a4f3b03d1857eb322ce00c8add" upstream="firefly"/>
+  <project name="app/qsetting" revision="38ad29efe3f415a4f3b03d1857eb322ce00c8add" upstream="firefly"/>
   <project name="buildroot" revision="7f253b7ebdf363eb75421a4b15e1ac1baedd3036" upstream="firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
@@ -32,7 +32,7 @@
   <project name="external/camera_engine_rkisp" revision="146663d2e1784620d94ece87a67f2388b52f4b90" upstream="firefly"/>
   <project name="external/deviceio_release" revision="f1c13ffd07e3b3ea7ef8a1249b1c690415b6fcfd" upstream="firefly"/>
   <project name="external/gstreamer-rockchip" revision="3ff7e60c39e7b9652f138d0f5159a8d995242a8e" upstream="firefly"/>
-  <project name="external/libdrm-rockchip" path="external/libdrm" revision="6b4258541a585426b128a365be89c11a1c363e02" upstream="firefly"/>
+  <project name="external/libdrm" revision="6b4258541a585426b128a365be89c11a1c363e02" upstream="firefly"/>
   <project name="external/libmali" revision="7da9356b736f984ad3190c5427cd9ca42f03f1e7" upstream="firefly"/>
   <project name="external/linux-rga" revision="411edeaed6d71d2c7399b2db40b19c2607201821" upstream="firefly"/>
   <project name="external/mpp" revision="8631f70f9a45ef9f8ccb19beca9332090c2f75aa" upstream="firefly"/>

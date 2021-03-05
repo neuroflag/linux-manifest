@@ -11,7 +11,7 @@
   <project name="app/qcamera" revision="a7a3850fd13a1c9d91ec19bda5baf3d2246abf2e" upstream="firefly"/>
   <project name="app/qfm" revision="cb38ba939c7ebdb1d205b68290754a115269c7e4" upstream="firefly"/>
   <project name="app/qplayer" revision="6b658230a246ccebb425fdfcd368b11457d4635b" upstream="firefly"/>
-  <project name="app/settings" path="app/qsetting" revision="38ad29efe3f415a4f3b03d1857eb322ce00c8add" upstream="firefly"/>
+  <project name="app/qsetting" revision="38ad29efe3f415a4f3b03d1857eb322ce00c8add" upstream="firefly"/>
   <project name="buildroot" revision="0cbda7511bcae66ac6ab6655b935fa193695e59c" upstream="firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
@@ -46,7 +46,7 @@
   <project name="external/eq_drc_process" revision="757d3c8539ed049e4f176679a2d9d9d7072a15a8" upstream="firefly"/>
   <project name="external/gstreamer-rockchip" revision="3ff7e60c39e7b9652f138d0f5159a8d995242a8e" upstream="firefly"/>
   <project name="external/ipc_share_memory" revision="7e7c3de48f72f55d184e3705ab5a170ce815756a" upstream="firefly"/>
-  <project name="external/libdrm-rockchip" path="external/libdrm" revision="6b4258541a585426b128a365be89c11a1c363e02" upstream="firefly"/>
+  <project name="external/libdrm" revision="6b4258541a585426b128a365be89c11a1c363e02" upstream="firefly"/>
   <project name="external/libmali" revision="7da9356b736f984ad3190c5427cd9ca42f03f1e7" upstream="firefly"/>
   <project name="external/linux-rga" revision="411edeaed6d71d2c7399b2db40b19c2607201821" upstream="firefly"/>
   <project name="external/minigui" revision="7d62f417571778ef1fd6bccc0a07bc762793ef4f" upstream="firefly"/>
@@ -80,7 +80,7 @@
   <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="firefly"/>
   <project name="kernel" revision="4697c4dba6409716a0a5da6d367381d47de6a150" upstream="rk3399pro/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="firefly"/>
-  <project name="rk-rootfs-build" path="debian" revision="c40d6bf2e98b53e1d4e3c3421bb990e17d865a73" upstream="firefly"/>
+  <project name="debian" revision="c40d6bf2e98b53e1d4e3c3421bb990e17d865a73" upstream="firefly"/>
   <project name="rkbin" revision="1774e1c8ad41346a70cacfc8b04d105ee83c5106" upstream="firefly"/>
   <project name="tools" revision="0a2057ca63c98ce22098f247381d1458e4c679ef" upstream="firefly">
   </project>
