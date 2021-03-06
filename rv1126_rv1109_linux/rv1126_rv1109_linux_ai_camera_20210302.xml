@@ -25,7 +25,7 @@
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
   <project name="buildroot-dl" path="buildroot/dl" revision="2842ca5a5b1fb19c2fe158dd3f1c7c2ba32d7ba2" upstream="firefly"/>
-  <project name="device/rockchip" revision="aeac1b9b4e2b34b0e7f62bc7cc11a945c387230e" upstream="firefly">
+  <project name="device/rockchip" revision="feb7b3df63cbb83de0524eec5331c1e64dd085d0" upstream="firefly">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
