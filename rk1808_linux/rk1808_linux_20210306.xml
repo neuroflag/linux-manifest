@@ -72,7 +72,7 @@
   <project name="kernel" revision="28c82e205514163c754287d37d3ae5c6c06f0ef7" upstream="rk1808/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="firefly"/>
   <project name="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="firefly"/>
-  <project name="rk-rootfs-build" path="debian" revision="6823d577a6b9bc859547227b15dc75cdaf04c0c9" upstream="firefly"/>
+  <project name="debian" revision="6823d577a6b9bc859547227b15dc75cdaf04c0c9" upstream="firefly"/>
   <project name="rkbin" revision="eca190a19e2305c7e49c4c773bfac7a1505cfa35" upstream="firefly"/>
   <project name="tools" revision="2b65987f35351776374d039ff49085fb0bd383e8" upstream="firefly">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk1808-config.cfg"/>
