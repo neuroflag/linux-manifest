@@ -14,7 +14,7 @@
   <project name="app/qcamera" revision="a7a3850fd13a1c9d91ec19bda5baf3d2246abf2e" upstream="firefly"/>
   <project name="app/qfm" revision="cb38ba939c7ebdb1d205b68290754a115269c7e4" upstream="firefly"/>
   <project name="app/qplayer" revision="cf359f850956d7ac2c1679f0fb39cd52978593a1" upstream="firefly"/>
-  <project name="app/qsettings" revision="76d0e36d73478b989da129051c61afe5dd7b22d8" upstream="firefly"/>
+  <project name="app/qsetting" revision="76d0e36d73478b989da129051c61afe5dd7b22d8" upstream="firefly"/>
   <project name="buildroot" revision="7f36f234c705948dd253150bf501a5748bfb2f9f" upstream="firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
