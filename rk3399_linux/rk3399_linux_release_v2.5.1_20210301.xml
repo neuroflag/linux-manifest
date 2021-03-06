@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://gitlab.com/firefly-linux" name="firefly-linux-gitlab"/>
-  
+
   <default remote="firefly-linux-gitlab" revision="firefly" sync-j="4"/>
-  
+
   <project name="app/QLauncher" revision="289866a6725af82cd8e75c75f8c2c2486a316c42" upstream="firefly"/>
   <project name="app/demo" revision="db94c6389891aef75298bc98972dd4fcc82a4a10" upstream="firefly"/>
   <project name="app/multicamera" revision="6c3b01afba79d69b3ed6c1d55bb5dc87f51b8df2" upstream="firefly"/>

@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="https://gitlab.com/firefly-linux" name="firefly-linux-gitlab"/>
 
-  <default remote="firefly-linux" revision="firefly" sync-j="4"/>
+  <default remote="firefly-linux-gitlab" revision="firefly" sync-j="4"/>
 
   <project name="app/QLauncher" revision="289866a6725af82cd8e75c75f8c2c2486a316c42" upstream="firefly"/>
   <project name="app/demo" revision="db94c6389891aef75298bc98972dd4fcc82a4a10" upstream="firefly"/>
@@ -58,7 +58,7 @@
   <project name="external/rk_hw_vad" revision="2fa6aaf920a6e8a9912b0407ba4f50b9c6e96b10" upstream="firefly"/>
   <project name="external/rk_pcba_test" revision="b2b303139665d4e256adda2b64211edd53dd45e4" upstream="firefly"/>
   <project name="external/rk_webui" revision="23d1035aede0b74ae119b8bd65cf0ed93c4100a6" upstream="firefly"/>
-  <project name="external/rkmedia" revision="62c8281a254e1b87fbf677b4e0287baa94ec3d90" upstream="firefly"/>
+  <project name="external/rkmedia" revision="609461671c4942f87f1c3a6a569dccb4b548aee6" upstream="firefly"/>
   <project name="external/rknn-toolkit" revision="0cc2944c99eae1e58f0657b65057d565e414f073" upstream="firefly"/>
   <project name="external/rknn_demo" revision="452b17d01b9e1d4f7b38f09e7fbca278d148a1f8" upstream="firefly"/>
   <project name="external/rknpu" revision="b010399b7595945381ddd63853ecf1218a130427" upstream="firefly"/>
@@ -80,9 +80,15 @@
   <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="firefly"/>
   <project name="kernel" revision="4697c4dba6409716a0a5da6d367381d47de6a150" upstream="rk3399pro/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="firefly"/>
+  <project name="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="firefly"/>
   <project name="debian" revision="c40d6bf2e98b53e1d4e3c3421bb990e17d865a73" upstream="firefly"/>
   <project name="rkbin" revision="1774e1c8ad41346a70cacfc8b04d105ee83c5106" upstream="firefly"/>
   <project name="tools" revision="0a2057ca63c98ce22098f247381d1458e4c679ef" upstream="firefly">
+    <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3399-config.cfg"/>
+    <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3399-package-file"/>
+    <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3399-mkupdate.bat"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3399-mkupdate.sh"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3399-package-file"/>
   </project>
   <project name="u-boot" revision="278b1a832c659e6604bec49dca8d9a7fd972d27f" upstream="rk3399pro/firefly"/>
   <project name="yocto/build/conf" revision="8ec513e39fe364a635e4db2703de15476f226eec" upstream="firefly"/>
