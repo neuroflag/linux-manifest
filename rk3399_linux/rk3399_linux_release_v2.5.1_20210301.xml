@@ -78,7 +78,7 @@
   <project name="external/uvc_app" revision="7905a9f812f3c6b14fabff0f5c04dfbfab298fed" upstream="firefly"/>
   <project name="external/wakeWordAgent" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6" upstream="firefly"/>
   <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="firefly"/>
-  <project name="kernel" revision="50f0a60241aa6c9af65d5bdbdaae40df4cd77be3" upstream="rk3399/firefly"/>
+  <project name="kernel" revision="8998afb927200ad42b27beacc22cf1e86bfca442" upstream="rk3399/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="firefly"/>
   <project name="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="firefly"/>
   <project name="debian" revision="c40d6bf2e98b53e1d4e3c3421bb990e17d865a73" upstream="firefly"/>
