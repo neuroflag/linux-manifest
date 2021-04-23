@@ -21,12 +21,12 @@
   <project name="app/storage_manager" revision="d729725c0f6b055e537cfd451ecd8fde202f12b4" upstream="firefly"/>
   <project name="app/video" revision="b81dab76a6ebccba5b43738092bd88e9073acbdb" upstream="firefly"/>
   <project name="app/firefly_rkmedia_demo" revision="ceffab700810250df6beae76235b24a428394ad0" upstream="firefly"/>
-  <project name="buildroot" revision="3fd6d3af807d0de91c5e52ba8406615a98a95c66" upstream="firefly">
+  <project name="buildroot" revision="52fb7493fe51cb40bcaf91584517ebc83253403a" upstream="firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
   <project name="buildroot-dl" path="buildroot/dl" revision="939379c396fd29e48a7a973d1042cb313900d537" upstream="firefly"/>
-  <project name="device/rockchip" revision="e533c45bbe906979a5bb9b76d959bfc7318878be" upstream="firefly">
+  <project name="device/rockchip" revision="29d713101ac8182db645ad00b8efce44a5d84298" upstream="firefly">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -77,7 +77,7 @@
   <project name="external/uac_app" revision="a97fa300009ecde816b8a64b65af80bcb5e5a579" upstream="firefly"/>
   <project name="external/uvc_app" revision="660da91cc65bb24b5b909b3ccce61f9c142f70f5" upstream="rv1126_rv1109/firefly"/>
   <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="firefly"/>
-  <project name="kernel" revision="72ca1a34c32f0a2ad0bc35250cd17dedf5892f52" upstream="rv1126_rv1109/firefly"/>
+  <project name="kernel" revision="bc2677441ed763d99ab00f6d11db71093317978e" upstream="rv1126_rv1109/firefly"/>
   <project name="prebuilts/gcc/linux-x86/arm/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf" revision="27edb819ca803f5da253ccbd4134d6337a7310d1" upstream="firefly"/>
   <project name="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="firefly"/>
   <project name="rkbin" revision="2679a99c7e553a26f13e75f894f780444dad5d9c" upstream="firefly"/>
