@@ -21,7 +21,7 @@
   <project name="app/storage_manager" revision="d729725c0f6b055e537cfd451ecd8fde202f12b4" upstream="firefly"/>
   <project name="app/video" revision="b81dab76a6ebccba5b43738092bd88e9073acbdb" upstream="firefly"/>
   <project name="app/firefly_rkmedia_demo" revision="ceffab700810250df6beae76235b24a428394ad0" upstream="firefly"/>
-  <project name="buildroot" revision="52fb7493fe51cb40bcaf91584517ebc83253403a" upstream="firefly">
+  <project name="buildroot" revision="a92eb6f62545206ea386b93294031bb51a1a1248" upstream="firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
