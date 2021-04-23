@@ -23,6 +23,7 @@
   <project name="app/video" revision="b81dab76a6ebccba5b43738092bd88e9073acbdb" upstream="firefly"/>
   <project name="app/dbtool" revision="2485967d7374392d9440fba18b242450536a396a" upstream="firefly"/>
   <project name="app/minigui_demo" revision="4e0eaf998640e0538792619e0d2f8641c5896f69" upstream="firefly"/>
+  <project name="app/firefly_rkmedia_demo" revision="ceffab700810250df6beae76235b24a428394ad0" upstream="firefly"/>
   <project name="buildroot" revision="52fb7493fe51cb40bcaf91584517ebc83253403a" upstream="firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
