@@ -24,12 +24,12 @@
   <project name="app/dbtool" revision="2485967d7374392d9440fba18b242450536a396a" upstream="firefly"/>
   <project name="app/minigui_demo" revision="4e0eaf998640e0538792619e0d2f8641c5896f69" upstream="firefly"/>
   <project name="app/firefly_rkmedia_demo" revision="ceffab700810250df6beae76235b24a428394ad0" upstream="firefly"/>
-  <project name="buildroot" revision="a92eb6f62545206ea386b93294031bb51a1a1248" upstream="firefly">
+  <project name="buildroot" revision="1e7d09e8446fd169c9689ab5f6e99efc9509c35c" upstream="firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
   <project name="buildroot-dl" path="buildroot/dl" revision="af79460718d20839ce5a290ff8681ca38da0939d" upstream="firefly"/>
-  <project name="device/rockchip" revision="29d713101ac8182db645ad00b8efce44a5d84298" upstream="firefly">
+  <project name="device/rockchip" revision="6483bc0eea60f3532c655fdfbaf8f4580ef1da41" upstream="firefly">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>

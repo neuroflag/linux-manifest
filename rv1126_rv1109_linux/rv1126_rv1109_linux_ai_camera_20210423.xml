@@ -21,12 +21,12 @@
   <project name="app/storage_manager" revision="d729725c0f6b055e537cfd451ecd8fde202f12b4" upstream="firefly"/>
   <project name="app/video" revision="b81dab76a6ebccba5b43738092bd88e9073acbdb" upstream="firefly"/>
   <project name="app/firefly_rkmedia_demo" revision="ceffab700810250df6beae76235b24a428394ad0" upstream="firefly"/>
-  <project name="buildroot" revision="a92eb6f62545206ea386b93294031bb51a1a1248" upstream="firefly">
+  <project name="buildroot" revision="1e7d09e8446fd169c9689ab5f6e99efc9509c35c" upstream="firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
   <project name="buildroot-dl" path="buildroot/dl" revision="939379c396fd29e48a7a973d1042cb313900d537" upstream="firefly"/>
-  <project name="device/rockchip" revision="29d713101ac8182db645ad00b8efce44a5d84298" upstream="firefly">
+  <project name="device/rockchip" revision="6483bc0eea60f3532c655fdfbaf8f4580ef1da41" upstream="firefly">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
