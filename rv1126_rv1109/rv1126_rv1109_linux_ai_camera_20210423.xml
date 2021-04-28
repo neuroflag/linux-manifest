@@ -40,7 +40,7 @@
   <project name="external/RKNPUTools" revision="bbfd35a822f5f2f15ce2943d4d4ff0342a883c79" upstream="firefly"/>
   <project name="external/alsa-config" revision="16078cdc78d9d4961a60c60c527a1a14972fa30d" upstream="firefly"/>
   <project name="external/app" revision="3a06ebb791eb8bc6d2b41876f895d121be987f41" upstream="firefly"/>
-  <project name="external/arcuvc_app" revision="21f0011cfeeea2c8ab139338c65975a3c0cafcd6" upstream="firefly"/>
+  <project name="external/arcuvc_app" revision="675c81464e36a918103b4a748aa0140b0af2b84f" upstream="firefly"/>
   <project name="external/avb" revision="64b5ea0130d7440084796f6a23d7cd91fac988b8" upstream="firefly"/>
   <project name="external/ble_wificonfig" revision="3b56e0e268634216df1f992d944bb30158e86786" upstream="firefly"/>
   <project name="external/bluetooth_bsa" revision="4e596c44f756568f4a9f39faee3a09d582831983" upstream="firefly"/>
