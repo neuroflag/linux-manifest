@@ -89,7 +89,7 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk356x-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk356x-package-file"/>
   </project>
-  <project name="kernel" revision="c831af97458669c37307e93148dda9842f2ae288" upstream="rk356x/firefly"/>
+  <project name="kernel" revision="50f0eb051829cb392570521d5f2fd725296a795f" upstream="rk356x/firefly"/>
   <project name="external/mpp" revision="ae49194de12cc73ce43d0928d2f3c8edfd35f80b" upstream="rk356x/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu" revision="2edfa6dde1f73c5b3c6de980e3450443e35c0a0f" upstream="firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="firefly"/>
