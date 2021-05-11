@@ -7,7 +7,7 @@
   <project name="external/RKNPUTools" revision="b8c0e77c1a5c8e886c3ebf3483557e8755485e6e" upstream="firefly"/>
   <project name="external/libdrm" revision="6b4258541a585426b128a365be89c11a1c363e02" upstream="firefly"/>
   <project name="external/security/rk_tee_user" revision="d4503c4e95c8b38dec5063c83aa53ad91c1b8159" upstream="firefly"/>
-  <project name="u-boot" revision="8401007dd6832686d728d85b6df7c119a9e50191" upstream="rk356x/firefly"/>
+  <project name="u-boot" revision="b23300928ec02dc3033f9adc5331adbd6005f4c1" upstream="rk356x/firefly"/>
   <project name="app/CameraFactoryTestServer" revision="4bf562db7718264772ed9c52e1afc54ccebc8356" upstream="firefly"/>
   <project name="app/libIPCProtocol" revision="d6de9ce40264f11a4a8b32f7d9d2b4a9a590f7cc" upstream="firefly"/>
   <project name="app/QFacialGate" revision="87f2c3643b41ed70e9551e0039edc8369dbe626a" upstream="firefly"/>
@@ -30,7 +30,7 @@
   <project name="app/ipcweb-backend" revision="66f89f16946a9420f5f4a45495b35b2343ff0615" upstream="firefly"/>
   <project name="app/ipcweb-ng" revision="1872d9743e31866b5ab51281fdbbf98a6a5ecac3" upstream="firefly"/>
   <project name="buildroot-dl" path="buildroot/dl" revision="af79460718d20839ce5a290ff8681ca38da0939d" upstream="firefly"/>
-  <project name="device/rockchip" revision="4f29ab7c5794fe98bffb9f2a057f63def7ec12de" upstream="firefly">
+  <project name="device/rockchip" revision="4d032cbd1cf7c5bacc6d6971c505c6dc82eff3ec" upstream="firefly">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -60,7 +60,7 @@
   <project name="external/rkfacial" revision="8db5eef2fdccd941650e3afb11b751bd657a466d" upstream="firefly"/>
   <project name="external/rknn_demo" revision="d24d15b855ee5b0521ee33bd13a1f1bcf597b7dc" upstream="firefly"/>
   <project name="external/rknpu" revision="084858d4d3033024326991cf8ead432eca38626d" upstream="firefly"/>
-  <project name="external/rkscript" revision="12fe93e18bb4d4faf9378ce12f3375670e08fbef" upstream="firefly"/>
+  <project name="external/rkscript" revision="4f5d8e3fdab85a9d9eac6a1c207a4bf5410aaf92" upstream="firefly"/>
   <project name="external/rktoolkit" revision="77fb41f99185a6f9dc2c9c69e099f417d8ae905d" upstream="firefly"/>
   <project name="external/rkupdate" revision="1e014c0295f960a23b5b351c0bb3e1c6903d0bf6" upstream="firefly"/>
   <project name="external/rkwifibt" revision="78bcfe8af6037450c591bb0fe669343bc0da019c" upstream="firefly"/>
