@@ -69,7 +69,7 @@
   <project name="external/tensorflow" revision="e1877bb157a775d76ec8c0b68467aef6d053bbb2" upstream="firefly"/>
   <project name="external/uac_app" revision="98521baa8d82b29629c5ff8fd22ea580feb54163" upstream="firefly"/>
   <project name="external/update_engine" revision="ef212877ada6fe629f52485113b35a81ab31009b" upstream="firefly"/>
-  <project name="external/uvc_app" revision="be5cad1fb39d86de17b5dcd364161e48d347770e" upstream="firefly"/>
+  <project name="external/uvc_app" revision="be5cad1fb39d86de17b5dcd364161e48d347770e" upstream="rk356x/firefly"/>
   <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="firefly"/>
   <project name="external/gstreamer-rockchip" revision="40a0c87665c7afcd79b6eb0493ad5c6fc2e9e2f3" upstream="firefly"/>
   <project name="docs-soc_internal" path="docs/.Socs" revision="6a8cf02c08730961ae7fae63990828cfd79c6bbb" upstream="firefly">
