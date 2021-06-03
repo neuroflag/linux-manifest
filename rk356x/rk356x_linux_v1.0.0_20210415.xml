@@ -97,7 +97,7 @@
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
-  <project name="rkbin" revision="a06c05103e4f67b4f1d22dfe4ecc6f938c0a7dc5" upstream="firefly"/>
+  <project name="rkbin" revision="ddfa32c43f1beb4261d8a1f81aee85538afcf659" upstream="firefly"/>
   <project name="external/rknn-toolkit2" revision="a4d32231444c465e3ec5b2e0c149475a8e1f54aa" upstream="firefly"/>
   <project name="external/rknpu2" revision="4c56a473d96e042950a9625b7986cd376c8dce40" upstream="firefly"/>
   <project name="external/rockface" revision="c15e36566c5bf07e1f8449e9087d73533b4ff420" upstream="firefly"/>
