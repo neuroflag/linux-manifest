@@ -7,7 +7,7 @@
   <project name="external/RKNPUTools" revision="b8c0e77c1a5c8e886c3ebf3483557e8755485e6e" upstream="firefly"/>
   <project name="external/libdrm" revision="6b4258541a585426b128a365be89c11a1c363e02" upstream="firefly"/>
   <project name="external/security/rk_tee_user" revision="d4503c4e95c8b38dec5063c83aa53ad91c1b8159" upstream="firefly"/>
-  <project name="u-boot" revision="09bf6c89bb3c07008d66d7b581e4ecf61d1e465c" upstream="rk356x/firefly"/>
+  <project name="u-boot" revision="46559b16d4d30bcf6d3ecc5fb05ca32936ef5470" upstream="rk356x/firefly"/>
   <project name="app/CameraFactoryTestServer" revision="4bf562db7718264772ed9c52e1afc54ccebc8356" upstream="firefly"/>
   <project name="app/libIPCProtocol" revision="6fe4cb96c761253f4002db1f3be71b24dc946cd2" upstream="rk356x/firefly"/>
   <project name="app/QFacialGate" revision="87f2c3643b41ed70e9551e0039edc8369dbe626a" upstream="firefly"/>
@@ -82,7 +82,7 @@
   <project name="external/rkmedia" revision="9770413a08b8672c9fb1ca25ea7b2ca1a374233b" upstream="firefly"/>
   <project name="external/rockit" revision="4e3a18970e1e602a0abca5f43cd541dd142b358d" upstream="firefly"/>
   <project name="external/security/bin" revision="f59085ce658bd69678b68fd4840fb86937678125" upstream="firefly"/>
-  <project name="tools" revision="fd596ba0b4d58b8e257213cdff991e6072a83e98" upstream="firefly">
+  <project name="tools" revision="8d784e950bf1855b0a4d6557184050921730aec3" upstream="firefly">
     <linkfile dest="tools/windows/RKDevTool/RKDevTool_Release/config.cfg" src="windows/RKDevTool/RKDevTool_Release/rk356x-config.cfg"/>
     <linkfile dest="tools/windows/RKDevTool/rockdev/package-file" src="windows/RKDevTool/rockdev/rk356x-package-file"/>
     <linkfile dest="tools/windows/RKDevTool/rockdev/mkupdate.bat" src="windows/RKDevTool/rockdev/rk356x-mkupdate.bat"/>
