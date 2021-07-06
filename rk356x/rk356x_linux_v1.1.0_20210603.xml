@@ -30,7 +30,7 @@
   <project name="app/ipcweb-backend" revision="1885a61babe060c16a84c172712146d4206361df" upstream="rk356x/firefly"/>
   <project name="app/ipcweb-ng" revision="ca9ad4f24bb46568dbbb80ac216a6e2b5f872d23" upstream="rk356x/firefly"/>
   <project name="buildroot-dl" path="buildroot/dl" revision="af79460718d20839ce5a290ff8681ca38da0939d" upstream="firefly"/>
-  <project name="device/rockchip" revision="db64620e4ce9913a8768138db2eb67991e387bdd" upstream="firefly">
+  <project name="device/rockchip" revision="47639592c2e24b2e11f1fb36ba34dae7dbac65c9" upstream="firefly">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -60,7 +60,7 @@
   <project name="external/rkfacial" revision="8db5eef2fdccd941650e3afb11b751bd657a466d" upstream="firefly"/>
   <project name="external/rknn_demo" revision="d24d15b855ee5b0521ee33bd13a1f1bcf597b7dc" upstream="firefly"/>
   <project name="external/rknpu" revision="084858d4d3033024326991cf8ead432eca38626d" upstream="firefly"/>
-  <project name="external/rkscript" revision="4f5d8e3fdab85a9d9eac6a1c207a4bf5410aaf92" upstream="firefly"/>
+  <project name="external/rkscript" revision="2acf55a4ad10b40352bcd6ca0b487f1083de08f9" upstream="firefly"/>
   <project name="external/rktoolkit" revision="77fb41f99185a6f9dc2c9c69e099f417d8ae905d" upstream="firefly"/>
   <project name="external/rkupdate" revision="1e014c0295f960a23b5b351c0bb3e1c6903d0bf6" upstream="firefly"/>
   <project name="external/rkwifibt" revision="78bcfe8af6037450c591bb0fe669343bc0da019c" upstream="firefly"/>
@@ -77,7 +77,7 @@
   </project>
   <project name="external/libmali" revision="7ec26b1c71c25b32a05d375f72d344e9c83eb668" upstream="firefly"/>
   <project name="external/linux-rga" revision="e332789e1ea262dab13d53b87a1d06aafff6d0fd" upstream="rk356x/firefly"/>
-  <project name="external/recovery" revision="eef58427e8fda404256b3c5ff802418a918c1ecc" upstream="firefly"/>
+  <project name="external/recovery" revision="3250c46087736de000608b0e2af1f3cc0389b75f" upstream="firefly"/>
   <project name="debian" revision="c6ddfea429abd1fab6577c02b2da93058bfd198b" upstream="firefly"/>
   <project name="external/rkmedia" revision="9770413a08b8672c9fb1ca25ea7b2ca1a374233b" upstream="firefly"/>
   <project name="external/rockit" revision="4e3a18970e1e602a0abca5f43cd541dd142b358d" upstream="firefly"/>
@@ -97,7 +97,7 @@
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
-  <project name="rkbin" revision="e0604ea99accb01b91d8434ab753a8ecb3d8bffb" upstream="firefly"/>
+  <project name="rkbin" revision="bab441b07f84202daaf73bacc68b19febb4bb701" upstream="firefly"/>
   <project name="external/rknn-toolkit2" revision="a4d32231444c465e3ec5b2e0c149475a8e1f54aa" upstream="firefly"/>
   <project name="external/rknpu2" revision="4c56a473d96e042950a9625b7986cd376c8dce40" upstream="firefly"/>
   <project name="external/rockface" revision="c15e36566c5bf07e1f8449e9087d73533b4ff420" upstream="firefly"/>
