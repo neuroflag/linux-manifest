@@ -12,26 +12,26 @@
   <project name="app/dbserver" revision="367c39895af86f4a2d5d3d0e46fcbd8c0991196a"/>
   <project name="app/eptz_demo" revision="eefc46ba96e15e52d191b0db310cfb16ecfd7f40"/>
   <project name="app/ipc-daemon" revision="30b8dc6f23c4623324bcd051659ef8b45018a8c2"/>
-  <project name="app/ipcweb-backend" revision="66f89f16946a9420f5f4a45495b35b2343ff0615"/>
-  <project name="app/ipcweb-ng" revision="1872d9743e31866b5ab51281fdbbf98a6a5ecac3"/>
-  <project name="app/libIPCProtocol" revision="d6de9ce40264f11a4a8b32f7d9d2b4a9a590f7cc"/>
+  <project name="app/ipcweb-backend" revision="1885a61babe060c16a84c172712146d4206361df" upstream="rk356x/firefly"/>
+  <project name="app/ipcweb-ng" revision="ca9ad4f24bb46568dbbb80ac216a6e2b5f872d23" upstream="rk356x/firefly"/>
+  <project name="app/libIPCProtocol" revision="6fe4cb96c761253f4002db1f3be71b24dc946cd2" upstream="rk356x/firefly"/>
   <project name="app/libgdbus" revision="79370be32dde657abf1128c90c72b93e75d814ed"/>
   <project name="app/librkdb" revision="72fd398899e791dcf0a02b484a9be404063ed94e"/>
-  <project name="app/mediaserver" revision="cc72b0b8eabddae7d6f66ac29d7b7a4b1419bb4b"/>
+  <project name="app/mediaserver" revision="3640ee4984aefc07dd71693b15dad0d4443abb1a" upstream="rk356x/firefly"/>
   <project name="app/multivideoplayer" revision="5d566e0b2ab416c251b54d59d6237e7164c7e270"/>
   <project name="app/netserver" revision="2c696348c2e4dd2eb278efd38370255e752eb4d7"/>
   <project name="app/qcamera" revision="d37ad02e4dea9288944260fc1e8bda20f9bd13c0"/>
-  <project name="app/qfm" revision="09e28d7e63b7194616a6aac8e7a559f9daf374d8"/>
+  <project name="app/qfm" revision="7e94be4d1ce41e395909da8b963ad46c65ca285f" upstream="rk356x/firefly"/>
   <project name="app/qplayer" revision="0121646c9fe2335eef9a963071d07b797a17487e"/>
   <project name="app/qsetting" revision="20862b44029127524d9336ddd7664207fb500e74"/>
   <project name="app/storage_manager" revision="69c472191357d99748e7e2a7a4747aec6e82b479"/>
-  <project name="buildroot" revision="f27a1e9e426077f0443833996a517ca67c528a08">
+  <project name="buildroot" revision="0bc086402f2ffdd439d5ad5e04357d64cc80997c">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
   <project name="buildroot-dl" path="buildroot/dl" revision="af79460718d20839ce5a290ff8681ca38da0939d"/>
   <project name="debian" revision="c6ddfea429abd1fab6577c02b2da93058bfd198b"/>
-  <project name="device/rockchip" revision="4d032cbd1cf7c5bacc6d6971c505c6dc82eff3ec">
+  <project name="device/rockchip" revision="47639592c2e24b2e11f1fb36ba34dae7dbac65c9">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -66,7 +66,7 @@
   <project name="external/minilogger" revision="5f0fa4698d5305d8653c2352bfcf1d9aa57064a4"/>
   <project name="external/mpp" revision="ae49194de12cc73ce43d0928d2f3c8edfd35f80b" upstream="rk356x/firefly"/>
   <project name="external/pcba_adb_test" revision="0a1ca61f27007e8374d21f3af167ee5e02923f19"/>
-  <project name="external/recovery" revision="420d09678aad0ff1ad00f7b6a857ebae75632888"/>
+  <project name="external/recovery" revision="3250c46087736de000608b0e2af1f3cc0389b75f"/>
   <project name="external/rk_pcba_test" revision="36e07775f017df15a8f20e62f52cb59e1ed3ae10"/>
   <project name="external/rkfacial" revision="8db5eef2fdccd941650e3afb11b751bd657a466d"/>
   <project name="external/rkmedia" revision="9770413a08b8672c9fb1ca25ea7b2ca1a374233b"/>
@@ -74,7 +74,7 @@
   <project name="external/rknn_demo" revision="d24d15b855ee5b0521ee33bd13a1f1bcf597b7dc"/>
   <project name="external/rknpu" revision="084858d4d3033024326991cf8ead432eca38626d"/>
   <project name="external/rknpu2" revision="4c56a473d96e042950a9625b7986cd376c8dce40"/>
-  <project name="external/rkscript" revision="4f5d8e3fdab85a9d9eac6a1c207a4bf5410aaf92"/>
+  <project name="external/rkscript" revision="2acf55a4ad10b40352bcd6ca0b487f1083de08f9"/>
   <project name="external/rktoolkit" revision="77fb41f99185a6f9dc2c9c69e099f417d8ae905d"/>
   <project name="external/rkupdate" revision="1e014c0295f960a23b5b351c0bb3e1c6903d0bf6"/>
   <project name="external/rkwifibt" revision="78bcfe8af6037450c591bb0fe669343bc0da019c"/>
@@ -90,10 +90,10 @@
   <project name="external/update_engine" revision="ef212877ada6fe629f52485113b35a81ab31009b"/>
   <project name="external/uvc_app" revision="be5cad1fb39d86de17b5dcd364161e48d347770e" upstream="rk356x/firefly"/>
   <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7"/>
-  <project name="kernel" revision="50f0eb051829cb392570521d5f2fd725296a795f" upstream="rk356x/firefly"/>
+  <project name="kernel" revision="9a219562caea680df61263b0d3b071c5d6ba4198" upstream="rk356x/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu" revision="2edfa6dde1f73c5b3c6de980e3450443e35c0a0f"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b"/>
-  <project name="rkbin" revision="2679a99c7e553a26f13e75f894f780444dad5d9c"/>
+  <project name="rkbin" revision="bab441b07f84202daaf73bacc68b19febb4bb701"/>
   <project name="tools" revision="fd596ba0b4d58b8e257213cdff991e6072a83e98">
     <linkfile dest="tools/windows/RKDevTool/RKDevTool_Release/config.cfg" src="windows/RKDevTool/RKDevTool_Release/rk356x-config.cfg"/>
     <linkfile dest="tools/windows/RKDevTool/rockdev/package-file" src="windows/RKDevTool/rockdev/rk356x-package-file"/>
@@ -101,7 +101,7 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk356x-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk356x-package-file"/>
   </project>
-  <project name="u-boot" revision="b23300928ec02dc3033f9adc5331adbd6005f4c1" upstream="rk356x/firefly"/>
+  <project name="u-boot" revision="09bf6c89bb3c07008d66d7b581e4ecf61d1e465c" upstream="rk356x/firefly"/>
   <project name="yocto/build/conf" revision="2cb4aba5babee1211bf26dde9b15b057d6772602"/>
   <project name="yocto/meta-browser" revision="423633196c7e4b68e1fd1338a2a21a429e76733e"/>
   <project name="yocto/meta-clang" revision="1243bfc88308d58503e9c64435ede99a335218a5"/>
