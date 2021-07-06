@@ -94,14 +94,14 @@
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu" revision="2edfa6dde1f73c5b3c6de980e3450443e35c0a0f"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b"/>
   <project name="rkbin" revision="bab441b07f84202daaf73bacc68b19febb4bb701"/>
-  <project name="tools" revision="fd596ba0b4d58b8e257213cdff991e6072a83e98">
+  <project name="tools" revision="8d784e950bf1855b0a4d6557184050921730aec3">
     <linkfile dest="tools/windows/RKDevTool/RKDevTool_Release/config.cfg" src="windows/RKDevTool/RKDevTool_Release/rk356x-config.cfg"/>
     <linkfile dest="tools/windows/RKDevTool/rockdev/package-file" src="windows/RKDevTool/rockdev/rk356x-package-file"/>
     <linkfile dest="tools/windows/RKDevTool/rockdev/mkupdate.bat" src="windows/RKDevTool/rockdev/rk356x-mkupdate.bat"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk356x-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk356x-package-file"/>
   </project>
-  <project name="u-boot" revision="09bf6c89bb3c07008d66d7b581e4ecf61d1e465c" upstream="rk356x/firefly"/>
+  <project name="u-boot" revision="46559b16d4d30bcf6d3ecc5fb05ca32936ef5470" upstream="rk356x/firefly"/>
   <project name="yocto/build/conf" revision="2cb4aba5babee1211bf26dde9b15b057d6772602"/>
   <project name="yocto/meta-browser" revision="423633196c7e4b68e1fd1338a2a21a429e76733e"/>
   <project name="yocto/meta-clang" revision="1243bfc88308d58503e9c64435ede99a335218a5"/>
