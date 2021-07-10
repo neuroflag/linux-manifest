@@ -12,7 +12,7 @@
   <project name="app/qfm" revision="cb38ba939c7ebdb1d205b68290754a115269c7e4" upstream="firefly"/>
   <project name="app/qplayer" revision="6b658230a246ccebb425fdfcd368b11457d4635b" upstream="firefly"/>
   <project name="app/qsetting" revision="38ad29efe3f415a4f3b03d1857eb322ce00c8add" upstream="firefly"/>
-  <project name="buildroot" revision="0cbda7511bcae66ac6ab6655b935fa193695e59c" upstream="firefly">
+  <project name="buildroot" revision="9286b22cf62e40a9fd863d64807cfb3047cb274a" upstream="firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
@@ -62,7 +62,6 @@
   <project name="external/rknn-toolkit" revision="0cc2944c99eae1e58f0657b65057d565e414f073" upstream="firefly"/>
   <project name="external/rknn_demo" revision="452b17d01b9e1d4f7b38f09e7fbca278d148a1f8" upstream="firefly"/>
   <project name="external/rknpu" revision="b010399b7595945381ddd63853ecf1218a130427" upstream="firefly"/>
-  <project name="external/rknpu-fw" revision="fbd0e5c55fa4da4796ceb5f33dd425d3903428e2" upstream="firefly"/>
   <project name="external/rkscript" revision="a29c42d6a18bd2aed0f3d15d642075050d5a48a5" upstream="firefly"/>
   <project name="external/rkssd" revision="1c50d336e770a8ce09ae33b3e09d2783d5b4c2d9" upstream="firefly"/>
   <project name="external/rktoolkit" revision="53050bf38775c7d22f967d2bbeb48451809f9de1" upstream="firefly"/>
@@ -79,7 +78,6 @@
   <project name="external/uvc_app" revision="7905a9f812f3c6b14fabff0f5c04dfbfab298fed" upstream="firefly"/>
   <project name="external/wakeWordAgent" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6" upstream="firefly"/>
   <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="firefly"/>
-  <project name="external/minilogger" revision="5f0fa4698d5305d8653c2352bfcf1d9aa57064a4" upstream="firefly"/>
   <project name="kernel" revision="7f224e911d16a3a160fc57840621e88ba22d249e" upstream="rk3399pro/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="firefly"/>
   <project name="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="firefly"/>
