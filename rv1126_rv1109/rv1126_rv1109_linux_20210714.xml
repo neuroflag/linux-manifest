@@ -14,8 +14,8 @@
   <project name="app/firefly_rkmedia_demo" revision="c7bcc096316ce3c00e1625a6f30446ac77d07b5f" upstream="firefly"/>
   <project name="app/firefly_rkmedia_uvc" revision="57b929e41faffea601023b95439f7fc52c0dedec" upstream="firefly"/>
   <project name="app/ipc-daemon" revision="30b8dc6f23c4623324bcd051659ef8b45018a8c2" upstream="firefly"/>
-  <project name="app/ipcweb-backend" revision="ea675f9f35bbe40abaefb9d7af25f35f971ad679" upstream="firefly"/>
-  <project name="app/ipcweb-ng" revision="41fccc6f6a685c9a14c29b59ac1571fadbd63589" upstream="firefly"/>
+  <project name="app/ipcweb-backend" revision="2be9d679f372ed384b873474a18b32eaa3434786" upstream="firefly"/>
+  <project name="app/ipcweb-ng" revision="b8ccc4cc55ebc19d88bd14d0a0b429e71a29466c" upstream="firefly"/>
   <project name="app/libIPCProtocol" revision="5dba1dae2bb2c7a9e1fd2c9e1500219e8c2e3321" upstream="firefly"/>
   <project name="app/libgdbus" revision="79370be32dde657abf1128c90c72b93e75d814ed" upstream="firefly"/>
   <project name="app/librkdb" revision="72fd398899e791dcf0a02b484a9be404063ed94e" upstream="firefly"/>
@@ -31,7 +31,7 @@
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
   <project name="buildroot-dl" path="buildroot/dl" revision="af79460718d20839ce5a290ff8681ca38da0939d" upstream="firefly"/>
-  <project name="device/rockchip" revision="ce45cf0d8a4a553fb90e6b641a06e6c229d0fb65" upstream="firefly">
+  <project name="device/rockchip" revision="347cbd5413df063b594d59534db53b9970c0cc34" upstream="firefly">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
