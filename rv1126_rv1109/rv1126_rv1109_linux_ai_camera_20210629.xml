@@ -60,7 +60,7 @@
   <project name="external/recovery" revision="a98f4928843185106ce8ecc634d4cf28b18d8889" upstream="firefly"/>
   <project name="external/rk_pcba_test" revision="b2b303139665d4e256adda2b64211edd53dd45e4" upstream="firefly"/>
   <project name="external/rkfacial" revision="aa169de251350ff75efeeb8a54e04ed706ffbd01" upstream="firefly"/>
-  <project name="external/rkmedia" revision="205c5df3eefd60a5f1c1609a5eacc83baf362fc5" upstream="firefly"/>
+  <project name="external/rkmedia" revision="b81d4591d26db3f85bfb7afe4a9e0c21a9f6a5f7" upstream="rv1126_rv1109_ai/firefly"/>
   <project name="external/rknn-toolkit" revision="0cc2944c99eae1e58f0657b65057d565e414f073" upstream="firefly"/>
   <project name="external/rknpu" revision="da5f5acb5373035369f85ac5aa7c79e226a6e48b" upstream="firefly"/>
   <project name="external/rkscript" revision="02965c32ec67ba7905f8a761da990b4dbe67a837" upstream="firefly"/>
