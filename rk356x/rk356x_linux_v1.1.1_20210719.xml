@@ -24,10 +24,11 @@
   <project name="app/qplayer" revision="0121646c9fe2335eef9a963071d07b797a17487e"/>
   <project name="app/qsetting" revision="20862b44029127524d9336ddd7664207fb500e74"/>
   <project name="app/storage_manager" revision="69c472191357d99748e7e2a7a4747aec6e82b479"/>
-  <project name="buildroot" revision="38d86c500cbce7ce4adc7e9addffb5f162cdbd57" upstream="rk356x/firefly">
+  <project name="buildroot" revision="71646833ace9bdcb4687aad06e1f694fa4364411" upstream="rk356x/firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
+  <project name="buildroot-dl" path="buildroot/dl" revision="af79460718d20839ce5a290ff8681ca38da0939d" upstream="firefly"/>
   <project name="debian" revision="f3cde69f0889f4bd2e406a0e6bf2d0b3ee9d364f" upstream="rk356x/firefly"/>
   <project name="device/rockchip" revision="0c236070ce42b709766a4f33e4f7d535de475650">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
@@ -63,7 +64,7 @@
   <project name="external/minilogger" revision="5f0fa4698d5305d8653c2352bfcf1d9aa57064a4"/>
   <project name="external/mpp" revision="ad3d2bb69680b423ae52888bc8fc94ed073af099" upstream="rk356x/firefly"/>
   <project name="external/pcba_adb_test" revision="0a1ca61f27007e8374d21f3af167ee5e02923f19"/>
-  <project name="external/recovery" revision="7e50dfbeaf712f9f29cd92805d420bfe45c94cd6"/>
+  <project name="external/recovery" revision="be3f8117faa7561bf46428887aab969b0bf9ff87"/>
   <project name="external/rk_pcba_test" revision="36e07775f017df15a8f20e62f52cb59e1ed3ae10"/>
   <project name="external/rkfacial" revision="8db5eef2fdccd941650e3afb11b751bd657a466d"/>
   <project name="external/rknn-toolkit2" revision="44b64209e8fd37daa2184667c58c90f6e31b6b54"/>
@@ -86,7 +87,7 @@
   <project name="external/update_engine" revision="ef212877ada6fe629f52485113b35a81ab31009b"/>
   <project name="external/uvc_app" revision="be5cad1fb39d86de17b5dcd364161e48d347770e"/>
   <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7"/>
-  <project name="kernel" revision="0c252c08c39b2a1d7a277ef56cadb7edef64435d" upstream="rk356x/firefly"/>
+  <project name="kernel" revision="100dee338ce6cb126740aaba2db88ce3295da8cd" upstream="rk356x/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu" revision="2edfa6dde1f73c5b3c6de980e3450443e35c0a0f"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b"/>
   <project name="rkbin" revision="233de138691326912896996168502f6e64fa7afc"/>
