@@ -12,7 +12,7 @@
   <project name="app/qfm" revision="cb38ba939c7ebdb1d205b68290754a115269c7e4" upstream="firefly"/>
   <project name="app/qplayer" revision="6b658230a246ccebb425fdfcd368b11457d4635b" upstream="firefly"/>
   <project name="app/qsetting" revision="38ad29efe3f415a4f3b03d1857eb322ce00c8add" upstream="firefly"/>
-  <project name="buildroot" revision="0cbda7511bcae66ac6ab6655b935fa193695e59c" upstream="firefly">
+  <project name="buildroot" revision="9d1ec4bd77cf358e1233801667f933b0586753cc" upstream="firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
@@ -66,7 +66,7 @@
   <project name="external/rkssd" revision="1c50d336e770a8ce09ae33b3e09d2783d5b4c2d9" upstream="firefly"/>
   <project name="external/rktoolkit" revision="53050bf38775c7d22f967d2bbeb48451809f9de1" upstream="firefly"/>
   <project name="external/rkupdate" revision="0dec35553eb629783b0896bce0198dd122c9dc40" upstream="firefly"/>
-  <project name="external/rkwifibt" revision="4248fbb5c55cfe01fc7e3e661d006d1068e9d1e7" upstream="firefly"/>
+  <project name="external/rkwifibt" revision="75ed62d7229ac356df52791980bc6ac40ab4b397" upstream="firefly"/>
   <project name="external/rockx" revision="23183fea4ea0db3937e894c928943bf72b178ddf" upstream="firefly"/>
   <project name="external/rtc_demo" revision="01ea9377beae66a544191ff5dbd920f19ba4614c" upstream="firefly"/>
   <project name="external/security/bin" revision="f59085ce658bd69678b68fd4840fb86937678125" upstream="firefly"/>
