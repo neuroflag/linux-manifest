@@ -31,7 +31,7 @@
   </project>
   <project name="buildroot-dl" path="buildroot/dl" revision="af79460718d20839ce5a290ff8681ca38da0939d" upstream="firefly"/>
   <project name="debian" revision="f3cde69f0889f4bd2e406a0e6bf2d0b3ee9d364f" upstream="rk356x/firefly"/>
-  <project name="device/rockchip" revision="5067465832d5d183777051aedcefab63e8a44449">
+  <project name="device/rockchip" revision="a7fb2e50dc1fd4983ccb27553f3ad8a68dddaf01">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -52,7 +52,7 @@
   <project name="external/broadcom_bsa" revision="46234ce7a904794754bba79cb7c9f26d39605311" upstream="rk356x/firefly"/>
   <project name="external/camera_engine_rkaiq" revision="e3528a287b44c363682f5f7f7e05600f3e79b90b" upstream="rk356x/firefly"/>
   <project name="external/chromium" revision="bba90aee6a986fca85e8cf79c2917ebf5a2b6e17"/>
-  <project name="external/common_algorithm" revision="f56023f25c823fdaf4cf849f66c68ff664d27f83"/>
+  <project name="external/common_algorithm" revision="d16dec658614b7468275ed049b29a9e3d6e9fafe" upstream="rk356x/firefly"/>
   <project name="external/deviceio_release" revision="4ba88e8ac3eebb6c3b3933e85898ebebd48b2a13"/>
   <project name="external/eq_drc_process" revision="6fe472aa76ed71922742863c8f94222dab3dbf3c"/>
   <project name="external/gstreamer-rockchip" revision="0147412c8a1ff085eded3afce8d6d2a10bb7da45"/>
@@ -88,18 +88,18 @@
   <project name="external/update_engine" revision="ef212877ada6fe629f52485113b35a81ab31009b"/>
   <project name="external/uvc_app" revision="3288aa612391323e53fd0acecd63513e17af5b9b" upstream="rk356x/firefly"/>
   <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7"/>
-  <project name="kernel" revision="0e4a8d05816be736f9fb3d90505db05b0a2d50a8" upstream="rk356x/firefly"/>
+  <project name="kernel" revision="7b7675c3816896a3aae44d319c1c9d1000b0c828" upstream="rk356x/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu" revision="2edfa6dde1f73c5b3c6de980e3450443e35c0a0f"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b"/>
-  <project name="rkbin" revision="75a014fa8d7f46c14f2a77e84a73c418aa5e20c3"/>
-  <project name="tools" revision="e499c8a6b80b19706b6ab4022b1eed155f8606d9">
+  <project name="rkbin" revision="6e730e28bb408d1c313a27a7f7d80d18633790f4"/>
+  <project name="tools" revision="a5e807b278cf4151e3b17b68f804e6d697160c75">
     <linkfile dest="tools/windows/RKDevTool/RKDevTool_Release/config.cfg" src="windows/RKDevTool/RKDevTool_Release/rk356x-config.cfg"/>
     <linkfile dest="tools/windows/RKDevTool/rockdev/package-file" src="windows/RKDevTool/rockdev/rk356x-package-file"/>
     <linkfile dest="tools/windows/RKDevTool/rockdev/mkupdate.bat" src="windows/RKDevTool/rockdev/rk356x-mkupdate.bat"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk356x-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk356x-package-file"/>
   </project>
-  <project name="u-boot" revision="9282b1c51159c52cc7997386a08286d263ca326c" upstream="rk356x/firefly"/>
+  <project name="u-boot" revision="1f7d2c1f6bd75028c9a95de89426ad7e0eeb2394" upstream="rk356x/firefly"/>
   <project name="yocto/build/conf" revision="8609d6a9cd0d947b69ec8b39d1a38f339d611636"/>
   <project name="yocto/meta-browser" revision="423633196c7e4b68e1fd1338a2a21a429e76733e"/>
   <project name="yocto/meta-clang" revision="1243bfc88308d58503e9c64435ede99a335218a5"/>
