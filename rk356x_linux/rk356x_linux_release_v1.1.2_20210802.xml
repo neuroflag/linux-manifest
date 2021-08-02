@@ -31,7 +31,7 @@
   </project>
   <project name="buildroot-dl" path="buildroot/dl" revision="af79460718d20839ce5a290ff8681ca38da0939d" upstream="firefly"/>
   <project name="debian" revision="f3cde69f0889f4bd2e406a0e6bf2d0b3ee9d364f" upstream="rk356x/firefly"/>
-  <project name="device/rockchip" revision="a7fb2e50dc1fd4983ccb27553f3ad8a68dddaf01">
+  <project name="device/rockchip" revision="b6a64615bc83e1afb192366875f70bc8bfd4f7a0">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
