@@ -115,4 +115,5 @@
     <linkfile dest="yocto/.templateconf" src=".templateconf"/>
     <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
   </project>
+  <project name="openwrt_sdk/openwrt" revision="2231d2ddb9f1d79915b70d8cd8ce3c0f7f044238" upstream="firefly"/>
 </manifest>
