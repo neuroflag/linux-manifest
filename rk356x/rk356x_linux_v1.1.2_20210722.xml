@@ -31,7 +31,7 @@
   </project>
   <project name="buildroot-dl" path="buildroot/dl" revision="af79460718d20839ce5a290ff8681ca38da0939d" upstream="firefly"/>
   <project name="debian" revision="f3cde69f0889f4bd2e406a0e6bf2d0b3ee9d364f" upstream="rk356x/firefly"/>
-  <project name="device/rockchip" revision="aab1611ca4d4b7fba002b4f549b6ba91af363aa2">
+  <project name="device/rockchip" revision="46403538b2f83de77c1c7dbacb26bf77adf10bd7">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -115,6 +115,6 @@
     <linkfile dest="yocto/.templateconf" src=".templateconf"/>
     <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
   </project>
-  <project name="openwrt_sdk/openwrt" revision="2231d2ddb9f1d79915b70d8cd8ce3c0f7f044238" upstream="firefly"/>
-  <project name="openwrt_sdk/lede" revision="fefbfe6c9b85c853400381055d254a9677ebcf50" upstream="firefly"/>
+  <project name="openwrt_sdk/openwrt" revision="c169458253fad26164cdbe396e7935a253881901" upstream="firefly"/>
+  <project name="openwrt_sdk/lede" revision="c7b206f4517ea2a953e76452bfe725ac78ee4a1e" upstream="firefly"/>
 </manifest>
