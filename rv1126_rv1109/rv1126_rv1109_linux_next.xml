@@ -26,12 +26,12 @@
   <project name="app/smart_display_service" revision="4dbf0071b20f1f3c95595a5e2a550505da94ed11" upstream="firefly"/>
   <project name="app/storage_manager" revision="d729725c0f6b055e537cfd451ecd8fde202f12b4" upstream="firefly"/>
   <project name="app/video" revision="b81dab76a6ebccba5b43738092bd88e9073acbdb" upstream="firefly"/>
-  <project name="buildroot" revision="9d1ec4bd77cf358e1233801667f933b0586753cc" upstream="firefly">
+  <project name="buildroot" revision="e30c1147cfc1d7e69a968f8b35160f0d66b0cb5f" upstream="rv1126_rv1109/firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
   <project name="buildroot-dl" path="buildroot/dl" revision="af79460718d20839ce5a290ff8681ca38da0939d" upstream="firefly"/>
-  <project name="device/rockchip" revision="347cbd5413df063b594d59534db53b9970c0cc34" upstream="firefly">
+  <project name="device/rockchip" revision="e3880f43e26fe1d90236ee804df5836110affdac" upstream="firefly">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -85,6 +85,7 @@
   <project name="external/uac_app" revision="98521baa8d82b29629c5ff8fd22ea580feb54163" upstream="firefly"/>
   <project name="external/uvc_app" revision="504d8d3a5dc4937039b8445434048ab49de6a136" upstream="rv1126_rv1109/firefly"/>
   <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="firefly"/>
+  <project name="external/xhlpr_app" revision="3ac6a6b4c9decc001d0e03444066d01b2129e25e" upstream="firefly"/>
   <project name="kernel" revision="9f5f669d6cbf757389cafbfb730d44035a75664a" upstream="rv1126_rv1109/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="firefly"/>
   <project name="prebuilts/gcc/linux-x86/arm/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf" revision="27edb819ca803f5da253ccbd4134d6337a7310d1" upstream="firefly"/>
