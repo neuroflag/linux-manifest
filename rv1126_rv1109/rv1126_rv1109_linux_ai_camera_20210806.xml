@@ -22,7 +22,7 @@
   <project name="app/smart_display_service" revision="4dbf0071b20f1f3c95595a5e2a550505da94ed11" upstream="firefly"/>
   <project name="app/storage_manager" revision="d729725c0f6b055e537cfd451ecd8fde202f12b4" upstream="firefly"/>
   <project name="app/video" revision="b81dab76a6ebccba5b43738092bd88e9073acbdb" upstream="firefly"/>
-  <project name="buildroot" revision="383cccdfb767bf250cce2590005fe6930491dd49" upstream="rv1126_rv1109/firefly">
+  <project name="buildroot" revision="e30c1147cfc1d7e69a968f8b35160f0d66b0cb5f" upstream="rv1126_rv1109/firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
