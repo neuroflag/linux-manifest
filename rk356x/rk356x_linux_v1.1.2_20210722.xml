@@ -115,6 +115,6 @@
     <linkfile dest="yocto/.templateconf" src=".templateconf"/>
     <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
   </project>
-  <project name="openwrt_sdk/openwrt" revision="c169458253fad26164cdbe396e7935a253881901" upstream="firefly"/>
-  <project name="openwrt_sdk/lede" revision="c7b206f4517ea2a953e76452bfe725ac78ee4a1e" upstream="firefly"/>
+  <project name="openwrt_sdk/openwrt" revision="b5b70ea48529f79d1719dafeaa74a397acdcfbd3" upstream="firefly"/>
+  <project name="openwrt_sdk/lede" revision="5c40dd088ba76b5022a515a2cc3ff7e4afee89a8" upstream="firefly"/>
 </manifest>
