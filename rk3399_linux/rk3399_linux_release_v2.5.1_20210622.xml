@@ -17,7 +17,7 @@
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
   <project name="buildroot-dl" path="buildroot/dl" revision="35623f25081352ed86e40002c18959418f6fe914" upstream="firefly"/>
-  <project name="device/rockchip" revision="697e54cf6c2e8f730a56f991495f42aec29df9c6" upstream="firefly">
+  <project name="device/rockchip" revision="46403538b2f83de77c1c7dbacb26bf77adf10bd7" upstream="firefly">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -83,7 +83,7 @@
   <project name="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="firefly"/>
   <project name="debian" revision="c40d6bf2e98b53e1d4e3c3421bb990e17d865a73" upstream="firefly"/>
   <project name="rkbin" revision="38cda7df3dc4d7af3bddf3211f01ef027ce8f7cd" upstream="firefly"/>
-  <project name="tools" revision="e499c8a6b80b19706b6ab4022b1eed155f8606d9" upstream="firefly">
+  <project name="tools" revision="ebfd5b1bbfb4e7b3287ccf013f72db64891d1fbf" upstream="firefly">
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3399-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3399-package-file"/>
   </project>
