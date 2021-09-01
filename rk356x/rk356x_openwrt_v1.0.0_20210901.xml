@@ -4,7 +4,7 @@
   
   <default remote="firefly-linux" revision="firefly" sync-j="4"/>
   
-  <project name="device/rockchip" revision="b7b9b75c54fdb027a7c581c5372448f5441f0173">
+  <project name="device/rockchip" revision="afee9b909cbdc70fbdb9f32ff03161a897e9c948">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -22,6 +22,6 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk356x-package-file"/>
   </project>
   <project name="u-boot" revision="de106e24ac7d420806d1d615dcf8ef6b64f9e5fc" upstream="rk356x/firefly"/>
-  <project name="openwrt_sdk/openwrt" revision="b5b70ea48529f79d1719dafeaa74a397acdcfbd3" upstream="firefly"/>
-  <project name="openwrt_sdk/lede" revision="5c40dd088ba76b5022a515a2cc3ff7e4afee89a8" upstream="firefly"/>
+  <project name="openwrt_sdk/openwrt" revision="e53a0972c2a5f2a146554aeabb0511e9f605a407" upstream="firefly"/>
+  <project name="openwrt_sdk/lede" revision="fdd7f7a3256f24c29d5226f6bf6d3fd28b2eeaa8" upstream="firefly"/>
 </manifest>
