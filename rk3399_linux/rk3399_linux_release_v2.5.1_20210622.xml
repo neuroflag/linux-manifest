@@ -97,7 +97,7 @@
   <project dest-branch="warrior" name="yocto/meta-qt5" path="yocto/meta-qt5" revision="9248dc741f4e051d8d8578b7e04681cbae182c69"/>
   <project dest-branch="firefly" name="yocto/meta-rockchip" path="yocto/meta-rockchip" remote="firefly-linux-gitlab" revision="e98dbe001cbd105ebf40b99f386871d14eb1d333"/>
   <project dest-branch="firefly" name="yocto/meta-rust" path="yocto/meta-rust" revision="318fb46863c0df5001f937bb4ca856491a493725"/>
-  <project dest-branch="warrior" name="poky" path="yocto/poky" revision="d588ff814ddb7e14cabe27e28c6ca710f31d1b70">
+  <project dest-branch="warrior" name="yocto/poky" path="yocto/poky" revision="d588ff814ddb7e14cabe27e28c6ca710f31d1b70">
     <linkfile dest="yocto/scripts" src="scripts"/>
     <linkfile dest="yocto/bitbake" src="bitbake"/>
     <linkfile dest="yocto/meta-poky" src="meta-poky"/>
