@@ -9,8 +9,9 @@
   <project name="app/camera" revision="44a961358dcf912504a951e7caf60c7d55ed999a" upstream="firefly"/>
   <project name="app/dbserver" revision="8ec43a70f6b6e20ab6bac793f06aa885362632c5" upstream="firefly"/>
   <project name="app/eptz_demo" revision="eefc46ba96e15e52d191b0db310cfb16ecfd7f40" upstream="firefly"/>
-  <project name="app/firefly_rkmedia_demo" revision="c7bcc096316ce3c00e1625a6f30446ac77d07b5f" upstream="firefly"/>
-  <project name="app/firefly_rkmedia_uvc" revision="57b929e41faffea601023b95439f7fc52c0dedec" upstream="firefly"/>
+  <project name="app/firefly_rkmedia_demo" revision="b8ca0c0958a72d2b10c753aeb953d2a9d93c88a6" upstream="firefly"/>
+  <project name="app/firefly_rkmedia_uvc" revision="976aae2610f9fd8a2a2e69b7ef66a957ed7ba148" upstream="firefly"/>
+  <project name="app/firefly_rockx_demo" revision="66baa9a20d1b466a955313e6c318755ed4c1e9ff" upstream="firefly"/>
   <project name="app/ipc-daemon" revision="4bd21b4799ba85e6ec62ee46efd83ad5a79810a4" upstream="firefly"/>
   <project name="app/ipcweb-backend" revision="66f89f16946a9420f5f4a45495b35b2343ff0615" upstream="firefly"/>
   <project name="app/ipcweb-ng" revision="1872d9743e31866b5ab51281fdbbf98a6a5ecac3" upstream="firefly"/>
@@ -22,12 +23,12 @@
   <project name="app/smart_display_service" revision="4dbf0071b20f1f3c95595a5e2a550505da94ed11" upstream="firefly"/>
   <project name="app/storage_manager" revision="d729725c0f6b055e537cfd451ecd8fde202f12b4" upstream="firefly"/>
   <project name="app/video" revision="b81dab76a6ebccba5b43738092bd88e9073acbdb" upstream="firefly"/>
-  <project name="buildroot" revision="e30c1147cfc1d7e69a968f8b35160f0d66b0cb5f" upstream="rv1126_rv1109/firefly">
+  <project name="buildroot" revision="c54e142782747f86364f7a92c34df4904cb05fd4" upstream="rv1126_rv1109/firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
   <project name="buildroot-dl" path="buildroot/dl" revision="939379c396fd29e48a7a973d1042cb313900d537" upstream="firefly"/>
-  <project name="device/rockchip" revision="ebb9c7e47197e78c4b148e3102a48d356673d183" upstream="firefly">
+  <project name="device/rockchip" revision="4667862d9116f04e5f1ade88bebb402797069c33" upstream="firefly">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -78,7 +79,7 @@
   <project name="external/uac_app" revision="98521baa8d82b29629c5ff8fd22ea580feb54163" upstream="firefly"/>
   <project name="external/uvc_app" revision="0c28e96a4cf52c49dbab053eba7e419176ea3022" upstream="rv1126_rv1109/firefly"/>
   <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="firefly"/>
-  <project name="kernel" revision="a88808be1d65dd4dfe73fea695663c7742582b0c" upstream="rv1126_rv1109_ai/firefly"/>
+  <project name="kernel" revision="80119446d95b604e272b9a762046dcb7aade96f8" upstream="rv1126_rv1109_ai/firefly"/>
   <project name="prebuilts/gcc/linux-x86/arm/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf" revision="27edb819ca803f5da253ccbd4134d6337a7310d1" upstream="firefly"/>
   <project name="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="firefly"/>
   <project name="rkbin" revision="247e853234461cab797530e7765c49638ba1939b" upstream="firefly"/>
