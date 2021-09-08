@@ -80,7 +80,7 @@
   <project name="external/wakeWordAgent" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6" upstream="firefly"/>
   <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="firefly"/>
   <project name="external/minilogger" revision="5f0fa4698d5305d8653c2352bfcf1d9aa57064a4" upstream="firefly"/>
-  <project name="kernel" revision="7f224e911d16a3a160fc57840621e88ba22d249e" upstream="rk3399pro/firefly"/>
+  <project name="kernel" revision="dac808b508096e9fec873cde3c0a11f2f9ff2ccb" upstream="rk3399pro/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="firefly"/>
   <project name="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="firefly"/>
   <project name="debian" revision="c40d6bf2e98b53e1d4e3c3421bb990e17d865a73" upstream="firefly"/>
