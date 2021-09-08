@@ -25,13 +25,13 @@
   <project name="app/qsetting" revision="20862b44029127524d9336ddd7664207fb500e74"/>
   <project name="app/rkaiq_tool_server" revision="d702dc17181c4fe30b82db5a3c456f123c0650c2"/>
   <project name="app/storage_manager" revision="69c472191357d99748e7e2a7a4747aec6e82b479"/>
-  <project name="buildroot" revision="e084131aed21027ada6cf1fa5aef24f71ac306f4" upstream="rk356x/firefly">
+  <project name="buildroot" revision="a2d7c0cf583a5dc74ab461bbc7654b95b183a7fa" upstream="rk356x/firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
   <project name="buildroot-dl" path="buildroot/dl" revision="af79460718d20839ce5a290ff8681ca38da0939d" upstream="firefly"/>
   <project name="debian" revision="f3cde69f0889f4bd2e406a0e6bf2d0b3ee9d364f" upstream="rk356x/firefly"/>
-  <project name="device/rockchip" revision="b7b9b75c54fdb027a7c581c5372448f5441f0173">
+  <project name="device/rockchip" revision="639fb7bdb4ae76bfc47c730ca3e18ecd339f6257">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -65,7 +65,7 @@
   <project name="external/minilogger" revision="5f0fa4698d5305d8653c2352bfcf1d9aa57064a4"/>
   <project name="external/mpp" revision="49f29006a3c728bb3570279b7b5407ec29e09f6d" upstream="rk356x/firefly"/>
   <project name="external/pcba_adb_test" revision="0a1ca61f27007e8374d21f3af167ee5e02923f19"/>
-  <project name="external/recovery" revision="1a9c4671fe294ad5d993daf3b607147cf2262d0c"/>
+  <project name="external/recovery" revision="051fe926e119ac556206c6abe4123e3f3b983d7d"/>
   <project name="external/rk_pcba_test" revision="36e07775f017df15a8f20e62f52cb59e1ed3ae10"/>
   <project name="external/rkfacial" revision="8d37181704e2e3d1ab604e1b81d948808398ba23" upstream="rk356x/firefly"/>
   <project name="external/rknn-toolkit2" revision="44b64209e8fd37daa2184667c58c90f6e31b6b54"/>
@@ -88,7 +88,7 @@
   <project name="external/update_engine" revision="ef212877ada6fe629f52485113b35a81ab31009b"/>
   <project name="external/uvc_app" revision="3288aa612391323e53fd0acecd63513e17af5b9b" upstream="rk356x/firefly"/>
   <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7"/>
-  <project name="kernel" revision="f7503c8ae3000856d5e7036f6866db21e3927a93" upstream="rk356x/firefly"/>
+  <project name="kernel" revision="bb49bf8e838bad69c71b06ec25ce61c2c9d2b622" upstream="rk356x/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu" revision="2edfa6dde1f73c5b3c6de980e3450443e35c0a0f"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b"/>
   <project name="rkbin" revision="3eaac1e79c71f2db9a099ea52dc8bd0ea20ad712"/>
@@ -99,7 +99,7 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk356x-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk356x-package-file"/>
   </project>
-  <project name="u-boot" revision="de106e24ac7d420806d1d615dcf8ef6b64f9e5fc" upstream="rk356x/firefly"/>
+  <project name="u-boot" revision="912f242c306af4522d4a423bbf4c7bbce9cec53a" upstream="rk356x/firefly"/>
   <project name="yocto/build/conf" revision="8609d6a9cd0d947b69ec8b39d1a38f339d611636"/>
   <project name="yocto/meta-browser" revision="423633196c7e4b68e1fd1338a2a21a429e76733e"/>
   <project name="yocto/meta-clang" revision="1243bfc88308d58503e9c64435ede99a335218a5"/>
@@ -115,6 +115,4 @@
     <linkfile dest="yocto/.templateconf" src=".templateconf"/>
     <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
   </project>
-  <project name="openwrt_sdk/openwrt" revision="b5b70ea48529f79d1719dafeaa74a397acdcfbd3" upstream="firefly"/>
-  <project name="openwrt_sdk/lede" revision="5c40dd088ba76b5022a515a2cc3ff7e4afee89a8" upstream="firefly"/>
 </manifest>
