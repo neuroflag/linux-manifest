@@ -4,13 +4,13 @@
   
   <default remote="firefly-linux" revision="firefly" sync-j="4"/>
   
-  <project name="device/rockchip" revision="fd5ac71edfcfd1bd0b429ea8f6f1ae9bc19a428a">
+  <project name="device/rockchip" revision="1167a98a4802d49972711ff5f92068095eefc453">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
     <linkfile dest="device/rockchip/.target_product" src="rk356x"/>
   </project>
-  <project name="kernel" revision="f7503c8ae3000856d5e7036f6866db21e3927a93" upstream="rk356x/firefly"/>
+  <project name="kernel" revision="bb49bf8e838bad69c71b06ec25ce61c2c9d2b622" upstream="rk356x/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu" revision="2edfa6dde1f73c5b3c6de980e3450443e35c0a0f"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b"/>
   <project name="rkbin" revision="3eaac1e79c71f2db9a099ea52dc8bd0ea20ad712"/>
@@ -21,8 +21,8 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk356x-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk356x-package-file"/>
   </project>
-  <project name="u-boot" revision="de106e24ac7d420806d1d615dcf8ef6b64f9e5fc" upstream="rk356x/firefly"/>
-  <project name="openwrt_sdk/openwrt" revision="b3aaa41954d61a310c3285d4c64e56297a1bf515" upstream="firefly"/>
-  <project name="openwrt_sdk/lede" revision="7a88efac1a4bf290b5b4c595ca8c2d1dd6c9f690" upstream="firefly"/>
-  <project name="openwrt_sdk/external" revision="b9559a1b225a8714f722c09b46811fff5476d4b6" upstream="firefly"/>
+  <project name="u-boot" revision="912f242c306af4522d4a423bbf4c7bbce9cec53a" upstream="rk356x/firefly"/>
+  <project name="openwrt_sdk/openwrt" revision="ec507227f73faf65d867e6778c6ed0a2100fec94" upstream="firefly"/>
+  <project name="openwrt_sdk/lede" revision="205d366e23670a236b9f84cbddd1fda8a6f1cabf" upstream="firefly"/>
+  <project name="openwrt_sdk/external" revision="ae9ccfc26e1a2aa9a3d3e4631a355cd98a4d8c73" upstream="firefly"/>
 </manifest>
