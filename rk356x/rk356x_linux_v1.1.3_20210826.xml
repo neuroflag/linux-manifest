@@ -31,7 +31,7 @@
   </project>
   <project name="buildroot-dl" path="buildroot/dl" revision="af79460718d20839ce5a290ff8681ca38da0939d" upstream="firefly"/>
   <project name="debian" revision="f3cde69f0889f4bd2e406a0e6bf2d0b3ee9d364f" upstream="rk356x/firefly"/>
-  <project name="device/rockchip" revision="639fb7bdb4ae76bfc47c730ca3e18ecd339f6257">
+  <project name="device/rockchip" revision="49dd0345bdb45bc29b3634525a064dfa01ce7d95">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -72,7 +72,7 @@
   <project name="external/rknn_demo" revision="d24d15b855ee5b0521ee33bd13a1f1bcf597b7dc"/>
   <project name="external/rknpu" revision="0f1ccf08967da89352edd792f2d42f9c5080a3d0"/>
   <project name="external/rknpu2" revision="1346f9660029469373da634aa7a1b4dc8a4ce70c"/>
-  <project name="external/rkscript" revision="f21127e7a6b2c4cf105c4ee096f30ed4beb36307"/>
+  <project name="external/rkscript" revision="6e670d977db61b7eb769639ddd1e7a9288ed029c"/>
   <project name="external/rktoolkit" revision="77fb41f99185a6f9dc2c9c69e099f417d8ae905d"/>
   <project name="external/rkupdate" revision="1e014c0295f960a23b5b351c0bb3e1c6903d0bf6"/>
   <project name="external/rkwifibt" revision="049f321eea3a53a483795f7293a58068d5787f6c"/>
@@ -88,7 +88,7 @@
   <project name="external/update_engine" revision="ef212877ada6fe629f52485113b35a81ab31009b"/>
   <project name="external/uvc_app" revision="3288aa612391323e53fd0acecd63513e17af5b9b" upstream="rk356x/firefly"/>
   <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7"/>
-  <project name="kernel" revision="bb49bf8e838bad69c71b06ec25ce61c2c9d2b622" upstream="rk356x/firefly"/>
+  <project name="kernel" revision="b86cb32bc22fd66d71f09ee4a9615f30fc4da0fa" upstream="rk356x/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu" revision="2edfa6dde1f73c5b3c6de980e3450443e35c0a0f"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b"/>
   <project name="rkbin" revision="3eaac1e79c71f2db9a099ea52dc8bd0ea20ad712"/>
