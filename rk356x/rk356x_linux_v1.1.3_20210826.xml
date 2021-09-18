@@ -25,13 +25,13 @@
   <project name="app/qsetting" revision="20862b44029127524d9336ddd7664207fb500e74"/>
   <project name="app/rkaiq_tool_server" revision="d702dc17181c4fe30b82db5a3c456f123c0650c2"/>
   <project name="app/storage_manager" revision="69c472191357d99748e7e2a7a4747aec6e82b479"/>
-  <project name="buildroot" revision="a4bee80c6f7236c328609c48bc06729fd80edaa9" upstream="rk356x/firefly">
+  <project name="buildroot" revision="21e27e3c3f7ff53b7c7519deb182c9e3bd471501" upstream="rk356x/firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
   <project name="buildroot-dl" path="buildroot/dl" revision="af79460718d20839ce5a290ff8681ca38da0939d" upstream="firefly"/>
   <project name="debian" revision="f3cde69f0889f4bd2e406a0e6bf2d0b3ee9d364f" upstream="rk356x/firefly"/>
-  <project name="device/rockchip" revision="1d7af0819be10cbde9fc16ae472bb66522ce97d0">
+  <project name="device/rockchip" revision="79d9cadc29236befe939cdbd4324823fdc663855">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -88,7 +88,7 @@
   <project name="external/update_engine" revision="ef212877ada6fe629f52485113b35a81ab31009b"/>
   <project name="external/uvc_app" revision="3288aa612391323e53fd0acecd63513e17af5b9b" upstream="rk356x/firefly"/>
   <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7"/>
-  <project name="kernel" revision="f4cb344777f96b0049a5ec49bfe39626135073cf" upstream="rk356x/firefly"/>
+  <project name="kernel" revision="fb4e6f119a9f705c9026a2789d7981ffc96c62a1" upstream="rk356x/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu" revision="2edfa6dde1f73c5b3c6de980e3450443e35c0a0f"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b"/>
   <project name="rkbin" revision="3eaac1e79c71f2db9a099ea52dc8bd0ea20ad712"/>
