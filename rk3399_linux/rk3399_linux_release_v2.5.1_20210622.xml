@@ -95,7 +95,7 @@
   <project dest-branch="warrior" name="yocto/meta-openembedded" path="yocto/meta-openembedded" revision="a24acf94d48d635eca668ea34598c6e5c857e3f8"/>
   <project dest-branch="zeus" name="yocto/meta-python2" path="yocto/meta-python2" revision="4400f9155ec193d028208cf0c66aeed2ba2b00ab"/>
   <project dest-branch="warrior" name="yocto/meta-qt5" path="yocto/meta-qt5" revision="9248dc741f4e051d8d8578b7e04681cbae182c69"/>
-  <project dest-branch="warrior" name="yocto/meta-rockchip" path="yocto/meta-rockchip" revision="f12124aed7bc7b550f63549fd0de6c757c387f4f"/>
+  <project dest-branch="rk3399/warrior" name="yocto/meta-rockchip" path="yocto/meta-rockchip" revision="cba4d9e5d4135f18e5f0e0354d80a093aede8aee"/>
   <project dest-branch="firefly" name="yocto/meta-rust" path="yocto/meta-rust" revision="318fb46863c0df5001f937bb4ca856491a493725"/>
   <project dest-branch="warrior" name="yocto/poky" path="yocto/poky" revision="d588ff814ddb7e14cabe27e28c6ca710f31d1b70">
     <linkfile dest="yocto/scripts" src="scripts"/>
