@@ -23,6 +23,6 @@
   </project>
   <project name="u-boot" revision="912f242c306af4522d4a423bbf4c7bbce9cec53a" upstream="rk356x/firefly"/>
   <project name="openwrt_sdk/openwrt" revision="865f99a0773e427ebc92e6ca880ed6d9366cf1ca" upstream="firefly"/>
-  <project name="openwrt_sdk/lede" revision="5be9f0a676e22743c29b1fe2af50f1937278a3d0" upstream="firefly"/>
+  <project name="openwrt_sdk/lede" revision="1951d4071ec72afb51f57634957785e53d311fac" upstream="firefly"/>
   <project name="openwrt_sdk/external" revision="517255bfb751058c1eee9e3e9038a89b60412e93" upstream="firefly"/>
 </manifest>
