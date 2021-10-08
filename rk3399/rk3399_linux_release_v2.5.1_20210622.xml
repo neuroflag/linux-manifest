@@ -106,7 +106,7 @@
     <linkfile dest="yocto/README.md" src="../../.repo/manifests/README_yocto.md"/>
     <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
   </project>
-  <project dest-branch="firefly" name="yocto/build/conf" path="yocto/build/conf" remote="firefly-linux-gitlab" revision="0c12accd3486703386f7c5134d25d20b28c368ee">
+  <project dest-branch="firefly" name="yocto/build/conf" path="yocto/build/conf" remote="firefly-linux" revision="0c12accd3486703386f7c5134d25d20b28c368ee">
     <linkfile dest="yocto/build/conf/local.conf" src="firefly-rk3399.conf"/>
   </project>
 </manifest>
