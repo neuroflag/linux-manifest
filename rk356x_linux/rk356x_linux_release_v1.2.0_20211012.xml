@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://gitlab.com/firefly-linux" name="firefly-linux-gitlab"/>
+
+  <default remote="firefly-linux-gitlab" revision="firefly" sync-j="4"/>
+
+  <project name="app/CameraFactoryTestServer" revision="4bf562db7718264772ed9c52e1afc54ccebc8356"/>
+  <project name="app/QFacialGate" revision="87f2c3643b41ed70e9551e0039edc8369dbe626a"/>
+  <project name="app/QLauncher" revision="a17ceb273aaa6f5c9aaf9f570d4ee56e28135c9d"/>
+  <project name="app/aiserver" revision="bb655ebcbf57fd044bb0f36e020bed32d3c9657c"/>
+  <project name="app/dbserver" revision="ed4479a42b462a0f23e39fe77e2decc009fc0938"/>
+  <project name="app/eptz_demo" revision="eefc46ba96e15e52d191b0db310cfb16ecfd7f40"/>
+  <project name="app/ipc-daemon" revision="30b8dc6f23c4623324bcd051659ef8b45018a8c2"/>
+  <project name="app/ipcweb-backend" revision="7e40d3d530b2daaa804fdbc59d5f2ec2d5a8cbe4" upstream="rk356x/firefly"/>
+  <project name="app/ipcweb-ng" revision="ca9ad4f24bb46568dbbb80ac216a6e2b5f872d23" upstream="rk356x/firefly"/>
+  <project name="app/libIPCProtocol" revision="45cdd16d137929a06ad6231eca4d17eed5a967d6" upstream="rk356x/firefly"/>
+  <project name="app/libgdbus" revision="79370be32dde657abf1128c90c72b93e75d814ed"/>
+  <project name="app/librkdb" revision="72fd398899e791dcf0a02b484a9be404063ed94e"/>
+  <project name="app/mediaserver" revision="c54ebc9d6f1b7dfa49be16872b29abaac5db20d4" upstream="rk356x/firefly"/>
+  <project name="app/multivideoplayer" revision="5d566e0b2ab416c251b54d59d6237e7164c7e270"/>
+  <project name="app/netserver" revision="2c696348c2e4dd2eb278efd38370255e752eb4d7"/>
+  <project name="app/qcamera" revision="d37ad02e4dea9288944260fc1e8bda20f9bd13c0"/>
+  <project name="app/qfm" revision="7e94be4d1ce41e395909da8b963ad46c65ca285f" upstream="rk356x/firefly"/>
+  <project name="app/qplayer" revision="0121646c9fe2335eef9a963071d07b797a17487e"/>
+  <project name="app/qsetting" revision="7719da2d42787bac1a6fe075f2ddf6157cd5d678"/>
+  <project name="app/rkaiq_tool_server" revision="1e61f9d7fecfb9b17abae680f92a940475331720"/>
+  <project name="app/storage_manager" revision="213aded5fbf9dc2fd05c0fd529aa3da55a6fea93"/>
+  <project name="buildroot" revision="1d03c3289c654b863418896492a7fa9c2a0a2977" upstream="rk356x/firefly">
+    <linkfile dest="Makefile" src="build/Makefile"/>
+    <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
+  </project>
+  <project name="buildroot-dl" path="buildroot/dl" revision="af79460718d20839ce5a290ff8681ca38da0939d" upstream="firefly"/>
+  <project name="debian" revision="dfa715d07ea9d1e877a8a2c8b338f47d2354546f" upstream="rk356x/firefly"/>
+  <project name="device/rockchip" revision="8d0dd10c5b8336d12acc472fe7f9b9c8cef75eab">
+    <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
+    <linkfile dest="build.sh" src="common/build.sh"/>
+    <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
+    <linkfile dest="device/rockchip/.target_product" src="rk356x"/>
+  </project>
+  <project name="docs" revision="061a8f43748843de65da71d2b303fe8cc1a3bcc5" upstream="rk356x/firefly"/>
+  <project name="docs-soc_internal" path="docs/.Socs" revision="cc6a743d94fa54f412325e9f87368418236faeb5" upstream="rk356x/firefly">
+    <linkfile dest="docs/RK356X" src="RK356X"/>
+  </project>
+  <project name="external/CallFunIpc" revision="b23fcde9739d9bdcc3c477caa0a845355825711f"/>
+  <project name="external/RKNPUTools" revision="b8c0e77c1a5c8e886c3ebf3483557e8755485e6e"/>
+  <project name="external/alsa-config" revision="75ec6fdf517c897a0386a26770403a344ab80f41"/>
+  <project name="external/app" revision="3a06ebb791eb8bc6d2b41876f895d121be987f41"/>
+  <project name="external/avb" revision="64b5ea0130d7440084796f6a23d7cd91fac988b8"/>
+  <project name="external/ble_wificonfig" revision="3b56e0e268634216df1f992d944bb30158e86786"/>
+  <project name="external/bluetooth_bsa" revision="51b1afeefd0984dc1965379513a2931e85d281fa" upstream="rk356x/firefly"/>
+  <project name="external/bluez-alsa" revision="e383251a22fef7213b7e5a804e4c7a7ca621c80d"/>
+  <project name="external/broadcom_bsa" revision="46234ce7a904794754bba79cb7c9f26d39605311" upstream="rk356x/firefly"/>
+  <project name="external/camera_engine_rkaiq" revision="2fd04041b630650098b2ced9a9f29d00613a2e68" upstream="rk356x/firefly"/>
+  <project name="external/chromium" revision="bba90aee6a986fca85e8cf79c2917ebf5a2b6e17"/>
+  <project name="external/common_algorithm" revision="c0e48be28b4f1660bcbd7bb521de67662461d0cc" upstream="rk356x/firefly"/>
+  <project name="external/deviceio_release" revision="187439b6c9ed867c5a28d8b39cb2ecf19ba9dae6"/>
+  <project name="external/eq_drc_process" revision="6fe472aa76ed71922742863c8f94222dab3dbf3c"/>
+  <project name="external/gstreamer-rockchip" revision="955c62a3d2078b6e9a815f711452377ef25a9b51"/>
+  <project name="external/isp2-ipc" revision="0b79598ff4617db8a0bc18753ea497066be58e6f"/>
+  <project name="external/ladspaSDK" revision="136f0cfc8b05ce07ea898b9ede1f2e572a1e97dd"/>
+  <project name="external/libglCompositor" revision="5dcd40eb0d8a44ae7eccd4961aea6b01c0f78180"/>
+  <project name="external/libmali" revision="fba3435f2a1f01d1214c29a9b628ca9f1f863c98"/>
+  <project name="external/linux-rga" revision="659adb09e544e29e04408134d59045819e810c06" upstream="rk356x/firefly"/>
+  <project name="external/minigui" revision="56dfcf3f4d2978cabe7684ca64073ebdfaae73b6"/>
+  <project name="external/minigui_desktop" revision="9fa64dabb6bae25c07c2fc6ed40de6123f71f493"/>
+  <project name="external/minilogger" revision="5f0fa4698d5305d8653c2352bfcf1d9aa57064a4"/>
+  <project name="external/mpp" revision="31814aea59947cb2b5347b8fa1f2dabfee6fc6c9" upstream="rk356x/firefly"/>
+  <project name="external/pcba_adb_test" revision="0a1ca61f27007e8374d21f3af167ee5e02923f19"/>
+  <project name="external/recovery" revision="051fe926e119ac556206c6abe4123e3f3b983d7d"/>
+  <project name="external/rk_pcba_test" revision="36e07775f017df15a8f20e62f52cb59e1ed3ae10"/>
+  <project name="external/rkfacial" revision="8d37181704e2e3d1ab604e1b81d948808398ba23" upstream="rk356x/firefly"/>
+  <project name="external/rknn-toolkit2" revision="e2131fc0f2c4ffe3a0f91336e991137f13c686b5"/>
+  <project name="external/rknn_demo" revision="d24d15b855ee5b0521ee33bd13a1f1bcf597b7dc"/>
+  <project name="external/rknpu" revision="ad469a6f5f0f2d767d8af7cc51f1492d4af171d6"/>
+  <project name="external/rknpu2" revision="897d102d43ef3258127c5334bcc3c76f3d134592"/>
+  <project name="external/rkscript" revision="6e670d977db61b7eb769639ddd1e7a9288ed029c"/>
+  <project name="external/rktoolkit" revision="77fb41f99185a6f9dc2c9c69e099f417d8ae905d"/>
+  <project name="external/rkupdate" revision="1e014c0295f960a23b5b351c0bb3e1c6903d0bf6"/>
+  <project name="external/rkwifibt" revision="a67c4fa046cbbca0fd8c7d8a64dd44c84e02a525"/>
+  <project name="external/rockface" revision="c15e36566c5bf07e1f8449e9087d73533b4ff420"/>
+  <project name="external/rockit" revision="1d00423a36b1edd15e264aa3242fa4c869f80dc0"/>
+  <project name="external/rockx" revision="19ffaec48095f6ee53b798d7d0ba3de86515449a"/>
+  <project name="external/rtc_demo" revision="01ea9377beae66a544191ff5dbd920f19ba4614c"/>
+  <project name="external/security/bin" revision="0d2fc6056541122e8525baf20afa402658e05a5f"/>
+  <project name="external/security/rk_tee_user" revision="1b575e33f133de940049b4fd0514e449f992a718"/>
+  <project name="external/softapDemo" revision="4c7d1bd3d28df276d263f49324b022b44b3a1c85"/>
+  <project name="external/tensorflow" revision="e1877bb157a775d76ec8c0b68467aef6d053bbb2"/>
+  <project name="external/uac_app" revision="ea59dca532288686841ad6ba64b0adf68c655bd8"/>
+  <project name="external/update_engine" revision="ef212877ada6fe629f52485113b35a81ab31009b"/>
+  <project name="external/uvc_app" revision="7dc43331a85f5c60fd3401b502cd837169ad42e2" upstream="rk356x/firefly"/>
+  <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7"/>
+  <project name="kernel" revision="4c08742fc2043433a474eda39e2f942f4f412efd" upstream="rk356x/firefly"/>
+  <project name="prebuilts/gcc/linux-x86/aarch64/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu" revision="2edfa6dde1f73c5b3c6de980e3450443e35c0a0f"/>
+  <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b"/>
+  <project name="rkbin" revision="f3a176f85553c0df05007453cff8b450ca730c6a"/>
+  <project name="tools" revision="3625ca56cf9217dc1b1b863546d9fb8868831a3a">
+    <linkfile dest="tools/windows/RKDevTool/RKDevTool_Release/config.cfg" src="windows/RKDevTool/RKDevTool_Release/rk356x-config.cfg"/>
+    <linkfile dest="tools/windows/RKDevTool/rockdev/package-file" src="windows/RKDevTool/rockdev/rk356x-package-file"/>
+    <linkfile dest="tools/windows/RKDevTool/rockdev/mkupdate.bat" src="windows/RKDevTool/rockdev/rk356x-mkupdate.bat"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk356x-mkupdate.sh"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk356x-package-file"/>
+  </project>
+  <project name="u-boot" revision="bcbe77799e305a1ffd0de4d3c6fe83d265a2b633" upstream="rk356x/firefly"/>
+  <project name="yocto/build/conf" revision="8609d6a9cd0d947b69ec8b39d1a38f339d611636"/>
+  <project name="yocto/meta-browser" revision="423633196c7e4b68e1fd1338a2a21a429e76733e"/>
+  <project name="yocto/meta-clang" revision="1243bfc88308d58503e9c64435ede99a335218a5"/>
+  <project name="yocto/meta-openembedded" revision="b48f70b918b398f2d614601358d6df8340ef6984"/>
+  <project name="yocto/meta-python2" revision="27d2aebdb4d78a608798a4f617d9bcfcbe4a635b"/>
+  <project name="yocto/meta-qt5" revision="aa42c0699dd4d90b6ed0cffd6010760a2cf671b5"/>
+  <project name="yocto/meta-rockchip" revision="0ea0ecb18298aad3c58d27e3b6517b8ed85e08ce"/>
+  <project name="yocto/meta-rust" revision="f56fd4ec6835d68c4e9f8a9630963acd34d172e5"/>
+  <project name="yocto/poky" revision="6b2d8dd4437c31c2746d5d433477f61ce3fb97ff">
+    <linkfile dest="yocto/scripts" src="scripts"/>
+    <linkfile dest="yocto/bitbake" src="bitbake"/>
+    <linkfile dest="yocto/meta-poky" src="meta-poky"/>
+    <linkfile dest="yocto/.templateconf" src=".templateconf"/>
+    <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
+  </project>
+</manifest>
