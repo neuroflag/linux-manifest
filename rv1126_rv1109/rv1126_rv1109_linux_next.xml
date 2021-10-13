@@ -32,7 +32,7 @@
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
   <project name="buildroot-dl" path="buildroot/dl" revision="af79460718d20839ce5a290ff8681ca38da0939d" upstream="firefly"/>
-  <project name="device/rockchip" revision="4667862d9116f04e5f1ade88bebb402797069c33" upstream="firefly">
+  <project name="device/rockchip" revision="3c3bf80e617c5cbc762e1980a653223cb8711652" upstream="firefly">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -87,7 +87,7 @@
   <project name="external/uvc_app" revision="504d8d3a5dc4937039b8445434048ab49de6a136" upstream="rv1126_rv1109/firefly"/>
   <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="firefly"/>
   <project name="external/xhlpr_app" revision="a993024297d722143a9b9c750a4fbb261834e002" upstream="firefly"/>
-  <project name="kernel" revision="5944f23d1c24abd9c1b85f769ab22e0fec5ff266" upstream="rv1126_rv1109/firefly"/>
+  <project name="kernel" revision="b621d27e11be430de675f9a133cf9174863bcb28" upstream="rv1126_rv1109/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="firefly"/>
   <project name="prebuilts/gcc/linux-x86/arm/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf" revision="27edb819ca803f5da253ccbd4134d6337a7310d1" upstream="firefly"/>
   <project name="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="firefly"/>
@@ -99,5 +99,5 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rv1126_rv1109-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rv1126_rv1109-package-file"/>
   </project>
-  <project name="u-boot" revision="22259bdb6d4d5b7d31dbd767a74c3d906b453a47" upstream="rv1126_rv1109/firefly"/>
+  <project name="u-boot" revision="412790959147ad497e2c46b8b6957239773bc46e" upstream="rv1126_rv1109/firefly"/>
 </manifest>
