@@ -101,19 +101,25 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk356x-package-file"/>
   </project>
   <project name="u-boot" revision="bcbe77799e305a1ffd0de4d3c6fe83d265a2b633" upstream="rk356x/firefly"/>
-  <project name="yocto/build/conf" revision="8609d6a9cd0d947b69ec8b39d1a38f339d611636"/>
-  <project name="yocto/meta-browser" revision="423633196c7e4b68e1fd1338a2a21a429e76733e"/>
-  <project name="yocto/meta-clang" revision="1243bfc88308d58503e9c64435ede99a335218a5"/>
-  <project name="yocto/meta-openembedded" revision="b48f70b918b398f2d614601358d6df8340ef6984"/>
-  <project name="yocto/meta-python2" revision="27d2aebdb4d78a608798a4f617d9bcfcbe4a635b"/>
-  <project name="yocto/meta-qt5" revision="aa42c0699dd4d90b6ed0cffd6010760a2cf671b5"/>
-  <project name="yocto/meta-rockchip" revision="0ea0ecb18298aad3c58d27e3b6517b8ed85e08ce"/>
-  <project name="yocto/meta-rust" revision="f56fd4ec6835d68c4e9f8a9630963acd34d172e5"/>
-  <project name="yocto/poky" revision="6b2d8dd4437c31c2746d5d433477f61ce3fb97ff">
+
+  <notice>Yocto project.</notice>
+  <project dest-branch="warrior" name="yocto/meta-browser" path="yocto/meta-browser" revision="830ef438e81ba5fc915b1855e69f02b2c286b21a"/>
+  <project dest-branch="warrior" name="yocto/meta-clang" path="yocto/meta-clang" revision="8f4080a2afa24fdd9df051a5707a38e0af38dd17"/>
+  <project dest-branch="warrior" name="yocto/meta-openembedded" path="yocto/meta-openembedded" revision="a24acf94d48d635eca668ea34598c6e5c857e3f8"/>
+  <project dest-branch="zeus" name="yocto/meta-python2" path="yocto/meta-python2" revision="4400f9155ec193d028208cf0c66aeed2ba2b00ab"/>
+  <project dest-branch="warrior" name="yocto/meta-qt5" path="yocto/meta-qt5" revision="9248dc741f4e051d8d8578b7e04681cbae182c69"/>
+  <project dest-branch="rk3399/warrior" name="yocto/meta-rockchip" path="yocto/meta-rockchip" revision="cba4d9e5d4135f18e5f0e0354d80a093aede8aee"/>
+  <project dest-branch="firefly" name="yocto/meta-rust" path="yocto/meta-rust" revision="318fb46863c0df5001f937bb4ca856491a493725"/>
+  <project dest-branch="warrior" name="yocto/poky" path="yocto/poky" revision="d588ff814ddb7e14cabe27e28c6ca710f31d1b70">
     <linkfile dest="yocto/scripts" src="scripts"/>
     <linkfile dest="yocto/bitbake" src="bitbake"/>
     <linkfile dest="yocto/meta-poky" src="meta-poky"/>
     <linkfile dest="yocto/.templateconf" src=".templateconf"/>
     <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
+    <linkfile dest="yocto/README.md" src="../../.repo/manifests/README_yocto.md"/>
+    <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
+  </project>
+  <project dest-branch="firefly" name="yocto/build/conf" path="yocto/build/conf" remote="firefly-linux" revision="0c12accd3486703386f7c5134d25d20b28c368ee">
+    <linkfile dest="yocto/build/conf/local.conf" src="firefly-rk3399.conf"/>
   </project>
 </manifest>
