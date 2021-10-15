@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="ssh://git@git.t-firefly.com:8022/rk-linux" name="firefly-linux"/>
-  
+
   <default remote="firefly-linux" revision="firefly" sync-j="4"/>
-  
+
   <project name="app/QLauncher" revision="289866a6725af82cd8e75c75f8c2c2486a316c42" upstream="firefly"/>
   <project name="app/demo" revision="db94c6389891aef75298bc98972dd4fcc82a4a10" upstream="firefly"/>
   <project name="app/multicamera" revision="6c3b01afba79d69b3ed6c1d55bb5dc87f51b8df2" upstream="firefly"/>
@@ -91,19 +91,25 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3288-package-file"/>
   </project>
   <project name="u-boot" revision="01c726e03f1af51a270402eda3a272baf673bb6e" upstream="rk3288/firefly"/>
-  <project name="yocto/build/conf" revision="8ec513e39fe364a635e4db2703de15476f226eec" upstream="firefly"/>
-  <project name="yocto/meta-browser" revision="21123de2a81b35d477509c0a00735a08d56bcf26" upstream="firefly"/>
-  <project name="yocto/meta-clang" revision="22f0b0eaad454279c604a83dba53be6e6efb1a06" upstream="firefly"/>
-  <project name="yocto/meta-openembedded" revision="446bd615fd7cb9bc7a159fe5c2019ed08d1a7a93" upstream="firefly"/>
-  <project name="yocto/meta-qt5" revision="1520d5b2b2beec5e1c3209d3178219e93ef08bca" upstream="firefly"/>
-  <project name="yocto/meta-rockchip" revision="0ced1b0cfb7a3228487de1498b1834de6fee3ad1" upstream="firefly"/>
-  <project name="yocto/meta-rust" revision="5cda04c7c2158fc982502ca1e7893f71e4ca1729" upstream="firefly"/>
-  <project name="yocto/poky" revision="8cd3ee6e1a50ad9f40466bcadb236c619c42ef19" upstream="firefly">
+
+  <notice>Yocto project.</notice>
+  <project dest-branch="warrior" name="yocto/meta-browser" path="yocto/meta-browser" revision="830ef438e81ba5fc915b1855e69f02b2c286b21a"/>
+  <project dest-branch="warrior" name="yocto/meta-clang" path="yocto/meta-clang" revision="8f4080a2afa24fdd9df051a5707a38e0af38dd17"/>
+  <project dest-branch="warrior" name="yocto/meta-openembedded" path="yocto/meta-openembedded" revision="a24acf94d48d635eca668ea34598c6e5c857e3f8"/>
+  <project dest-branch="zeus" name="yocto/meta-python2" path="yocto/meta-python2" revision="4400f9155ec193d028208cf0c66aeed2ba2b00ab"/>
+  <project dest-branch="warrior" name="yocto/meta-qt5" path="yocto/meta-qt5" revision="9248dc741f4e051d8d8578b7e04681cbae182c69"/>
+  <project dest-branch="rk3399/warrior" name="yocto/meta-rockchip" path="yocto/meta-rockchip" revision="cba4d9e5d4135f18e5f0e0354d80a093aede8aee"/>
+  <project dest-branch="firefly" name="yocto/meta-rust" path="yocto/meta-rust" revision="318fb46863c0df5001f937bb4ca856491a493725"/>
+  <project dest-branch="warrior" name="yocto/poky" path="yocto/poky" revision="d588ff814ddb7e14cabe27e28c6ca710f31d1b70">
     <linkfile dest="yocto/scripts" src="scripts"/>
     <linkfile dest="yocto/bitbake" src="bitbake"/>
     <linkfile dest="yocto/meta-poky" src="meta-poky"/>
     <linkfile dest="yocto/.templateconf" src=".templateconf"/>
     <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
     <linkfile dest="yocto/README.md" src="../../.repo/manifests/README_yocto.md"/>
+    <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
+  </project>
+  <project dest-branch="firefly" name="yocto/build/conf" path="yocto/build/conf" remote="firefly-linux" revision="0c12accd3486703386f7c5134d25d20b28c368ee">
+    <linkfile dest="yocto/build/conf/local.conf" src="firefly-rk3399.conf"/>
   </project>
 </manifest>
