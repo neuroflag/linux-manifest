@@ -89,8 +89,8 @@
   </project>
   <project name="u-boot" revision="948c63a14ea0757e4b4f4324316655f55bfd690d" upstream="rk3399/firefly"/>
 
-  <notice>Yocto project.</notice>
-  <project name="yocto-conf" path="yocto/build/conf" remote="firefly-linux-gitlab">
+  <!--yocto project-->
+  <project name="yocto/build/conf" path="yocto/build/conf" remote="firefly-linux-gitlab">
     <linkfile dest="yocto/build/conf/local.conf" src="firefly-rk3399.conf"/>
   </project>
    <include name="yocto.xml" />

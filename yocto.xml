@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <notice>Yocto project.</notice>
+  <notice>Your yocto-sources have been sync'd successfully.</notice>
 
   <remote fetch="https://gitlab.com/firefly-linux" name="firefly-yocto"/>
 
@@ -21,5 +21,5 @@
     <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
   </project>
 
-  <extend-project dest-branch="firefly" name="yocto-conf" path="yocto/build/conf" revision="6c6c341b8044bac6d521701170c8540d625e3109" remote="firefly-yocto"/>
+  <extend-project dest-branch="firefly" name="yocto/build/conf" path="yocto/build/conf" revision="6c6c341b8044bac6d521701170c8540d625e3109" remote="firefly-yocto"/>
 </manifest>
