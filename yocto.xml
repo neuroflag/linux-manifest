@@ -2,7 +2,7 @@
 <manifest>
   <notice>Your yocto-sources have been sync'd successfully.</notice>
 
-  <remote fetch="https://gitlab.com/firefly-linux" name="firefly-yocto"/>
+  <remote fetch="ssh://git@git.t-firefly.com:8022/rk-linux" name="firefly-yocto"/>
 
   <project dest-branch="warrior" name="yocto/meta-browser" path="yocto/meta-browser" revision="830ef438e81ba5fc915b1855e69f02b2c286b21a" remote="firefly-yocto"/>
   <project dest-branch="warrior" name="yocto/meta-clang" path="yocto/meta-clang" revision="8f4080a2afa24fdd9df051a5707a38e0af38dd17" remote="firefly-yocto"/>
