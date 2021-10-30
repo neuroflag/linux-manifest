@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="ssh://git@git.t-firefly.com:8022/rk-linux" name="firefly-linux-gitlab"/>
+  <remote fetch="ssh://git@git.t-firefly.com:8022/rk-linux" name="firefly-linux"/>
 
   <default remote="firefly-linux" revision="firefly" sync-j="4"/>
 
@@ -18,7 +18,7 @@
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
   <project name="buildroot-dl" path="buildroot/dl" revision="35623f25081352ed86e40002c18959418f6fe914" upstream="firefly"/>
-  <project name="device/rockchip" revision="833dbd787ea19214e7a838ac25ae9f10899494e3" upstream="firefly">
+  <project name="device/rockchip" revision="3c3bf80e617c5cbc762e1980a653223cb8711652" upstream="firefly">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -43,7 +43,7 @@
   <project name="external/cae_vad" revision="86f5f3d4616888feea0c3916a9663f29a3af28ba" upstream="firefly"/>
   <project name="external/camera_engine_rkisp" revision="fafcd69874d20a7737425cc16a70619b220f8a2e" upstream="firefly"/>
   <project name="external/chromium" revision="bba90aee6a986fca85e8cf79c2917ebf5a2b6e17" upstream="firefly"/>
-  <project name="external/common_algorithm" revision="2242bd1270c09d0437eff2d4aee03734b283d52f" upstream="firefly"/>
+  <project name="external/common_algorithm" revision="c0e48be28b4f1660bcbd7bb521de67662461d0cc" upstream="firefly"/>
   <project name="external/deviceio_release" revision="187439b6c9ed867c5a28d8b39cb2ecf19ba9dae6" upstream="firefly"/>
   <project name="external/eq_drc_process" revision="6fe472aa76ed71922742863c8f94222dab3dbf3c" upstream="firefly"/>
   <project name="external/libglCompositor" revision="5dcd40eb0d8a44ae7eccd4961aea6b01c0f78180" upstream="firefly"/>
@@ -79,7 +79,7 @@
   <project name="external/softapDemo" revision="4c7d1bd3d28df276d263f49324b022b44b3a1c85" upstream="firefly"/>
   <project name="external/softapServer" revision="9158517316a050190273c6809ea88467a4276e16" upstream="firefly"/>
   <project name="external/tensorflow" revision="e1877bb157a775d76ec8c0b68467aef6d053bbb2" upstream="firefly"/>
-  <project name="external/uac_app" revision="ef212877ada6fe629f52485113b35a81ab31009b" upstream="firefly"/>
+  <project name="external/uac_app" revision="ea59dca532288686841ad6ba64b0adf68c655bd8" upstream="firefly"/>
   <project name="external/update_engine" revision="ef212877ada6fe629f52485113b35a81ab31009b" upstream="firefly"/>
   <project name="external/uvc_app" revision="7905a9f812f3c6b14fabff0f5c04dfbfab298fed" upstream="firefly"/>
   <project name="external/wakeWordAgent" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6" upstream="firefly"/>
@@ -99,7 +99,7 @@
   <project name="u-boot" revision="948c63a14ea0757e4b4f4324316655f55bfd690d" upstream="rk3399/firefly"/>
 
   <!--yocto project-->
-  <project name="yocto/build/conf" path="yocto/build/conf" remote="firefly-linux-gitlab">
+  <project name="yocto/build/conf" path="yocto/build/conf">
     <linkfile dest="yocto/build/conf/local.conf" src="rk3399/firefly-rk3399.conf"/>
   </project>
   <include name="yocto.xml" />
