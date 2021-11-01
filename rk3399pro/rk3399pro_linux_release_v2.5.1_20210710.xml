@@ -12,12 +12,12 @@
   <project name="app/qfm" revision="cb38ba939c7ebdb1d205b68290754a115269c7e4" upstream="firefly"/>
   <project name="app/qplayer" revision="6b658230a246ccebb425fdfcd368b11457d4635b" upstream="firefly"/>
   <project name="app/qsetting" revision="38ad29efe3f415a4f3b03d1857eb322ce00c8add" upstream="firefly"/>
-  <project name="buildroot" revision="0cbda7511bcae66ac6ab6655b935fa193695e59c" upstream="firefly">
+  <project name="buildroot" revision="9286b22cf62e40a9fd863d64807cfb3047cb274a" upstream="firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
   <project name="buildroot-dl" path="buildroot/dl" revision="35623f25081352ed86e40002c18959418f6fe914" upstream="firefly"/>
-  <project name="device/rockchip" revision="feb7b3df63cbb83de0524eec5331c1e64dd085d0" upstream="firefly">
+  <project name="device/rockchip" revision="9ab61f841586ab5ff6dce6a7ddde64d92d0e9c1b" upstream="firefly">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -51,17 +51,18 @@
   <project name="external/linux-rga" revision="411edeaed6d71d2c7399b2db40b19c2607201821" upstream="firefly"/>
   <project name="external/minigui" revision="7d62f417571778ef1fd6bccc0a07bc762793ef4f" upstream="firefly"/>
   <project name="external/minigui_desktop" revision="9fa64dabb6bae25c07c2fc6ed40de6123f71f493" upstream="firefly"/>
-  <project name="external/mpp" revision="8631f70f9a45ef9f8ccb19beca9332090c2f75aa" upstream="firefly"/>
+  <project name="external/mpp" revision="cb05a01e10cdd3649152d481f47137846a411c1f" upstream="firefly"/>
   <project name="external/mpv" revision="22c019f4f4a95c727b38dd1b05e70d3f49d429e1" upstream="firefly"/>
   <project name="external/powermanager" revision="17921d6b75395df5478613973e58916a6cf7c7ad" upstream="firefly"/>
   <project name="external/recovery" revision="d15bd6e5ad49e9a6c272641c1ade824bcfce7802" upstream="firefly"/>
   <project name="external/rk_hw_vad" revision="2fa6aaf920a6e8a9912b0407ba4f50b9c6e96b10" upstream="firefly"/>
   <project name="external/rk_pcba_test" revision="b2b303139665d4e256adda2b64211edd53dd45e4" upstream="firefly"/>
   <project name="external/rk_webui" revision="23d1035aede0b74ae119b8bd65cf0ed93c4100a6" upstream="firefly"/>
-  <project name="external/rkmedia" revision="62c8281a254e1b87fbf677b4e0287baa94ec3d90" upstream="firefly"/>
+  <project name="external/rkmedia" revision="609461671c4942f87f1c3a6a569dccb4b548aee6" upstream="firefly"/>
   <project name="external/rknn-toolkit" revision="0cc2944c99eae1e58f0657b65057d565e414f073" upstream="firefly"/>
   <project name="external/rknn_demo" revision="452b17d01b9e1d4f7b38f09e7fbca278d148a1f8" upstream="firefly"/>
   <project name="external/rknpu" revision="b010399b7595945381ddd63853ecf1218a130427" upstream="firefly"/>
+  <project name="external/rknpu-fw" revision="fbd0e5c55fa4da4796ceb5f33dd425d3903428e2" upstream="firefly"/>
   <project name="external/rkscript" revision="a29c42d6a18bd2aed0f3d15d642075050d5a48a5" upstream="firefly"/>
   <project name="external/rkssd" revision="1c50d336e770a8ce09ae33b3e09d2783d5b4c2d9" upstream="firefly"/>
   <project name="external/rktoolkit" revision="53050bf38775c7d22f967d2bbeb48451809f9de1" upstream="firefly"/>
@@ -78,11 +79,18 @@
   <project name="external/uvc_app" revision="7905a9f812f3c6b14fabff0f5c04dfbfab298fed" upstream="firefly"/>
   <project name="external/wakeWordAgent" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6" upstream="firefly"/>
   <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="firefly"/>
-  <project name="kernel" revision="4697c4dba6409716a0a5da6d367381d47de6a150" upstream="rk3399pro/firefly"/>
+  <project name="external/minilogger" revision="5f0fa4698d5305d8653c2352bfcf1d9aa57064a4" upstream="firefly"/>
+  <project name="kernel" revision="e626d9dba906513c682f1f10347a56662e22da9b" upstream="rk3399pro/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="firefly"/>
+  <project name="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="firefly"/>
   <project name="debian" revision="c40d6bf2e98b53e1d4e3c3421bb990e17d865a73" upstream="firefly"/>
-  <project name="rkbin" revision="1774e1c8ad41346a70cacfc8b04d105ee83c5106" upstream="firefly"/>
-  <project name="tools" revision="0a2057ca63c98ce22098f247381d1458e4c679ef" upstream="firefly">
+  <project name="rkbin" revision="2e3e6bb1f2bf7a30d392bec1b113f7f318228686" upstream="firefly"/>
+  <project name="tools" revision="99070d9d5fef3dc98400eb1f6b9d622fc895fdfd" upstream="firefly">
+    <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3399-config.cfg"/>
+    <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3399-package-file"/>
+    <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3399-mkupdate.bat"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3399pro-mkupdate.sh"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3399-package-file"/>
   </project>
   <project name="u-boot" revision="278b1a832c659e6604bec49dca8d9a7fd972d27f" upstream="rk3399pro/firefly"/>
 
