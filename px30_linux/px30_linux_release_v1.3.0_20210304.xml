@@ -60,8 +60,8 @@
   <project name="u-boot" revision="0e41968cb744a84cf7fc7a1e13530af3febdc638" upstream="px30/firefly"/>
 
   <!--yocto project-->
-  <include name="yocto.xml" />
   <project name="yocto/build/conf" path="yocto/build/conf">
     <linkfile dest="yocto/build/conf/local.conf" src="px30/px30.conf"/>
   </project>
+  <include name="yocto.xml" />
 </manifest>

@@ -95,8 +95,8 @@
   <project name="u-boot" revision="278b1a832c659e6604bec49dca8d9a7fd972d27f" upstream="rk3399pro/firefly"/>
 
   <!--yocto project-->
-  <include name="yocto.xml" />
   <project name="yocto/build/conf" path="yocto/build/conf" remote="firefly-linux-gitlab">
     <linkfile dest="yocto/build/conf/local.conf" src="rk3399pro/aio-rk3399proc.conf"/>
   </project>
+  <include name="yocto.xml" />
 </manifest>
