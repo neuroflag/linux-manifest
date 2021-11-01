@@ -13,7 +13,7 @@
   <project name="app/qplayer" revision="0121646c9fe2335eef9a963071d07b797a17487e" upstream="firefly"/>
   <project name="app/qsetting" revision="7719da2d42787bac1a6fe075f2ddf6157cd5d678" upstream="firefly"/>
   <project name="app/aiserver" revision="bb655ebcbf57fd044bb0f36e020bed32d3c9657c" upstream="firefly"/>
-  <project name="buildroot" revision="00b5f43bea14d91c4651e4d44ed7d9ee9000b4fd" upstream="firefly">
+  <project name="buildroot" revision="d48cd2859168530d24e0bff9f596d43be4d32340" upstream="firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
@@ -99,8 +99,8 @@
   <project name="u-boot" revision="948c63a14ea0757e4b4f4324316655f55bfd690d" upstream="rk3399/firefly"/>
 
   <!--yocto project-->
+  <include name="yocto.xml" />
   <project name="yocto/build/conf" path="yocto/build/conf">
     <linkfile dest="yocto/build/conf/local.conf" src="rk3399/firefly-rk3399.conf"/>
   </project>
-  <include name="yocto.xml" />
 </manifest>
