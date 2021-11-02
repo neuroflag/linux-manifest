@@ -89,7 +89,7 @@
   <project name="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="firefly"/>
   <project name="debian" revision="c40d6bf2e98b53e1d4e3c3421bb990e17d865a73" upstream="firefly"/>
   <project name="rkbin" revision="f3a176f85553c0df05007453cff8b450ca730c6a" upstream="firefly"/>
-  <project name="tools" revision="6a350ed8622d05017549934f159708aa1bba2161" upstream="firefly">
+  <project name="tools" revision="3625ca56cf9217dc1b1b863546d9fb8868831a3a" upstream="firefly">
     <linkfile dest="tools/windows/RKDevTool/RKDevTool_Release/config.cfg" src="windows/RKDevTool/RKDevTool_Release/rk3399-config.cfg"/>
     <linkfile dest="tools/windows/RKDevTool/rockdev/package-file" src="windows/RKDevTool/rockdev/rk3399-package-file"/>
     <linkfile dest="tools/windows/RKDevTool/rockdev/mkupdate.bat" src="windows/RKDevTool/rockdev/rk3399-mkupdate.bat"/>
