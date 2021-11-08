@@ -50,7 +50,7 @@
   <project name="external/bluetooth_bsa" revision="51b1afeefd0984dc1965379513a2931e85d281fa" upstream="rk356x/firefly"/>
   <project name="external/bluez-alsa" revision="e383251a22fef7213b7e5a804e4c7a7ca621c80d"/>
   <project name="external/broadcom_bsa" revision="46234ce7a904794754bba79cb7c9f26d39605311" upstream="rk356x/firefly"/>
-  <project name="external/camera_engine_rkaiq" revision="2fd04041b630650098b2ced9a9f29d00613a2e68" upstream="rk356x/firefly"/>
+  <project name="external/camera_engine_rkaiq" revision="7dbf19a6032c026c6c7ac8d9cc5388327915d5d5" upstream="rk356x/firefly"/>
   <project name="external/chromium" revision="bba90aee6a986fca85e8cf79c2917ebf5a2b6e17"/>
   <project name="external/common_algorithm" revision="c0e48be28b4f1660bcbd7bb521de67662461d0cc" upstream="rk356x/firefly"/>
   <project name="external/deviceio_release" revision="187439b6c9ed867c5a28d8b39cb2ecf19ba9dae6"/>
@@ -76,7 +76,7 @@
   <project name="external/rkscript" revision="6e670d977db61b7eb769639ddd1e7a9288ed029c"/>
   <project name="external/rktoolkit" revision="77fb41f99185a6f9dc2c9c69e099f417d8ae905d"/>
   <project name="external/rkupdate" revision="1e014c0295f960a23b5b351c0bb3e1c6903d0bf6"/>
-  <project name="external/rkwifibt" revision="a67c4fa046cbbca0fd8c7d8a64dd44c84e02a525"/>
+  <project name="external/rkwifibt" revision="c8a08c76fbb3357da7bf26138914b18e7209892e" upstream="rk356x/firefly"/>
   <project name="external/rockface" revision="c15e36566c5bf07e1f8449e9087d73533b4ff420"/>
   <project name="external/rockit" revision="1d00423a36b1edd15e264aa3242fa4c869f80dc0"/>
   <project name="external/rockx" revision="19ffaec48095f6ee53b798d7d0ba3de86515449a"/>
@@ -89,7 +89,7 @@
   <project name="external/update_engine" revision="ef212877ada6fe629f52485113b35a81ab31009b"/>
   <project name="external/uvc_app" revision="7dc43331a85f5c60fd3401b502cd837169ad42e2" upstream="rk356x/firefly"/>
   <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7"/>
-  <project name="kernel" revision="4c08742fc2043433a474eda39e2f942f4f412efd" upstream="rk356x/firefly"/>
+  <project name="kernel" revision="d9958ee3232dfbd3429ef5af1cefab03eb3fa800" upstream="rk356x/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu" revision="2edfa6dde1f73c5b3c6de980e3450443e35c0a0f"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b"/>
   <project name="rkbin" revision="f3a176f85553c0df05007453cff8b450ca730c6a"/>
@@ -100,7 +100,7 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk356x-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk356x-package-file"/>
   </project>
-  <project name="u-boot" revision="bcbe77799e305a1ffd0de4d3c6fe83d265a2b633" upstream="rk356x/firefly"/>
+  <project name="u-boot" revision="5376d2c55831818865c7f4565e92420f9114e0e0" upstream="rk356x/firefly"/>
 
   <notice>Yocto project.</notice>
   <project dest-branch="warrior" name="yocto/meta-browser" path="yocto/meta-browser" revision="830ef438e81ba5fc915b1855e69f02b2c286b21a"/>
