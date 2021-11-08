@@ -25,13 +25,13 @@
   <project name="app/qsetting" revision="7719da2d42787bac1a6fe075f2ddf6157cd5d678"/>
   <project name="app/rkaiq_tool_server" revision="1e61f9d7fecfb9b17abae680f92a940475331720"/>
   <project name="app/storage_manager" revision="213aded5fbf9dc2fd05c0fd529aa3da55a6fea93"/>
-  <project name="buildroot" revision="1d03c3289c654b863418896492a7fa9c2a0a2977" upstream="rk356x/firefly">
+  <project name="buildroot" revision="782d415f136e079e419d6c2917be79b1cb7d15ce" upstream="rk356x/firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
   <project name="buildroot-dl" path="buildroot/dl" revision="af79460718d20839ce5a290ff8681ca38da0939d" upstream="firefly"/>
   <project name="debian" revision="dfa715d07ea9d1e877a8a2c8b338f47d2354546f" upstream="rk356x/firefly"/>
-  <project name="device/rockchip" revision="8d0dd10c5b8336d12acc472fe7f9b9c8cef75eab">
+  <project name="device/rockchip" revision="5bc8053524b4391271f5382444f4523c9297f913">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -73,7 +73,7 @@
   <project name="external/rknn_demo" revision="d24d15b855ee5b0521ee33bd13a1f1bcf597b7dc"/>
   <project name="external/rknpu" revision="ad469a6f5f0f2d767d8af7cc51f1492d4af171d6"/>
   <project name="external/rknpu2" revision="897d102d43ef3258127c5334bcc3c76f3d134592"/>
-  <project name="external/rkscript" revision="6e670d977db61b7eb769639ddd1e7a9288ed029c"/>
+  <project name="external/rkscript" revision="4b0ea1fb6a59211bb9a83eb39c230235c3f1491a"/>
   <project name="external/rktoolkit" revision="77fb41f99185a6f9dc2c9c69e099f417d8ae905d"/>
   <project name="external/rkupdate" revision="1e014c0295f960a23b5b351c0bb3e1c6903d0bf6"/>
   <project name="external/rkwifibt" revision="c8a08c76fbb3357da7bf26138914b18e7209892e" upstream="rk356x/firefly"/>
