@@ -25,13 +25,13 @@
   <project name="app/qsetting" revision="7719da2d42787bac1a6fe075f2ddf6157cd5d678"/>
   <project name="app/rkaiq_tool_server" revision="1e61f9d7fecfb9b17abae680f92a940475331720"/>
   <project name="app/storage_manager" revision="213aded5fbf9dc2fd05c0fd529aa3da55a6fea93"/>
-  <project name="buildroot" revision="1d03c3289c654b863418896492a7fa9c2a0a2977" upstream="rk356x/firefly">
+  <project name="buildroot" revision="782d415f136e079e419d6c2917be79b1cb7d15ce" upstream="rk356x/firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
   <project name="buildroot-dl" path="buildroot/dl" revision="af79460718d20839ce5a290ff8681ca38da0939d" upstream="firefly"/>
   <project name="debian" revision="dfa715d07ea9d1e877a8a2c8b338f47d2354546f" upstream="rk356x/firefly"/>
-  <project name="device/rockchip" revision="8d0dd10c5b8336d12acc472fe7f9b9c8cef75eab">
+  <project name="device/rockchip" revision="5bc8053524b4391271f5382444f4523c9297f913">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -50,7 +50,7 @@
   <project name="external/bluetooth_bsa" revision="51b1afeefd0984dc1965379513a2931e85d281fa" upstream="rk356x/firefly"/>
   <project name="external/bluez-alsa" revision="e383251a22fef7213b7e5a804e4c7a7ca621c80d"/>
   <project name="external/broadcom_bsa" revision="46234ce7a904794754bba79cb7c9f26d39605311" upstream="rk356x/firefly"/>
-  <project name="external/camera_engine_rkaiq" revision="2fd04041b630650098b2ced9a9f29d00613a2e68" upstream="rk356x/firefly"/>
+  <project name="external/camera_engine_rkaiq" revision="7dbf19a6032c026c6c7ac8d9cc5388327915d5d5" upstream="rk356x/firefly"/>
   <project name="external/chromium" revision="bba90aee6a986fca85e8cf79c2917ebf5a2b6e17"/>
   <project name="external/common_algorithm" revision="c0e48be28b4f1660bcbd7bb521de67662461d0cc" upstream="rk356x/firefly"/>
   <project name="external/deviceio_release" revision="187439b6c9ed867c5a28d8b39cb2ecf19ba9dae6"/>
@@ -73,10 +73,10 @@
   <project name="external/rknn_demo" revision="d24d15b855ee5b0521ee33bd13a1f1bcf597b7dc"/>
   <project name="external/rknpu" revision="ad469a6f5f0f2d767d8af7cc51f1492d4af171d6"/>
   <project name="external/rknpu2" revision="897d102d43ef3258127c5334bcc3c76f3d134592"/>
-  <project name="external/rkscript" revision="6e670d977db61b7eb769639ddd1e7a9288ed029c"/>
+  <project name="external/rkscript" revision="4b0ea1fb6a59211bb9a83eb39c230235c3f1491a"/>
   <project name="external/rktoolkit" revision="77fb41f99185a6f9dc2c9c69e099f417d8ae905d"/>
   <project name="external/rkupdate" revision="1e014c0295f960a23b5b351c0bb3e1c6903d0bf6"/>
-  <project name="external/rkwifibt" revision="a67c4fa046cbbca0fd8c7d8a64dd44c84e02a525"/>
+  <project name="external/rkwifibt" revision="c8a08c76fbb3357da7bf26138914b18e7209892e" upstream="rk356x/firefly"/>
   <project name="external/rockface" revision="c15e36566c5bf07e1f8449e9087d73533b4ff420"/>
   <project name="external/rockit" revision="1d00423a36b1edd15e264aa3242fa4c869f80dc0"/>
   <project name="external/rockx" revision="19ffaec48095f6ee53b798d7d0ba3de86515449a"/>
@@ -89,7 +89,7 @@
   <project name="external/update_engine" revision="ef212877ada6fe629f52485113b35a81ab31009b"/>
   <project name="external/uvc_app" revision="7dc43331a85f5c60fd3401b502cd837169ad42e2" upstream="rk356x/firefly"/>
   <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7"/>
-  <project name="kernel" revision="4c08742fc2043433a474eda39e2f942f4f412efd" upstream="rk356x/firefly"/>
+  <project name="kernel" revision="d9958ee3232dfbd3429ef5af1cefab03eb3fa800" upstream="rk356x/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu" revision="2edfa6dde1f73c5b3c6de980e3450443e35c0a0f"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b"/>
   <project name="rkbin" revision="f3a176f85553c0df05007453cff8b450ca730c6a"/>
@@ -100,20 +100,26 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk356x-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk356x-package-file"/>
   </project>
-  <project name="u-boot" revision="bcbe77799e305a1ffd0de4d3c6fe83d265a2b633" upstream="rk356x/firefly"/>
-  <project name="yocto/build/conf" revision="8609d6a9cd0d947b69ec8b39d1a38f339d611636"/>
-  <project name="yocto/meta-browser" revision="423633196c7e4b68e1fd1338a2a21a429e76733e"/>
-  <project name="yocto/meta-clang" revision="1243bfc88308d58503e9c64435ede99a335218a5"/>
-  <project name="yocto/meta-openembedded" revision="b48f70b918b398f2d614601358d6df8340ef6984"/>
-  <project name="yocto/meta-python2" revision="27d2aebdb4d78a608798a4f617d9bcfcbe4a635b"/>
-  <project name="yocto/meta-qt5" revision="aa42c0699dd4d90b6ed0cffd6010760a2cf671b5"/>
-  <project name="yocto/meta-rockchip" revision="0ea0ecb18298aad3c58d27e3b6517b8ed85e08ce"/>
-  <project name="yocto/meta-rust" revision="f56fd4ec6835d68c4e9f8a9630963acd34d172e5"/>
-  <project name="yocto/poky" revision="6b2d8dd4437c31c2746d5d433477f61ce3fb97ff">
+  <project name="u-boot" revision="5376d2c55831818865c7f4565e92420f9114e0e0" upstream="rk356x/firefly"/>
+
+  <notice>Yocto project.</notice>
+  <project dest-branch="warrior" name="yocto/meta-browser" path="yocto/meta-browser" revision="830ef438e81ba5fc915b1855e69f02b2c286b21a"/>
+  <project dest-branch="warrior" name="yocto/meta-clang" path="yocto/meta-clang" revision="8f4080a2afa24fdd9df051a5707a38e0af38dd17"/>
+  <project dest-branch="warrior" name="yocto/meta-openembedded" path="yocto/meta-openembedded" revision="a24acf94d48d635eca668ea34598c6e5c857e3f8"/>
+  <project dest-branch="zeus" name="yocto/meta-python2" path="yocto/meta-python2" revision="4400f9155ec193d028208cf0c66aeed2ba2b00ab"/>
+  <project dest-branch="warrior" name="yocto/meta-qt5" path="yocto/meta-qt5" revision="9248dc741f4e051d8d8578b7e04681cbae182c69"/>
+  <project dest-branch="rk3399/warrior" name="yocto/meta-rockchip" path="yocto/meta-rockchip" revision="cba4d9e5d4135f18e5f0e0354d80a093aede8aee"/>
+  <project dest-branch="firefly" name="yocto/meta-rust" path="yocto/meta-rust" revision="318fb46863c0df5001f937bb4ca856491a493725"/>
+  <project dest-branch="warrior" name="yocto/poky" path="yocto/poky" revision="d588ff814ddb7e14cabe27e28c6ca710f31d1b70">
     <linkfile dest="yocto/scripts" src="scripts"/>
     <linkfile dest="yocto/bitbake" src="bitbake"/>
     <linkfile dest="yocto/meta-poky" src="meta-poky"/>
     <linkfile dest="yocto/.templateconf" src=".templateconf"/>
     <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
+    <linkfile dest="yocto/README.md" src="../../.repo/manifests/README_yocto.md"/>
+    <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
+  </project>
+  <project dest-branch="firefly" name="yocto/build/conf" path="yocto/build/conf" remote="firefly-linux" revision="0c12accd3486703386f7c5134d25d20b28c368ee">
+    <linkfile dest="yocto/build/conf/local.conf" src="firefly-rk3399.conf"/>
   </project>
 </manifest>
