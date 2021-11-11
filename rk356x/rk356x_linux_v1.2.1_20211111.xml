@@ -59,7 +59,7 @@
   <project name="external/isp2-ipc" revision="37fd1c708eee3f68a0e25b2e4792e5bc2d30b626"/>
   <project name="external/ladspaSDK" revision="c1a72f6e72d86b3d235df50d97e5566fb6e93490"/>
   <project name="external/libglCompositor" revision="5dcd40eb0d8a44ae7eccd4961aea6b01c0f78180"/>
-  <project name="external/libmali" revision="fba3435f2a1f01d1214c29a9b628ca9f1f863c98"/>
+  <project name="external/libmali" revision="9ebfa69b04ee82087ba212b100a32ad06b9f873f"/>
   <project name="external/linux-rga" revision="9679ef07bbc45be5c08d34350a7abe719f374a87" upstream="rk356x/firefly"/>
   <project name="external/minigui" revision="56dfcf3f4d2978cabe7684ca64073ebdfaae73b6"/>
   <project name="external/minigui_desktop" revision="9fa64dabb6bae25c07c2fc6ed40de6123f71f493"/>
