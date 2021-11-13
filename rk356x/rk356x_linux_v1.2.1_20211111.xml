@@ -76,7 +76,7 @@
   <project name="external/rkscript" revision="1293af74589267c96ec09bd3191d771fce58bf1d"/>
   <project name="external/rktoolkit" revision="77fb41f99185a6f9dc2c9c69e099f417d8ae905d"/>
   <project name="external/rkupdate" revision="1e014c0295f960a23b5b351c0bb3e1c6903d0bf6"/>
-  <project name="external/rkwifibt" revision="d749ba64209a756cd61a2d03d77f6c7cbbd9e691" upstream="rk356x/firefly"/>
+  <project name="external/rkwifibt" revision="d053166ae2fccac14e6e90e1df5e99f0487f5002" upstream="rk356x/firefly"/>
   <project name="external/rockface" revision="c15e36566c5bf07e1f8449e9087d73533b4ff420"/>
   <project name="external/rockit" revision="3ac2a3e0a869e4b1f9be42339efa93778959683b" upstream="rk356x/firefly"/>
   <project name="external/rockx" revision="19ffaec48095f6ee53b798d7d0ba3de86515449a"/>
