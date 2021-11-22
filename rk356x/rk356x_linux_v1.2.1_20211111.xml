@@ -25,7 +25,7 @@
   <project name="app/qsetting" revision="7719da2d42787bac1a6fe075f2ddf6157cd5d678"/>
   <project name="app/rkaiq_tool_server" revision="1e61f9d7fecfb9b17abae680f92a940475331720"/>
   <project name="app/storage_manager" revision="213aded5fbf9dc2fd05c0fd529aa3da55a6fea93"/>
-  <project name="buildroot" revision="e967b2c3225bbb5801cecb823ed26dffc8929f78" upstream="rk356x/firefly">
+  <project name="buildroot" revision="6085872d119aec9753a359bb012057feed0f8e0c" upstream="rk356x/firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
@@ -55,7 +55,7 @@
   <project name="external/common_algorithm" revision="c754f4a58d6117e10ef0b5a840c9d179ae752991" upstream="rk356x/firefly"/>
   <project name="external/deviceio_release" revision="187439b6c9ed867c5a28d8b39cb2ecf19ba9dae6"/>
   <project name="external/eq_drc_process" revision="6fe472aa76ed71922742863c8f94222dab3dbf3c"/>
-  <project name="external/gstreamer-rockchip" revision="de2e5ccdb3a3d835e8eb66e0ab9aa1e433b6c5b5"/>
+  <project name="external/gstreamer-rockchip" revision="b88d30d93a9e22a68dd029807f4842360d28a680"/>
   <project name="external/isp2-ipc" revision="37fd1c708eee3f68a0e25b2e4792e5bc2d30b626"/>
   <project name="external/ladspaSDK" revision="c1a72f6e72d86b3d235df50d97e5566fb6e93490"/>
   <project name="external/libglCompositor" revision="5dcd40eb0d8a44ae7eccd4961aea6b01c0f78180"/>
@@ -100,7 +100,7 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk356x-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk356x-package-file"/>
   </project>
-  <project name="u-boot" revision="d4ffb8093330b5ee68cdc55647f65b92232e8e10" upstream="rk356x/firefly"/>
+  <project name="u-boot" revision="5961c0c398a4208da5bf4704d4fb081c6563a756" upstream="rk356x/firefly"/>
 
   <notice>Yocto project.</notice>
   <project dest-branch="warrior" name="yocto/meta-browser" path="yocto/meta-browser" revision="830ef438e81ba5fc915b1855e69f02b2c286b21a"/>
