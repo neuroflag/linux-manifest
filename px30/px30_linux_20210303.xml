@@ -47,7 +47,7 @@
   <project name="external/softapDemo" revision="4c7d1bd3d28df276d263f49324b022b44b3a1c85" upstream="firefly"/>
   <project name="external/softapServer" revision="9158517316a050190273c6809ea88467a4276e16" upstream="firefly"/>
   <project name="external/tensorflow" revision="e1877bb157a775d76ec8c0b68467aef6d053bbb2" upstream="firefly"/>
-  <project name="kernel" revision="b825d028e1161e2403923bd19dddf512b3d326ac" upstream="px30/firefly"/>
+  <project name="kernel" revision="6f6b2063256b2236af1070c4dd6e13780eb6adef" upstream="px30/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="firefly"/>
   <project name="rkbin" revision="ef99e9f14f8804f65c1930fe577982a2d662c03a" upstream="firefly"/>
   <project name="tools" revision="0a2057ca63c98ce22098f247381d1458e4c679ef" upstream="firefly">
