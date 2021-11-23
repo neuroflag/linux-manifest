@@ -4,24 +4,24 @@
   
   <default remote="firefly-linux" revision="firefly" sync-j="4"/>
   
-  <project name="device/rockchip" revision="1167a98a4802d49972711ff5f92068095eefc453" upstream="firefly">
+  <project name="device/rockchip" revision="271971b4b4456a0478c9876d5633e906318857bf" upstream="firefly">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
     <linkfile dest="device/rockchip/.target_product" src="rk356x"/>
   </project>
-  <project name="kernel" revision="bb49bf8e838bad69c71b06ec25ce61c2c9d2b622" upstream="rk356x/firefly"/>
+  <project name="kernel" revision="95ba5fb33c06dd47252ffb104f58c3c22bb0f910" upstream="rk356x/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu" revision="2edfa6dde1f73c5b3c6de980e3450443e35c0a0f" upstream="firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="firefly"/>
-  <project name="rkbin" revision="3eaac1e79c71f2db9a099ea52dc8bd0ea20ad712" upstream="firefly"/>
-  <project name="tools" revision="a1867b3c10eaf05230857f2410bff9ac4f95e73e" upstream="firefly">
+  <project name="rkbin" revision="12816083b6303f852fc3604b2e5b0d51d1a51dd8" upstream="firefly"/>
+  <project name="tools" revision="3625ca56cf9217dc1b1b863546d9fb8868831a3a" upstream="firefly">
     <linkfile dest="tools/windows/RKDevTool/RKDevTool_Release/config.cfg" src="windows/RKDevTool/RKDevTool_Release/rk356x-config.cfg"/>
     <linkfile dest="tools/windows/RKDevTool/rockdev/package-file" src="windows/RKDevTool/rockdev/rk356x-package-file"/>
     <linkfile dest="tools/windows/RKDevTool/rockdev/mkupdate.bat" src="windows/RKDevTool/rockdev/rk356x-mkupdate.bat"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk356x-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk356x-package-file"/>
   </project>
-  <project name="u-boot" revision="912f242c306af4522d4a423bbf4c7bbce9cec53a" upstream="rk356x/firefly"/>
+  <project name="u-boot" revision="5961c0c398a4208da5bf4704d4fb081c6563a756" upstream="rk356x/firefly"/>
   <project name="openwrt_sdk/openwrt" revision="865f99a0773e427ebc92e6ca880ed6d9366cf1ca" upstream="firefly"/>
   <project name="openwrt_sdk/lede" revision="9ceaaf2b35b7f5de508a8d1376eaa78d9e4dec39" upstream="firefly"/>
   <project name="openwrt_sdk/external" revision="517255bfb751058c1eee9e3e9038a89b60412e93" upstream="firefly"/>
