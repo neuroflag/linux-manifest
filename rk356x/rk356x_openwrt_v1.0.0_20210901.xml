@@ -4,17 +4,17 @@
   
   <default remote="firefly-linux" revision="firefly" sync-j="4"/>
   
-  <project name="device/rockchip" revision="1167a98a4802d49972711ff5f92068095eefc453">
+  <project name="device/rockchip" revision="1167a98a4802d49972711ff5f92068095eefc453" upstream="rk356x/firefly">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
     <linkfile dest="device/rockchip/.target_product" src="rk356x"/>
   </project>
   <project name="kernel" revision="bb49bf8e838bad69c71b06ec25ce61c2c9d2b622" upstream="rk356x/firefly"/>
-  <project name="prebuilts/gcc/linux-x86/aarch64/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu" revision="2edfa6dde1f73c5b3c6de980e3450443e35c0a0f"/>
-  <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b"/>
-  <project name="rkbin" revision="3eaac1e79c71f2db9a099ea52dc8bd0ea20ad712"/>
-  <project name="tools" revision="a1867b3c10eaf05230857f2410bff9ac4f95e73e">
+  <project name="prebuilts/gcc/linux-x86/aarch64/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu" revision="2edfa6dde1f73c5b3c6de980e3450443e35c0a0f" upstream="firefly"/>
+  <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="firefly"/>
+  <project name="rkbin" revision="3eaac1e79c71f2db9a099ea52dc8bd0ea20ad712" upstream="firefly"/>
+  <project name="tools" revision="a1867b3c10eaf05230857f2410bff9ac4f95e73e" upstream="firefly">
     <linkfile dest="tools/windows/RKDevTool/RKDevTool_Release/config.cfg" src="windows/RKDevTool/RKDevTool_Release/rk356x-config.cfg"/>
     <linkfile dest="tools/windows/RKDevTool/rockdev/package-file" src="windows/RKDevTool/rockdev/rk356x-package-file"/>
     <linkfile dest="tools/windows/RKDevTool/rockdev/mkupdate.bat" src="windows/RKDevTool/rockdev/rk356x-mkupdate.bat"/>
