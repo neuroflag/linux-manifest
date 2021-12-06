@@ -11,7 +11,7 @@
   <project name="app/dbserver" revision="d83be008ff925d9872dbc7af0dc78184275e001f" upstream="firefly"/>
   <project name="app/dbtool" revision="2485967d7374392d9440fba18b242450536a396a" upstream="firefly"/>
   <project name="app/eptz_demo" revision="eefc46ba96e15e52d191b0db310cfb16ecfd7f40" upstream="firefly"/>
-  <project name="app/firefly_rkmedia_demo" revision="b8ca0c0958a72d2b10c753aeb953d2a9d93c88a6" upstream="firefly"/>
+  <project name="app/firefly_rkmedia_demo" revision="99db1655e253568845e89bc5a7381aa5af4aeeda" upstream="firefly"/>
   <project name="app/firefly_rkmedia_uvc" revision="976aae2610f9fd8a2a2e69b7ef66a957ed7ba148" upstream="firefly"/>
   <project name="app/firefly_rockx_demo" revision="66baa9a20d1b466a955313e6c318755ed4c1e9ff" upstream="firefly"/>
   <project name="app/ipc-daemon" revision="30b8dc6f23c4623324bcd051659ef8b45018a8c2" upstream="firefly"/>
@@ -27,12 +27,12 @@
   <project name="app/smart_display_service" revision="4dbf0071b20f1f3c95595a5e2a550505da94ed11" upstream="firefly"/>
   <project name="app/storage_manager" revision="d729725c0f6b055e537cfd451ecd8fde202f12b4" upstream="firefly"/>
   <project name="app/video" revision="b81dab76a6ebccba5b43738092bd88e9073acbdb" upstream="firefly"/>
-  <project name="buildroot" revision="c54e142782747f86364f7a92c34df4904cb05fd4" upstream="rv1126_rv1109/firefly">
+  <project name="buildroot" revision="4834ded3dbe747688cda77069b5727d848ab9b58" upstream="rv1126_rv1109/firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
   <project name="buildroot-dl" path="buildroot/dl" revision="af79460718d20839ce5a290ff8681ca38da0939d" upstream="firefly"/>
-  <project name="device/rockchip" revision="3c3bf80e617c5cbc762e1980a653223cb8711652" upstream="firefly">
+  <project name="device/rockchip" revision="2b2e3175964166657ecd19499f15edff0c040acf" upstream="firefly">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -52,7 +52,7 @@
   <project name="external/bluetooth_bsa" revision="ebea134dbaf0b6fe09fe1f50cc3eedffacd99a52" upstream="firefly"/>
   <project name="external/bluez-alsa" revision="e383251a22fef7213b7e5a804e4c7a7ca621c80d" upstream="firefly"/>
   <project name="external/broadcom_bsa" revision="d7855e9dc601d69b00aa5e52ab03e68f35ac5aa5" upstream="firefly"/>
-  <project name="external/camera_engine_rkaiq" revision="26c10d48a4ddca7d65141c33223d47044604536c" upstream="firefly"/>
+  <project name="external/camera_engine_rkaiq" revision="07c57bee41efd9287b729505f29db6babaa69385" upstream="firefly"/>
   <project name="external/common_algorithm" revision="c0c83efbe884358ed2345953328e4dcfb962c1fe" upstream="firefly"/>
   <project name="external/deviceio_release" revision="f1c13ffd07e3b3ea7ef8a1249b1c690415b6fcfd" upstream="firefly"/>
   <project name="external/eq_drc_process" revision="0baa2fff6a51a773ad9fe001d3eef3c46a7dcb2e" upstream="firefly"/>
@@ -87,7 +87,7 @@
   <project name="external/uvc_app" revision="504d8d3a5dc4937039b8445434048ab49de6a136" upstream="rv1126_rv1109/firefly"/>
   <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="firefly"/>
   <project name="external/xhlpr_app" revision="a993024297d722143a9b9c750a4fbb261834e002" upstream="firefly"/>
-  <project name="kernel" revision="b621d27e11be430de675f9a133cf9174863bcb28" upstream="rv1126_rv1109/firefly"/>
+  <project name="kernel" revision="686e5e5e7327f23a8766ad2db3099ca9a84da95d" upstream="rv1126_rv1109/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="firefly"/>
   <project name="prebuilts/gcc/linux-x86/arm/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf" revision="27edb819ca803f5da253ccbd4134d6337a7310d1" upstream="firefly"/>
   <project name="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="firefly"/>
