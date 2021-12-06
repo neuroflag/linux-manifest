@@ -52,7 +52,7 @@
   <project name="external/bluetooth_bsa" revision="ebea134dbaf0b6fe09fe1f50cc3eedffacd99a52" upstream="firefly"/>
   <project name="external/bluez-alsa" revision="e383251a22fef7213b7e5a804e4c7a7ca621c80d" upstream="firefly"/>
   <project name="external/broadcom_bsa" revision="d7855e9dc601d69b00aa5e52ab03e68f35ac5aa5" upstream="firefly"/>
-  <project name="external/camera_engine_rkaiq" revision="26c10d48a4ddca7d65141c33223d47044604536c" upstream="firefly"/>
+  <project name="external/camera_engine_rkaiq" revision="07c57bee41efd9287b729505f29db6babaa69385" upstream="firefly"/>
   <project name="external/common_algorithm" revision="c0c83efbe884358ed2345953328e4dcfb962c1fe" upstream="firefly"/>
   <project name="external/deviceio_release" revision="f1c13ffd07e3b3ea7ef8a1249b1c690415b6fcfd" upstream="firefly"/>
   <project name="external/eq_drc_process" revision="0baa2fff6a51a773ad9fe001d3eef3c46a7dcb2e" upstream="firefly"/>
