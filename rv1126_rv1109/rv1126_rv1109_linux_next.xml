@@ -20,14 +20,14 @@
   <project name="app/libIPCProtocol" revision="5dba1dae2bb2c7a9e1fd2c9e1500219e8c2e3321" upstream="firefly"/>
   <project name="app/libgdbus" revision="79370be32dde657abf1128c90c72b93e75d814ed" upstream="firefly"/>
   <project name="app/librkdb" revision="72fd398899e791dcf0a02b484a9be404063ed94e" upstream="firefly"/>
-  <project name="app/mediaserver" revision="1b9e23427a98db7e0775ea5bb0ba0b1bad90153c" upstream="firefly"/>
+  <project name="app/mediaserver" revision="553e1afa1caf17e6ff1c469df77ff36dfc839251" upstream="firefly"/>
   <project name="app/minigui_demo" revision="4e0eaf998640e0538792619e0d2f8641c5896f69" upstream="firefly"/>
   <project name="app/netserver" revision="8369686bdea4b2f037c76e674f22b3a26ecd00ad" upstream="firefly"/>
   <project name="app/rkaiq_switch_mode" revision="51d71fe671555883bb4cee16acbd5dea27157958" upstream="firefly"/>
   <project name="app/smart_display_service" revision="4dbf0071b20f1f3c95595a5e2a550505da94ed11" upstream="firefly"/>
   <project name="app/storage_manager" revision="d729725c0f6b055e537cfd451ecd8fde202f12b4" upstream="firefly"/>
   <project name="app/video" revision="b81dab76a6ebccba5b43738092bd88e9073acbdb" upstream="firefly"/>
-  <project name="buildroot" revision="4834ded3dbe747688cda77069b5727d848ab9b58" upstream="rv1126_rv1109/firefly">
+  <project name="buildroot" revision="af3904e177e2999b99fe2543e8eaf96946e6a7f4" upstream="rv1126_rv1109/firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
@@ -52,7 +52,7 @@
   <project name="external/bluetooth_bsa" revision="ebea134dbaf0b6fe09fe1f50cc3eedffacd99a52" upstream="firefly"/>
   <project name="external/bluez-alsa" revision="e383251a22fef7213b7e5a804e4c7a7ca621c80d" upstream="firefly"/>
   <project name="external/broadcom_bsa" revision="d7855e9dc601d69b00aa5e52ab03e68f35ac5aa5" upstream="firefly"/>
-  <project name="external/camera_engine_rkaiq" revision="07c57bee41efd9287b729505f29db6babaa69385" upstream="firefly"/>
+  <project name="external/camera_engine_rkaiq" revision="82b16e432971120255d7a1f332f59747b87acca4" upstream="rv1126_rv1109/firefly"/>
   <project name="external/common_algorithm" revision="c0c83efbe884358ed2345953328e4dcfb962c1fe" upstream="firefly"/>
   <project name="external/deviceio_release" revision="f1c13ffd07e3b3ea7ef8a1249b1c690415b6fcfd" upstream="firefly"/>
   <project name="external/eq_drc_process" revision="0baa2fff6a51a773ad9fe001d3eef3c46a7dcb2e" upstream="firefly"/>
