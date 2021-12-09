@@ -28,7 +28,7 @@
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
   <project name="buildroot-dl" path="buildroot/dl" revision="939379c396fd29e48a7a973d1042cb313900d537" upstream="firefly"/>
-  <project name="device/rockchip" revision="4667862d9116f04e5f1ade88bebb402797069c33" upstream="firefly">
+  <project name="device/rockchip" revision="bfaa849753c22ef93fc66653229d2c9947471d15" upstream="firefly">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -79,7 +79,7 @@
   <project name="external/uac_app" revision="98521baa8d82b29629c5ff8fd22ea580feb54163" upstream="firefly"/>
   <project name="external/uvc_app" revision="0c28e96a4cf52c49dbab053eba7e419176ea3022" upstream="rv1126_rv1109/firefly"/>
   <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="firefly"/>
-  <project name="kernel" revision="80119446d95b604e272b9a762046dcb7aade96f8" upstream="rv1126_rv1109_ai/firefly"/>
+  <project name="kernel" revision="c9885313392f21ab1b53d6b5e3de184532677b1e" upstream="rv1126_rv1109_ai/firefly"/>
   <project name="prebuilts/gcc/linux-x86/arm/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf" revision="27edb819ca803f5da253ccbd4134d6337a7310d1" upstream="firefly"/>
   <project name="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="firefly"/>
   <project name="rkbin" revision="247e853234461cab797530e7765c49638ba1939b" upstream="firefly"/>
