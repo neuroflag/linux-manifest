@@ -95,7 +95,7 @@
   <project name="app/QLauncher" revision="a17ceb273aaa6f5c9aaf9f570d4ee56e28135c9d" upstream="firefly"/>
   <project name="app/cvr_app" revision="14f67cec30f7bf0f577de9e05d7c5b9d065d5a81" upstream="firefly"/>
   <project name="app/multivideoplayer" revision="5d566e0b2ab416c251b54d59d6237e7164c7e270" upstream="firefly"/>
-  <project name="app/qcamera" revision="5d566e0b2ab416c251b54d59d6237e7164c7e270" upstream="firefly"/>
+  <project name="app/qcamera" revision="1a86667048e5646b29d113872ca4adfaf232ec21" upstream="firefly"/>
   <project name="app/qfm" revision="7e94be4d1ce41e395909da8b963ad46c65ca285f" upstream="rv1126_rv1109/firefly"/>
   <project name="app/qplayer" revision="0121646c9fe2335eef9a963071d07b797a17487e" upstream="firefly"/>
   <project name="app/qsetting" revision="7719da2d42787bac1a6fe075f2ddf6157cd5d678" upstream="firefly"/>
