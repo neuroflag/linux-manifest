@@ -12,7 +12,7 @@
   <project name="app/cvr_app" revision="14f67cec30f7bf0f577de9e05d7c5b9d065d5a81" upstream="firefly"/>
   <project name="app/dbserver" revision="ed4479a42b462a0f23e39fe77e2decc009fc0938" upstream="firefly"/>
   <project name="app/dbtool" revision="1e74ed454eacd45d59a333d694261bf73ffc1b18" upstream="firefly"/>
-  <project name="app/firefly_rkmedia_demo" revision="5ab00c7eac7799db9ed1532e7727c44fea0f97a0" upstream="firefly"/>
+  <project name="app/firefly_rkmedia_demo" revision="2cfa75a07f0ae3266097597a9d3b6908e6628e57" upstream="firefly"/>
   <project name="app/firefly_rkmedia_uvc" revision="976aae2610f9fd8a2a2e69b7ef66a957ed7ba148" upstream="firefly"/>
   <project name="app/firefly_rockx_demo" revision="66baa9a20d1b466a955313e6c318755ed4c1e9ff" upstream="firefly"/>
   <project name="app/ipc-daemon" revision="30b8dc6f23c4623324bcd051659ef8b45018a8c2" upstream="firefly"/>
@@ -35,12 +35,12 @@
   <project name="app/startup_app_ipc" revision="9ab2893bd39ef11855c956cc0198726c93c39746" upstream="firefly"/>
   <project name="app/storage_manager" revision="213aded5fbf9dc2fd05c0fd529aa3da55a6fea93" upstream="firefly"/>
   <project name="app/video" revision="b81dab76a6ebccba5b43738092bd88e9073acbdb" upstream="firefly"/>
-  <project name="buildroot" revision="0648e4255d5f189edf69b0910d329e0af2406f1a" upstream="rv1126_rv1109/firefly-2.0">
+  <project name="buildroot" revision="15b3df464e049d88eac5ecf654d23161a30ed276" upstream="rv1126_rv1109/firefly-2.0">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
   <project name="buildroot-dl" path="buildroot/dl" revision="af79460718d20839ce5a290ff8681ca38da0939d" upstream="firefly"/>
-  <project name="device/rockchip" revision="2b2e3175964166657ecd19499f15edff0c040acf" upstream="firefly">
+  <project name="device/rockchip" revision="a1695a9f5db3e1cc9cb39f740c4ad0ebd9c26054" upstream="firefly">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
