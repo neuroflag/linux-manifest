@@ -21,7 +21,7 @@
   <project name="app/libIPCProtocol" revision="45cdd16d137929a06ad6231eca4d17eed5a967d6" upstream="rv1126_rv1109/firefly-2.0"/>
   <project name="app/libgdbus" revision="79370be32dde657abf1128c90c72b93e75d814ed" upstream="firefly"/>
   <project name="app/librkdb" revision="72fd398899e791dcf0a02b484a9be404063ed94e" upstream="firefly"/>
-  <project name="app/mediaserver" revision="708ee7015ad546bbbe93f1a2a9ab8aa27e2316e3" upstream="rv1126_rv1109/firefly-2.0"/>
+  <project name="app/mediaserver" revision="2d748c1770f6ac7b27687b3c91f9f81a33a2c8c8" upstream="rv1126_rv1109/firefly-2.0"/>
   <project name="app/minigui_demo" revision="4e0eaf998640e0538792619e0d2f8641c5896f69" upstream="firefly"/>
   <project name="app/multivideoplayer" revision="5d566e0b2ab416c251b54d59d6237e7164c7e270" upstream="firefly"/>
   <project name="app/netserver" revision="2c696348c2e4dd2eb278efd38370255e752eb4d7" upstream="firefly"/>
@@ -29,13 +29,13 @@
   <project name="app/qfm" revision="7e94be4d1ce41e395909da8b963ad46c65ca285f" upstream="rv1126_rv1109/firefly"/>
   <project name="app/qplayer" revision="0121646c9fe2335eef9a963071d07b797a17487e" upstream="firefly"/>
   <project name="app/qsetting" revision="7719da2d42787bac1a6fe075f2ddf6157cd5d678" upstream="firefly"/>
-  <project name="app/rkaiq_switch_mode" revision="51d71fe671555883bb4cee16acbd5dea27157958" upstream="firefly"/>
+  <project name="app/rkaiq_switch_mode" revision="69005dd96f46b04d51ca4ccc7a01c083420d84fd" upstream="firefly"/>
   <project name="app/rkaiq_tool_server" revision="d702dc17181c4fe30b82db5a3c456f123c0650c2" upstream="rv1126_rv1109/firefly"/>
   <project name="app/smart_display_service" revision="4dbf0071b20f1f3c95595a5e2a550505da94ed11" upstream="firefly"/>
   <project name="app/startup_app_ipc" revision="9ab2893bd39ef11855c956cc0198726c93c39746" upstream="firefly"/>
   <project name="app/storage_manager" revision="213aded5fbf9dc2fd05c0fd529aa3da55a6fea93" upstream="firefly"/>
   <project name="app/video" revision="b81dab76a6ebccba5b43738092bd88e9073acbdb" upstream="firefly"/>
-  <project name="buildroot" revision="15b3df464e049d88eac5ecf654d23161a30ed276" upstream="rv1126_rv1109/firefly-2.0">
+  <project name="buildroot" revision="9a35bf76cb131c83f2e5c40fb50269fb0d50a68b" upstream="rv1126_rv1109/firefly-2.0">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
