@@ -13,7 +13,7 @@
   <project name="app/qplayer" revision="0121646c9fe2335eef9a963071d07b797a17487e" upstream="firefly"/>
   <project name="app/qsetting" revision="7719da2d42787bac1a6fe075f2ddf6157cd5d678" upstream="firefly"/>
   <project name="app/aiserver" revision="bb655ebcbf57fd044bb0f36e020bed32d3c9657c" upstream="firefly"/>
-  <project name="buildroot" revision="d48cd2859168530d24e0bff9f596d43be4d32340" upstream="firefly">
+  <project name="buildroot" revision="9d1ec4bd77cf358e1233801667f933b0586753cc" upstream="firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
