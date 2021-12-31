@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="rk3399_linux_release.xml" />
+  <project name="kernel" revision="b19894dc5183f0c7063b4202837b2d700042d74b" upstream="rk3399/firefly-4.19"/>
+</manifest>
