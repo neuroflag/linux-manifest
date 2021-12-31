@@ -93,7 +93,7 @@
   <project name="external/uvc_app" revision="3288aa612391323e53fd0acecd63513e17af5b9b" upstream="rv1126_rv1109/firefly"/>
   <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="firefly"/>
   <project name="external/xhlpr_app" revision="a993024297d722143a9b9c750a4fbb261834e002" upstream="firefly"/>
-  <project name="kernel" revision="d620a6e8a8f25964030c4c1f9e35a25b25905632" upstream="rv1126_rv1109/firefly"/>
+  <project name="kernel" revision="b39b05c415ceadd8562bc756c61c5d9e054b7119" upstream="rv1126_rv1109/firefly"/>
   <project name="prebuilts/gcc/linux-x86/arm/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf" revision="cd2382618b38127f00aacee606b9955c82f698ec" upstream="firefly"/>
   <project name="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="firefly"/>
   <project name="rkbin" revision="18918b724e9961b2cec3dee2c21019b9092198a2" upstream="firefly"/>
