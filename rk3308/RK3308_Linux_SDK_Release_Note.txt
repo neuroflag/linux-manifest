@@ -1,0 +1,397 @@
+===========RK3308 Linux SDK Release Note===========
+【rk3308_linux_release_v1.3.2_20191031.xml 更新日志】
+rkbin 更新：
+1. 更新 ddr.bin 到v1.2.9
+2. 更新 miniloader.bin 到v1.19
+
+u-boot 更新:
+1. 开源SPL 方案支持spi-nand
+
+Kernel 更新:
+1. 开源SPL 方案支持spi-nand
+2. 新增RK618 RGB转MIPI显示配置
+
+Buildroot 更新：
+1. 完善MTP 功能
+2. 添加开机无法挂载userdata，自动格式化功能
+3. bluez5_utils
+  新增 GetPlayStatus api：主动获取远端设备的播放状态、播放进度
+  新增 PosChange api：远程设备是否支持主动上报播放进度
+  新增蓝牙电话簿权限支持
+  修正32bit 系统，解析D-Bus uint64、int64类型数据内存越界
+  修正重复注册media player导致的D-Bus failed
+
+external 更新
+1. app 更新 RockHome.apk
+2. bluetooth_bsa 打印日志到syslog
+3. bluez-alsa:
+  更新bluez-alsa版本到 commit 22ffb（官网版本）
+  新增蓝牙通话16K 采样率支持（以前只支持8K）
+  新增发送hfp BCS msg到libDeviceio库，用于蓝牙通话8K和16K采样率自适应
+  新增发送hfp CIEV msg到libDeviceio库，用于蓝牙通话状态控制
+  新增发送underrun信息到libDeviceio库
+4. broadcom_bsa 打印日志到syslog
+5. deviceio 更新版本到v1.3.0
+6. ladspaSDK 优化CPU使用效率
+7. minigui_desktop 减少固件和内存占用
+8. rkscript 新增UAC、UVC、UMC，修复MTP热插拔错误
+9. rkwifibt 更新rtl8723ds，支持hfp 16K 采样
+10. recovery 新增sdboot
+
+docs 更新；
+1. 更新<Rockchip_RK3308_Quick _Start_Linux_SDK_CN.pdf>
+2. 更新<Rockchip_Developer_Guide_Linux_SPL_MTD_CN.pdf>
+3. 更新<Rockchip_RK3308_Linux_SDK_Release_V1.3.2_20191031_CN.pdf>
+4. 新增<Rockchip_Developer_Guide_DeviceIo_Bluetooth_CN.pdf>
+
+【rk3308_linux_release_v1.3.0_20190709.xml 更新日志】
+u-boot 更新：
+1. 新增开源SPL方案，支持EMMC 和SLC NAND存储器，暂不支持SPI NAND存储器
+2. 新增MTD方案，支持SLC NAND存储器，暂不支持SPI NAND存储器
+
+Kernel 更新：
+1. 新增MTD方案，支持SLC NAND存储器，暂不支持SPI NAND存储器
+2. 更新 RTL8723DS/8189FS WIFI驱动
+3. 更新海华 AWCM256/AWNB197 WIFI驱动
+4. 更新rkflash 驱动
+5. 修复低温下RK3308 ACODEC概率播放无声问题
+
+doc 更新：
+1. 调整目录
+2. 新增配网文档 <Rockchip_Developer_Guide_Network_Config_CN.pdf>
+3. 新增minigui开发指南 <Rockchip_Developer_Guide_Linux_Minigui_CN.pdf>
+4. 新增SPL、MTD开发指南<Rockchip_Developer_Guide_Linux_SPL_MTD_CN.pdf>
+5. 新增升级开发指南 <Rockchip_Developer_Guide_Linux_Upgrade_CN.pdf>
+6. 新增RK3308 Linux 快速入门指南<Rockchip_RK3308_Quick_Start_Linux_SDK_CN.pdf>
+7. 更新RK3308 Datasheet <Rockchip_RK3308_Datasheet_V1.5.0_20190121_EN.pdf>
+8. 新增RK3308B Datasheet <Rockchip_RK3308B_Datasheet_V1.2.0_20190509_EN.pdf>
+9. 新增<Rockchip_Developer_Guide_Linux_RK816_RTC.pdf>
+
+external 更新：
+1. wifi/bt 具体详见<Rockchip Linux WIFI BT 开发指南 V6.0.pdf>
+	更新 bluethooth_bsa
+	更新 broadcom_bsa
+	app 新增 RkEcho、RockHome应用的源码
+	更新 bluez-alsa
+	更新 deviceio
+	更新 rkwifibt
+	新增 rk_webui，用于网页配网
+2. 更新 eq_drc_process、ladspaSDK，增加三段drc，解决fd泄露问题
+3. 更新 DuerClientSDK
+4. 更新 alsa-config
+5. 更新 minigui
+6. 更新 rk_pcba_test
+7. 更新 recovery，升级方式支持MTD和BLOCK，详见文档<Rockchip_Developer_Guide_Linux_Upgrade_CN.pdf>
+8. 新增 minigui_desktop，minigui桌面demo，详见文档<Rockchip_Developer_Guide_Linux_Minigui_CN.pdf>
+9. 新增 rkscript，原本位于buildroot下的一些启动脚本迁移到该目录
+10. 新增 rtc_demo，参考Rockchip_RK816_Developer_Guide_Linux_Rtc_CN.pdf
+
+Buildroot 目录：
+1. 新增QT显示方案，支持旋转
+2. 升级程序默认切换使用新的升级方案，即updateEngine
+
+device 更新：
+1. 支持编译ubifs文件系统
+2. BoardConfig 默认配置修改为RK_EVB_RK3308_DDR3P116SD4_V13
+
+rkbin 更新：
+1. 新增没有FTL的usbplug.bin 和miniloader.bin 
+2. 更新miniloader.bin 文件
+
+tools 更新：
+1. AndroidTools 更新到2.6.9版本，支持MTD 烧写
+
+【rk3308_linux_release_v1.2.5_20190430.xml 更新日志】
+u-boot更新：
+1. 修复开启op-tee后不断重启错误
+2. 修复开机logo显示
+
+Kernel更新：
+1. 新增USB 声卡功能，支持UAC1/UAC2协议，参考Rockchip-Developer-Guide-Linux4.4-USB-Gadget-UAC-CN.pdf
+
+docs更新：
+1. 新增RK816 带电池音箱开发指导文档，Rockchip_Developer_Guide_RK3308_RK816_CN.pdf
+2. 新增RK3308 显示方案开发指导文档，Rockchip_Developer_Guide_RK3308_DISPLAY_CN.pdf
+3. 新增 deviceio/doc文档说明：
+	蓝牙接口说明：Rockchip_Developer_Guide_DeviceIo_Bluetooth_CN.pdf
+	Led接口说明：Rockchip_Developer_Guide_DeviceIo_Led_CN.pdf
+	按键接口说明：Rockchip_Developer_Guide_DeviceIo_Key_CN.pdf
+	Wifi接口说明：Rockchip_Developer_Guide_DeviceIo_WIFI_CN.pdf
+
+external更新：
+1. 更新 bluetooth_bsa 
+2. 更新 broadcom_bsa 
+3. 更新 eq_drc_process 
+4. 更新 security/bin 修复 op-tee 错误
+5. deviceio
+	新增BLE配网Demo
+	修复BtSource接口
+	新增BSA库的支持
+	修复BSA分支deviceio_test测试失败
+	修复BLUEZ初始化失败程序卡住的BUG
+	修改A2DP SOURCE 获取playrole方法
+	
+Buildroot更新：
+1. 修复 QT linuxfb(DRM) backend 显示卡顿的问题
+
+【rk3308_linux_release_v1.2.4_20190327.xml 更新日志】
+Kernel更新：
+1. 增加EVB V13 板级配置：rk3308-evb-amic-v13.dts、rk3308-evb-dmic-i2s-v13.dts、rk3308-evb-dmic-pdm-v13.dts
+2. 增加红外功能
+3. 重要bug修正：修正如下板级 SLC NAND Flash的电源域配置错误，从1.8V更正为3.3V（注：参考以下设计的产品，必须修改）
+	rk3308b-evb-v10.dtsi
+	rk3308-evb-v11.dtsi
+	rk3308-ai-va-v10.dts
+4. 增加dot-rk816 64bit 的板级配置：rk3308-dot-rk816-v10.dts
+
+rkbin更新：
+1. 修复MaskROM 无法识别SN特殊字符问题
+	
+uboot更新：
+1. 增加Linux A/B 引导功能
+2. 解决SN特殊字符无法识别问题
+3. 增加充电显示红灯，充满显示蓝灯功能
+
+Buildroot更新：
+1. 增加Linux A/B 升级方案
+2. 修复adb shell ctrl-c 无法退出程序
+3. 解决 rkwifibt 编译错误
+
+device更新：
+1. 新增Linux A/B 升级方案修改
+2. 解决第一次开机异常掉电，导致oem分区异常
+3. 解决pcba 编译错误处理
+
+tools更新：
+1. 新增Linux A/B 固件自动生成
+
+doc更新：
+1. 新增<Rockchip_Developer_Guide_Linux4.4_AB_upgrade_CN>
+2. 新增<Rockchip_Developer_Guide_Rk3308_DeviceIo_Bluetooth_CN>
+3. 新增<Rockchip_Developer_Guide_Linux4.4_Infrared_CN>
+
+external更新：
+1. 新增update_engine 代码，即Linux A/B 引导和升级代码。
+2. bluetooth_bsa 适配deviceio
+3. eq_drc_process 解决dueros 编译不过的问题
+4. deviceio 提供接口: 蓝牙、音频、按键、灯效、wifi连接、log管理、shell 及系统常用接口
+
+【rk3308_linux_release_v1.2.3_20181218.xml 更新日志】
+rkbin更新：
+1.rk3308支持optee(bl32)，可在rk3308TRUST.ini文件中选择是否开启optee功能
+2.miniloader :
+        新增支持spi nand flash 颗粒：DS35Q2GA-1B, EM73C044SNC-G, EM73D044SNB-G
+        支持4KB page size的SLC Nand flash
+        添加atag支持
+
+uboot更新：
+1. rk3308-aarch32_defconfig、rk3308_defconfig 使能了uboot宽温功能、支持u-boot充电 
+2. evb-rk3308_defconfig进行裁剪，去掉不必要模块
+3. 使能GIC中断功能
+4. 增加preloader serial功能
+
+Kernel更新：
+1：添加并使能宽温的支持
+
+Buildroot更新：
+1.partinit 修复oem 分区挂载失败
+2.新增设备开发接口API，externel/deviceio/, 如：WiFi、BT控制，配网，播放器等接口
+3.更新思必驰离在线语音算法
+4.更新32位默认的uboot配置: (BoardConfig_32bit.mk) 由evb-aarch32-rk3308 改成rk3308-aarch32
+5.更新64位默认的uboot配置: (BoardConfig.mk) 由evb-rk3308 改成 rk3308
+
+【rk3308_linux_release_v1.2.2_20181009.xml 更新日志】
+
+rkbin更新：
+1. 开机默认将VCCIO4电压域切为3.3V模式。该部分硬件设计为3.3V的，需要进行软件更新。
+
+Buildroot更新：
+1. 更新partinit软件包，完善分区挂载机制。
+2. 更新32bit/64bit DuerClientSDK至20180928版本。
+
+Kernel更新：
+1. 添加EVB V11 PDM DMIC 32bit板级配置。
+2. 解决 SPI NAND 和 SLC NAND 异常掉电极低概率出现数据丢失的问题。
+
+tools更新：
+1. 更新Linux_Upgrade_Tool工具至v1.35版本。
+2. 更新PCBA测试工具：PCBATool_Setup_V1.0.7。
+3. 更新external/app应用包：
+duerhome_shell-debug.apk: Android apk for DuerOS
+EasySetupAndroid-v2.2.0.zip、EasySetupIOS-v2.1.0.zip : smartconfig for Ampak wifi
+
+docs更新：
+1. 更新RK3308 DuerOS 使用说明V1.00_20180929.pdf。
+2. 新增Rockchip recovery开发指南 V1.0.0.pdf。
+
+【rk3308_linux_release_v1.2.1_20180919.xml 更新日志】
+
+Buildroot更新：
+1. 修复概率ADB设备识别不到问题。
+2. 修复OEM分区镜像概率打包异常问题。
+
+WiFi/BT更新：
+1. 减少broadcom_bsa及cypress_bsa调试打印信息。
+
+Kernel更新：
+1. 提升CPU高频状态下UART功能稳定性。
+2. 更新EVB板级AMIC通道映射配置。
+
+工具更新：
+1. 更新EQ/DRC调校工具：eq_drc_tool-v1.23。
+2. 更新PCBA测试工具：PCBATool_Setup_V1.0.7。
+
+【rk3308_linux_release_v1.2.0_20180907.xml 更新日志】
+
+Buildroot更新：
+1. 修复概率Recovery分区格式化慢问题。
+2. 使用devtmpfs+eudev作为/dev设备管理。
+3. 调整asound.conf，配置说明见文档《RK3308 Asound配置说明_V1.20.pdf》。
+4. 使用USBMOUNT软件包作为U盘挂载程序。
+5. 更新思必驰新版本语音算法。
+6. 修复概率oem分区ext2镜像打包失败问题。
+7. 更新DuerOS至20180731版本。
+8. 新增在rootfs下升级recovery分区功能。
+9. 解决ALSA录音对个别输入参数支持不好的问题。
+10. 调整VAD配置流程，详见《Rockchip_硬件VAD模块_使用文档_V1.0.pdf》。
+
+WiFi/BT更新：
+1. 修复broadcom_bsa及cypress_bsa功能切换异常。
+2. 新增RTL8723DS MP测试工具。
+3. 更新bluez软件包至5.50版本，添加BLE配网支持。
+4. 更新AP6212A/AP6181 Firmware版本至v4.2。
+5. 新增Realtek模组，从vendor分区读取MAC地址功能。 
+
+Kernel更新：
+1. 新增64bit Kernel压缩的支持，默认使用lz4压缩算法。
+2. 更新RK3308 DVFS频率电压表，调整1GHz、1.2GHz、1.3GHz电压。
+3. 添加TAS5731驱动支持。
+4. 添加DOT-RK816板级DTS：rk3308-dot-rk816-v10-aarch32.dts。
+5. 添加RK3308 CPUID支持，从OTP读取信息随机生成芯片序列号。
+6. 添加RTC支持：rk-timer-rtc。
+7. 提升系统稳定性。
+
+u-boot更新：
+1. 新增rk3308-aarch32_defconfig配置，支持RK816。
+2. 更新vendor storage驱动代码，与Kernel驱动保持一致。
+3. 更新Loader版本至rk3308_loader_v1.23.107.bin。
+
+工具更新：
+1. 新增rk_provision_tool_v1.0.0_180905.zip：
+   可用于Maskrom/Loader模式下写序列号/MAC地址。
+2. 更新AndroidTool、Linux_Pack_Firmware packagefile配置。
+
+文档更新：
+1. 新增RK3308_RTL8723DS_WIFI_BT_说明文档.pdf
+2. 新增Rockchip 分片升级开发指南-V1.0.0.pdf
+3. 新增RK3308 Asound配置说明_V1.20.pdf
+4. 新增RK3308 SD卡&U盘 开发指南_V1.0_20180907.pdf
+5. 新增RK3308_VAD_寄存器配置_v1.1.pdf、Rockchip_硬件VAD模块_使用文档_V1.0.pdf
+6. 新增RK3308_音频增益调节_说明文档V1.1.pdf
+7. 更新Rockchip-Secure-Boot-Application-Note-V1.9.pdf
+8. 更新Rockchip?PCBA测试开发指南_1.03.pdf
+9. 更新RK SpiNor and  SLC Nand SupportList Ver1.08_2018_0808.pdf
+10. 更新RK3308_Audio_Codec_Introduction_v0.3.0_CN.pdf
+11. 更新RK3308语音模块 32位系统编译指南_v1.40.pdf
+12. 更新Rockchip RK3308 Datasheet V1.4-20180812.pdf
+
+【rk3308_linux_release_v1.1.0_20180716.xml 更新日志】
+
+Buildroot更新：
+1. 修复蓝牙A2DP SINK音量调整失败问题。
+2. 新增蓝牙BLE配网功能。
+3. 新增misc.img及recovery.img，支持升级功能。
+4. 修复adb ls字符乱码问题。
+
+Kernel更新：
+1. 添加RK3308 EVB V12开发板支持。
+2. 添加RK3308 语音模块板支持。
+3. 提升系统稳定性。
+4. 添加32bit编译选项。
+5. RK3308 EVB V11添加CPU 1.3GHz支持。
+6. 更新FTL驱动，支持SPI NAND、SPI NOR存储设备。
+
+工具更新：
+1. 更新AndroidTool、Linux_Pack_Firmware分区表配置。
+2. 更新WNpctool_Setup_V1.2.1.0625工具。
+
+文档更新：
+1. 新增Audio支持列表：RK3308 Audio Codec Benchmark v1.0.pdf
+2. 更新Rockchip Linux WIFI BT 开发指南 V1.1 20180622.pdf
+3. 更新Rockchip Linux软件开发指南 V1.03-20180716.pdf
+4. RK3308语音模块 32位系统编译指南_v1.00.pdf
+
+【rk3308_linux_release_v1.05_20180619.xml 更新日志】
+
+1. 更新GPT分区表，Recovery调整为12MB，uboot及trust分区减小。
+
+【rk3308_linux_release_v1.04_20180619.xml 更新日志】
+
+Buildroot更新：
+1. 添加32bit Buildroot编译配置：rockchip_rk3308_32_release_defconfig。
+
+语音SDK更新：
+1. 更新思必驰DUI SDK至V1.7版本。
+--修复greeting应答太长问题。
+--修复对话中说唤醒词，直接唤醒问题。
+--新增播放音乐，tts播报完整歌名。
+--修复今日头条播放器概率性奔溃问题。
+--新增Led效果。
+--支持按键操作：音量加减，播放，暂停键。
+2. 更新百度Dueros SDK，修复部分问题。
+--修复网络连接异常导致的网络状态错误。
+--修复播放资讯时自动停止播放，无法再次进行唤醒或其他操作。
+--提升了Dueros SDK稳定性。
+
+Kernel更新：
+1. 提高系统稳定性。
+2. 修复录音过程放音操作，录制的声音异常问题。
+3. 修复打开WiFi热点，小概率系统异常问题。
+4. 修复BT音乐长时间播放，系统Panic问题。
+
+其他：
+1. 添加ROS Yocto支持。
+
+【rk3308_linux_release_v1.02_20180529.xml 更新日志】
+
+Buildroot更新：
+1. 更新Dueros SDK版本至v0.1.0_20180529。
+--修复WiFi配网问题；去除调试log；去除使用过程写pcm文件操作。
+
+文档更新：
+1. 更新RK3308 DuerOS 使用说明V0.02_20180529.pdf
+-- 添加WiFi配网说明；添加DuerOS新版本说明。
+
+
+【rk3308_linux_release_v1.01_20180525.xml 更新日志】
+
+本次更新内容较多，需要make clean进行编译。
+
+Buildroot更新：
+1. 更新分区表配置：data分区改名为oem分区，cfg分区改名为userdata分区。
+2. 新增PCBA功能，配套Windows测试工具使用。
+3. 新增DLNA功能，附带详细使用及开发说明。
+4. 增加Realtek的Smart Config配网支持。
+5. 更新Dueros SDK版本，完善了功能并提升了使用体验。
+6. 增加海华模组的BT A2DP Source功能，优化A2DP SINK功能；
+
+Kernel更新：
+1. 添加RK3308 EVB V11开发板支持。
+2. 提高系统稳定性。
+3. 支持RTL8723DS/8189FS WiFi。
+4. 添加RTL8723DS的BT功能支持。
+
+工具更新：
+1. 新增PCBA测试 PC端工具。
+2. 更新AndroidTool、Linux_Pack_Firmware分区表配置。
+3. 更新SecureBootTool_v1.89.zip工具。
+
+文档更新：
+1. 更新DDR支持列表：RK DDR Support List V2.32 20180525.pdf
+2. 更新eMMC支持列表：RKeMMCSupportList Ver1.39_20180515.pdf
+3. 更新SPI Nor及SLC Nand支持列表：RK SpiNor and  SLC Nand SupportList Ver1.07_20180515.pdf
+4. 更新Rockchip Linux WIFI BT 开发指南_V1.00.pdf
+5. 新增Rockchip DLNA开发指南_V1.00.pdf
+6. 新增RK3308 DuerOS 使用说明.pdf
+7. 新增Rockchip RK3308 Datasheet V1.1 20180412.pdf
+8. 更新Rockchip RK3308 Linux软件开发指南 V1.01-20180528.pdf
