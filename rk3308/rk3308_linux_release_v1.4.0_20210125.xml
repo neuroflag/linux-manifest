@@ -4,12 +4,12 @@
   
   <default remote="firefly-linux" revision="firefly" sync-j="4"/>
   
-  <project name="app/QLauncher" revision="d2f9d87c3705214983d0a8a7e826d1671510954f" upstream="firefly"/>
-  <project name="app/gallery" revision="0707472bcb23a4ee27f430611f736979907c49b1" upstream="firefly"/>
-  <project name="app/music" revision="d4973ea777212c0a1626d2134c3a4aaf8a6a7541" upstream="firefly"/>
+  <project name="app/QLauncher" revision="d2f9d87c3705214983d0a8a7e826d1671510954f" upstream="rk3308/firefly"/>
+  <project name="app/gallery" revision="0707472bcb23a4ee27f430611f736979907c49b1" upstream="rk3308/firefly"/>
+  <project name="app/music" revision="d4973ea777212c0a1626d2134c3a4aaf8a6a7541" upstream="rk3308/firefly"/>
   <project name="app/rkffplay" revision="f25b1e7c31321c39ccb10b344526cc0c38fb38ff" upstream="firefly"/>
-  <project name="app/settings" revision="d94cd894eaa299c53387dffd272e688523334d5e" upstream="firefly"/>
-  <project name="app/video" revision="369ec9703488979594ce045008871813ce8b60d4" upstream="firefly"/>
+  <project name="app/settings" revision="d94cd894eaa299c53387dffd272e688523334d5e" upstream="rk3308/firefly"/>
+  <project name="app/video" revision="369ec9703488979594ce045008871813ce8b60d4" upstream="rk3308/firefly"/>
   <project name="buildroot" revision="17607837f3cc6eca97862d6412d66bc3deff4f27" upstream="rk3308/firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
