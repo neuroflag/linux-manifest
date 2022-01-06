@@ -4,17 +4,17 @@
   
   <default remote="firefly-linux" revision="firefly" sync-j="4"/>
   
-  <project name="app/QLauncher" revision="a17ceb273aaa6f5c9aaf9f570d4ee56e28135c9d" upstream="firefly"/>
-  <project name="app/gallery" revision="67850ebbbc400b0a46968fb99bdd60c86358cc49" upstream="firefly"/>
-  <project name="app/music" revision="057a31b47de52b02a3b95dc482b494dd3542b214" upstream="firefly"/>
+  <project name="app/QLauncher" revision="d2f9d87c3705214983d0a8a7e826d1671510954f" upstream="firefly"/>
+  <project name="app/gallery" revision="0707472bcb23a4ee27f430611f736979907c49b1" upstream="firefly"/>
+  <project name="app/music" revision="d4973ea777212c0a1626d2134c3a4aaf8a6a7541" upstream="firefly"/>
   <project name="app/rkffplay" revision="f25b1e7c31321c39ccb10b344526cc0c38fb38ff" upstream="firefly"/>
-  <project name="app/settings" revision="2020c435d29be3b49e4871cfb305b62765e59e7f" upstream="firefly"/>
-  <project name="app/video" revision="b81dab76a6ebccba5b43738092bd88e9073acbdb" upstream="firefly"/>
+  <project name="app/settings" revision="d94cd894eaa299c53387dffd272e688523334d5e" upstream="firefly"/>
+  <project name="app/video" revision="369ec9703488979594ce045008871813ce8b60d4" upstream="firefly"/>
   <project name="buildroot" revision="17607837f3cc6eca97862d6412d66bc3deff4f27" upstream="rk3308/firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
-  <project name="buildroot-dl" path="buildroot/dl" revision="17607837f3cc6eca97862d6412d66bc3deff4f27" upstream="firefly"/>
+  <project name="buildroot-dl" path="buildroot/dl" revision="af79460718d20839ce5a290ff8681ca38da0939d" upstream="firefly"/>
   <project name="device/rockchip" revision="2d5291f607642b64715173a8ccf8a698defd0d44" upstream="firefly">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
@@ -28,8 +28,9 @@
   <project name="external/DuerClientSDK" revision="e366033a83adb6187ee765915696d70cd36b4231" upstream="firefly"/>
   <project name="external/LocalPlayer" revision="e7d5cc72e5f0da13f2765aa02bd22d03ebc82750" upstream="firefly"/>
   <project name="external/alexaClientSDK" revision="ff020e9008a87b655c47f1534a887f3e29ae84c9" upstream="firefly"/>
-  <project name="external/alsa-config" revision="75ec6fdf517c897a0386a26770403a344ab80f41" upstream="firefly"/>
+  <project name="external/alsa-config" revision="30d750e5dc846d15d1a5159e47bf3e1121953eb3" upstream="firefly"/>
   <project name="external/app" revision="1cfad9fbba2dfaeaf941e8094cbc91bd539f1e15" upstream="firefly"/>
+  <project name="external/audioservice" revision="68fa86817d762d4b761add42dcd03abe746bea61" upstream="firefly"/>
   <project name="external/bluetooth_bsa" revision="357c73583f374d4d97e3b2949b13791989240358" upstream="firefly"/>
   <project name="external/bluez-alsa" revision="cae05879aac86e2da29fc354e1dea7f3e2df7cb3" upstream="firefly"/>
   <project name="external/broadcom_bsa" revision="9cd208a2d6a2e2e5d7414f625bcd655819e20e29" upstream="firefly"/>
@@ -60,11 +61,11 @@
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="firefly"/>
   <project name="rkbin" revision="12816083b6303f852fc3604b2e5b0d51d1a51dd8" upstream="firefly"/>
   <project name="tools" revision="f546a4fb1f6d1a62c084321eb9a42f0ac2d6e659" upstream="firefly">
-    <linkfile dest="tools/windows/RKDevTool/RKDevTool_Release/config.cfg" src="windows/RKDevTool/RKDevTool_Release/rk356x-config.cfg"/>
-    <linkfile dest="tools/windows/RKDevTool/rockdev/package-file" src="windows/RKDevTool/rockdev/rk356x-package-file"/>
-    <linkfile dest="tools/windows/RKDevTool/rockdev/mkupdate.bat" src="windows/RKDevTool/rockdev/rk356x-mkupdate.bat"/>
-    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk356x-mkupdate.sh"/>
-    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk356x-package-file"/>
+    <linkfile dest="tools/windows/RKDevTool/RKDevTool_Release/config.cfg" src="windows/RKDevTool/RKDevTool_Release/rk3308-config.cfg"/>
+    <linkfile dest="tools/windows/RKDevTool/rockdev/package-file" src="windows/RKDevTool/rockdev/rk3308-package-file"/>
+    <linkfile dest="tools/windows/RKDevTool/rockdev/mkupdate.bat" src="windows/RKDevTool/rockdev/rk3308-mkupdate.bat"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3308-mkupdate.sh"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3308-package-file"/>
   </project>
   <project name="u-boot" revision="7e5e611f9caf49e80c036062d67a42aa19030868" upstream="rk3308/firefly"/>
 </manifest>
