@@ -23,6 +23,7 @@
   <project name="app/smart_display_service" revision="4dbf0071b20f1f3c95595a5e2a550505da94ed11" upstream="firefly"/>
   <project name="app/storage_manager" revision="d729725c0f6b055e537cfd451ecd8fde202f12b4" upstream="firefly"/>
   <project name="app/video" revision="b81dab76a6ebccba5b43738092bd88e9073acbdb" upstream="firefly"/>
+  <project name="app/rkaiq_tool_server" revision="1e61f9d7fecfb9b17abae680f92a940475331720" upstream="firefly"/>
   <project name="buildroot" revision="c54e142782747f86364f7a92c34df4904cb05fd4" upstream="rv1126_rv1109/firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
