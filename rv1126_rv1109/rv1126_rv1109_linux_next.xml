@@ -71,7 +71,7 @@
   <project name="external/minilogger" revision="5f0fa4698d5305d8653c2352bfcf1d9aa57064a4" upstream="firefly"/>
   <project name="external/mpp" revision="20d071113175d07a7088dd92be64362b20b1cd46" upstream="firefly"/>
   <project name="external/pcba_adb_test" revision="0a1ca61f27007e8374d21f3af167ee5e02923f19" upstream="firefly"/>
-  <project name="external/recovery" revision="897952b5d0f5e8a21d0d83697d884384a70c7a95" upstream="rv1126_rv1109/firefly-2.0"/>
+  <project name="external/recovery" revision="b080e7bba2265e61aa2eab9d996fdc11469eedd7" upstream="firefly"/>
   <project name="external/rk_pcba_test" revision="36e07775f017df15a8f20e62f52cb59e1ed3ae10" upstream="firefly"/>
   <project name="external/rkadk" revision="0fbf09ea295bccc81c068977d9f43c1850b2e7e5" upstream="firefly"/>
   <project name="external/rkfacial" revision="8db5eef2fdccd941650e3afb11b751bd657a466d" upstream="firefly"/>
