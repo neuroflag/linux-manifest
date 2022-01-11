@@ -43,7 +43,7 @@
   <project name="external/avb" revision="64b5ea0130d7440084796f6a23d7cd91fac988b8" upstream="firefly"/>
   <project name="external/ble_wificonfig" revision="3b56e0e268634216df1f992d944bb30158e86786" upstream="firefly"/>
   <project name="external/camera_engine_rkaiq" revision="68905a6b5b0ee3ea1e48e73f4fd491516b8067b7" upstream="firefly"/>
-  <project name="external/common_algorithm" revision="82d63b277edd4b87abf54fba7129153acfbc9cc6" upstream="firefly"/>
+  <project name="external/common_algorithm" revision="b589155179f82e7e6e572a33812b37a57bbf7356" upstream="firefly"/>
   <project name="external/deviceio_release" revision="f1c13ffd07e3b3ea7ef8a1249b1c690415b6fcfd" upstream="firefly"/>
   <project name="external/eq_drc_process" revision="0baa2fff6a51a773ad9fe001d3eef3c46a7dcb2e" upstream="firefly"/>
   <project name="external/isp2-ipc" revision="832a468fbdee27db24e657fdc8d5b52b41feefe5" upstream="firefly"/>
@@ -54,7 +54,7 @@
   <project name="external/recovery" revision="59e08f5e524eadfb7436c97cbbbc2b18118534c4" upstream="firefly"/>
   <project name="external/rk_pcba_test" revision="b2b303139665d4e256adda2b64211edd53dd45e4" upstream="firefly"/>
   <project name="external/rkfacial" revision="aa169de251350ff75efeeb8a54e04ed706ffbd01" upstream="firefly"/>
-  <project name="external/rkmedia" revision="b81d4591d26db3f85bfb7afe4a9e0c21a9f6a5f7" upstream="rv1126_rv1109_ai/firefly"/>
+  <project name="external/rkmedia" revision="cfd5e3942b499ef9e07171c682db8159f58127a3" upstream="rv1126_rv1109_ai/firefly-2.0"/>
   <project name="external/rknn-toolkit" revision="777badc0c1406d0021063a0d9e2248fa30f5dfb0" upstream="firefly"/>
   <project name="external/rknpu" revision="f4624cbbef22d338e84f9132647a20fd0ed9b351" upstream="firefly"/>
   <project name="external/rkscript" revision="f8a0e2db1a44462c09ad411de3c7d339dd78883b" upstream="firefly"/>
@@ -62,7 +62,7 @@
   <project name="external/rkupdate" revision="0dec35553eb629783b0896bce0198dd122c9dc40" upstream="firefly"/>
   <project name="external/rkwifibt" revision="fc99c7e25e463f1c4a67ccc713dc87bec15205ee" upstream="firefly"/>
   <project name="external/rockface" revision="bee54eaa0389275cd5cdcfde4efc0f90468922bc" upstream="firefly"/>
-  <project name="external/rockit" revision="c0f42dcfb74ec195dfec7ac96d6fdab4719083b8" upstream="rv1126_rv1109/firefly-2.0"/>
+  <project name="external/rockit" revision="b5db0c097a029df30849a5432b5e5c93bd6d5b07" upstream="rv1126_rv1109/firefly-2.0"/>
   <project name="external/rockx" revision="3742f4c1888b21318a1dc6d7268779545ddfd549" upstream="firefly"/>
   <project name="external/rtc_demo" revision="01ea9377beae66a544191ff5dbd920f19ba4614c" upstream="firefly"/>
   <project name="external/security/bin" revision="f59085ce658bd69678b68fd4840fb86937678125" upstream="firefly"/>
@@ -70,7 +70,7 @@
   <project name="external/uac_app" revision="ea59dca532288686841ad6ba64b0adf68c655bd8" upstream="firefly"/>
   <project name="external/uvc_app" revision="97915cfca3f11b828de2a289a3c233fd6dbef6f5" upstream="rv1126_rv1109/firefly"/>
   <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="firefly"/>
-  <project name="kernel" revision="c2452fe4cf273a689e91652d3382ff5620382935" upstream="rv1126_rv1109_ai/firefly"/>
+  <project name="kernel" revision="eb3b3464c14b69393a77bece6fe2206cbda5f6d1" upstream="rv1126_rv1109_ai/firefly"/>
   <project name="prebuilts/gcc/linux-x86/arm/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf" revision="27edb819ca803f5da253ccbd4134d6337a7310d1" upstream="firefly"/>
   <project name="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="firefly"/>
   <project name="rkbin" revision="f59180d86dbf563872a67448c749d58ecda8856f" upstream="firefly"/>
