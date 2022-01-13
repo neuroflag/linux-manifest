@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="ssh://git@git.t-firefly.com:8022/rk-linux" name="firefly-linux"/>
-  
-  <default remote="firefly-linux" revision="firefly" sync-j="4"/>
+  <remote fetch="https://gitlab.com/firefly-linux" name="firefly-linux-gitlab"/>
+ 
+  <default remote="firefly-linux-gitlab" revision="firefly" sync-j="4"/>
   
   <project name="app/CameraFactoryTestServer" revision="4bf562db7718264772ed9c52e1afc54ccebc8356" upstream="firefly"/>
   <project name="app/aiserver" revision="8d329031758a40c806f2a58cfecb5cc346455f87" upstream="firefly"/>
