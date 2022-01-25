@@ -39,7 +39,7 @@
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
-  <project name="buildroot-dl" path="buildroot/dl" revision="af79460718d20839ce5a290ff8681ca38da0939d" upstream="firefly"/>
+  <project name="buildroot-dl" path="buildroot/dl" revision="fdd8e09a425da8cb4541b0a65ced333cb22d02ad" upstream="firefly"/>
   <project name="device/rockchip" revision="3cf2ecf1149c8e6fbbad6ea3a2fe8c9bc41e7524" upstream="firefly">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
