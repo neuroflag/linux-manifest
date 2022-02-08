@@ -52,7 +52,7 @@
   <project name="external/broadcom_bsa" revision="46234ce7a904794754bba79cb7c9f26d39605311" upstream="rk356x/firefly"/>
   <project name="external/camera_engine_rkaiq" revision="7dbf19a6032c026c6c7ac8d9cc5388327915d5d5" upstream="rk356x/firefly"/>
   <project name="external/chromium" revision="bba90aee6a986fca85e8cf79c2917ebf5a2b6e17"/>
-  <project name="external/common_algorithm" revision="c0e48be28b4f1660bcbd7bb521de67662461d0cc" upstream="rk356x/firefly"/>
+  <project name="external/common_algorithm" revision="c0e48be28b4f1660bcbd7bb521de67662461d0cc" upstream="firefly"/>
   <project name="external/deviceio_release" revision="187439b6c9ed867c5a28d8b39cb2ecf19ba9dae6"/>
   <project name="external/eq_drc_process" revision="6fe472aa76ed71922742863c8f94222dab3dbf3c"/>
   <project name="external/gstreamer-rockchip" revision="955c62a3d2078b6e9a815f711452377ef25a9b51"/>

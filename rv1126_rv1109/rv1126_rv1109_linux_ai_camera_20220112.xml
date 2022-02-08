@@ -43,7 +43,7 @@
   <project name="external/avb" revision="64b5ea0130d7440084796f6a23d7cd91fac988b8" upstream="firefly"/>
   <project name="external/ble_wificonfig" revision="3b56e0e268634216df1f992d944bb30158e86786" upstream="firefly"/>
   <project name="external/camera_engine_rkaiq" revision="68905a6b5b0ee3ea1e48e73f4fd491516b8067b7" upstream="firefly"/>
-  <project name="external/common_algorithm" revision="b589155179f82e7e6e572a33812b37a57bbf7356" upstream="firefly"/>
+  <project name="external/common_algorithm" revision="070a45578a453f2a9e4e994a3ea9cb6a1cdcd9b2" upstream="firefly"/>
   <project name="external/deviceio_release" revision="f1c13ffd07e3b3ea7ef8a1249b1c690415b6fcfd" upstream="firefly"/>
   <project name="external/eq_drc_process" revision="0baa2fff6a51a773ad9fe001d3eef3c46a7dcb2e" upstream="firefly"/>
   <project name="external/isp2-ipc" revision="832a468fbdee27db24e657fdc8d5b52b41feefe5" upstream="firefly"/>
