@@ -55,7 +55,7 @@
   <project name="external/common_algorithm" revision="070a45578a453f2a9e4e994a3ea9cb6a1cdcd9b2" upstream="rk356x/firefly"/>
   <project name="external/deviceio_release" revision="187439b6c9ed867c5a28d8b39cb2ecf19ba9dae6" upstream="firefly"/>
   <project name="external/eq_drc_process" revision="6fe472aa76ed71922742863c8f94222dab3dbf3c" upstream="firefly"/>
-  <project name="external/gstreamer-rockchip" revision="9db260682e11ff6d5ca70f22e3a9e980a5f6ecd1" upstream="rk356x/firefly"/>
+  <project name="external/gstreamer-rockchip" revision="9db260682e11ff6d5ca70f22e3a9e980a5f6ecd1" upstream="firefly"/>
   <project name="external/isp2-ipc" revision="37fd1c708eee3f68a0e25b2e4792e5bc2d30b626" upstream="firefly"/>
   <project name="external/ladspaSDK" revision="c1a72f6e72d86b3d235df50d97e5566fb6e93490" upstream="firefly"/>
   <project name="external/libglCompositor" revision="5dcd40eb0d8a44ae7eccd4961aea6b01c0f78180" upstream="firefly"/>
