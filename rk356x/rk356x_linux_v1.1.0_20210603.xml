@@ -90,7 +90,7 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk356x-package-file"/>
   </project>
   <project name="kernel" revision="9a219562caea680df61263b0d3b071c5d6ba4198" upstream="rk356x/firefly"/>
-  <project name="external/mpp" revision="ae49194de12cc73ce43d0928d2f3c8edfd35f80b" upstream="rk356x/firefly"/>
+  <project name="external/mpp" revision="ae49194de12cc73ce43d0928d2f3c8edfd35f80b" upstream="firefly_new"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu" revision="2edfa6dde1f73c5b3c6de980e3450443e35c0a0f" upstream="firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="firefly"/>
   <project name="buildroot" revision="0bc086402f2ffdd439d5ad5e04357d64cc80997c" upstream="firefly">

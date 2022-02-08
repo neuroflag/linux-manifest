@@ -64,7 +64,7 @@
   <project name="external/minigui" revision="56dfcf3f4d2978cabe7684ca64073ebdfaae73b6" upstream="firefly"/>
   <project name="external/minigui_desktop" revision="9fa64dabb6bae25c07c2fc6ed40de6123f71f493" upstream="firefly"/>
   <project name="external/minilogger" revision="5f0fa4698d5305d8653c2352bfcf1d9aa57064a4" upstream="firefly"/>
-  <project name="external/mpp" revision="b25d0b475d61e28ce5bc794f1750c4e2ce78d48f" upstream="rk356x/firefly"/>
+  <project name="external/mpp" revision="b25d0b475d61e28ce5bc794f1750c4e2ce78d48f" upstream="firefly_new"/>
   <project name="external/pcba_adb_test" revision="0a1ca61f27007e8374d21f3af167ee5e02923f19" upstream="firefly"/>
   <project name="external/quectel-cm" revision="c1c1505533f35de97af4186ab93e36650147ba1f" upstream="firefly"/>
   <project name="external/recovery" revision="2fe7b09d25845001fc5f2d9f4ba145eeb7938449" upstream="firefly"/>
