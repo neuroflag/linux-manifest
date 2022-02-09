@@ -23,7 +23,7 @@
   <project name="app/multivideoplayer" revision="5d566e0b2ab416c251b54d59d6237e7164c7e270" upstream="firefly"/>
   <project name="app/netserver" revision="2c696348c2e4dd2eb278efd38370255e752eb4d7" upstream="firefly"/>
   <project name="app/qcamera" revision="d37ad02e4dea9288944260fc1e8bda20f9bd13c0" upstream="firefly"/>
-  <project name="app/qfm" revision="7e94be4d1ce41e395909da8b963ad46c65ca285f" upstream="rk356x/firefly"/>
+  <project name="app/qfm" revision="7e94be4d1ce41e395909da8b963ad46c65ca285f" upstream="rk35xx/firefly"/>
   <project name="app/qplayer" revision="0121646c9fe2335eef9a963071d07b797a17487e" upstream="firefly"/>
   <project name="app/qsetting" revision="20862b44029127524d9336ddd7664207fb500e74" upstream="firefly"/>
   <project name="app/storage_manager" revision="69c472191357d99748e7e2a7a4747aec6e82b479" upstream="firefly"/>

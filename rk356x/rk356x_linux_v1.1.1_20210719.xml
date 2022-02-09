@@ -20,7 +20,7 @@
   <project name="app/multivideoplayer" revision="5d566e0b2ab416c251b54d59d6237e7164c7e270"/>
   <project name="app/netserver" revision="2c696348c2e4dd2eb278efd38370255e752eb4d7"/>
   <project name="app/qcamera" revision="d37ad02e4dea9288944260fc1e8bda20f9bd13c0"/>
-  <project name="app/qfm" revision="7e94be4d1ce41e395909da8b963ad46c65ca285f" upstream="rk356x/firefly"/>
+  <project name="app/qfm" revision="7e94be4d1ce41e395909da8b963ad46c65ca285f" upstream="rk35xx/firefly"/>
   <project name="app/qplayer" revision="0121646c9fe2335eef9a963071d07b797a17487e"/>
   <project name="app/qsetting" revision="20862b44029127524d9336ddd7664207fb500e74"/>
   <project name="app/storage_manager" revision="69c472191357d99748e7e2a7a4747aec6e82b479"/>
@@ -46,9 +46,9 @@
   <project name="external/app" revision="3a06ebb791eb8bc6d2b41876f895d121be987f41"/>
   <project name="external/avb" revision="64b5ea0130d7440084796f6a23d7cd91fac988b8"/>
   <project name="external/ble_wificonfig" revision="3b56e0e268634216df1f992d944bb30158e86786"/>
-  <project name="external/bluetooth_bsa" revision="51b1afeefd0984dc1965379513a2931e85d281fa" upstream="rk356x/firefly"/>
+  <project name="external/bluetooth_bsa" revision="51b1afeefd0984dc1965379513a2931e85d281fa" upstream="rk35xx/firefly"/>
   <project name="external/bluez-alsa" revision="e383251a22fef7213b7e5a804e4c7a7ca621c80d"/>
-  <project name="external/broadcom_bsa" revision="46234ce7a904794754bba79cb7c9f26d39605311" upstream="rk356x/firefly"/>
+  <project name="external/broadcom_bsa" revision="46234ce7a904794754bba79cb7c9f26d39605311" upstream="rk35xx/firefly"/>
   <project name="external/camera_engine_rkaiq" revision="f53ba968388ce4c98e80ef2301820ad0db5a6153" upstream="rk356x/firefly"/>
   <project name="external/chromium" revision="bba90aee6a986fca85e8cf79c2917ebf5a2b6e17"/>
   <project name="external/common_algorithm" revision="f56023f25c823fdaf4cf849f66c68ff664d27f83"/>
