@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="ssh://git@git.t-firefly.com:8022/rk-linux" name="firefly-linux"/>
+  
+  <default remote="firefly-linux" revision="firefly" sync-j="4"/>
+ 
+  <project name="external/security/rk_tee_user" revision="dd9d4d313ebd2d74b3cdc31c76770bef0dacdc66"/>
+  <project name="u-boot" revision="9deb34f60c696b35f58b914c019f52de1aa0d773" upstream="rk3588/firefly"/>
+  <project name="app/qfm" revision="7e94be4d1ce41e395909da8b963ad46c65ca285f" upstream="rk35xx/firefly"/>
+  <project name="app/CameraFactoryTestServer" revision="4bf562db7718264772ed9c52e1afc54ccebc8356"/>
+  <project name="app/QLauncher" revision="a17ceb273aaa6f5c9aaf9f570d4ee56e28135c9d"/>
+  <project name="app/eptz_demo" revision="eefc46ba96e15e52d191b0db310cfb16ecfd7f40"/>
+  <project name="app/multivideoplayer" revision="5d566e0b2ab416c251b54d59d6237e7164c7e270"/>
+  <project name="app/qcamera" revision="3a74b34724828075bcb9f51b704e0c50e7dadaec"/>
+  <project name="app/qplayer" revision="0121646c9fe2335eef9a963071d07b797a17487e"/>
+  <project name="app/qsetting" revision="7719da2d42787bac1a6fe075f2ddf6157cd5d678"/>
+  <project name="docs" revision="d7e5238a4fc1f40b5d05cddc059a082ac4738da0" upstream="rk3588/firefly">
+    <linkfile dest="docs/.Socs/RK3588/Rockchip_Developer_Guide_Linux_Software_CN.pdf" src="Rockchip_Developer_Guide_Linux_Software_CN.pdf"/>
+  </project>
+  <project name="external/bluetooth_bsa" revision="51b1afeefd0984dc1965379513a2931e85d281fa" upstream="rk35xx/firefly"/>
+  <project name="external/broadcom_bsa" revision="46234ce7a904794754bba79cb7c9f26d39605311" upstream="rk35xx/firefly"/>
+  <project name="docs-soc_internal" path="docs/.Socs" revision="71baaffaf236c3ce75a13cfadd09d0acade145c1" upstream="rk3588/firefly">
+    <linkfile dest="docs/RK3588" src="RK3588"/>
+  </project>
+  <project name="buildroot" revision="3ccfbe398058e2eaac13096ecbbb9c907f66ebd4" upstream="rk3588/firefly">
+    <linkfile dest="Makefile" src="build/Makefile"/>
+    <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
+  </project>
+  <project name="debian" revision="259f46664de8c07aaa9f23e0507f77e33018c27a" upstream="rk3588/firefly"/>
+  <project name="device/rockchip" revision="ed231de7d5372707c88bc73fe57f590e4d4abbe1">
+    <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
+    <linkfile dest="build.sh" src="common/build.sh"/>
+    <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
+    <linkfile dest="device/rockchip/.target_product" src="rk3588"/>
+  </project>
+  <project name="external/drm-cursor" revision="71c028e2866c6ba504756aee3dfd8d1587b60f1d"/>
+  <project name="external/alsa-config" revision="1e0c4b5382b84ed629b1ca9e40c814103b92ee93"/>
+  <project name="external/app" revision="3a06ebb791eb8bc6d2b41876f895d121be987f41"/>
+  <project name="external/avb" revision="64b5ea0130d7440084796f6a23d7cd91fac988b8"/>
+  <project name="external/ble_wificonfig" revision="3b56e0e268634216df1f992d944bb30158e86786"/>
+  <project name="external/bluez-alsa" revision="e383251a22fef7213b7e5a804e4c7a7ca621c80d"/>
+  <project clone-depth="1" name="external/camera_engine_rkaiq" revision="9b25aa861cfa5e99d4e1d21958b020903d60a119" upstream="rk3588/firefly"/>
+  <project name="external/chromium" revision="bba90aee6a986fca85e8cf79c2917ebf5a2b6e17"/>
+  <project name="external/common_algorithm" revision="070a45578a453f2a9e4e994a3ea9cb6a1cdcd9b2"/>
+  <project name="external/deviceio_release" revision="187439b6c9ed867c5a28d8b39cb2ecf19ba9dae6"/>
+  <project name="external/eq_drc_process" revision="6fe472aa76ed71922742863c8f94222dab3dbf3c"/>
+  <project name="external/libglCompositor" revision="5dcd40eb0d8a44ae7eccd4961aea6b01c0f78180"/>
+  <project name="external/minigui" revision="56dfcf3f4d2978cabe7684ca64073ebdfaae73b6"/>
+  <project name="external/minigui_desktop" revision="9fa64dabb6bae25c07c2fc6ed40de6123f71f493"/>
+  <project name="external/minilogger" revision="5f0fa4698d5305d8653c2352bfcf1d9aa57064a4"/>
+  <project name="external/pcba_adb_test" revision="0a1ca61f27007e8374d21f3af167ee5e02923f19"/>
+  <project name="external/rk_pcba_test" revision="36e07775f017df15a8f20e62f52cb59e1ed3ae10"/>
+  <project name="external/rkscript" revision="6c1303d90b979ccd30ebea43d4f942e5aa6f8860"/>
+  <project name="external/rktoolkit" revision="77fb41f99185a6f9dc2c9c69e099f417d8ae905d"/>
+  <project name="external/rkupdate" revision="534d8750105c2649e24648b40551fa1304f5eeab"/>
+  <project name="external/rkwifibt" revision="983d6c05097db78f514443adc41761dd9cfbb352"/>
+  <project name="external/softapDemo" revision="4c7d1bd3d28df276d263f49324b022b44b3a1c85"/>
+  <project name="external/uac_app" revision="ea59dca532288686841ad6ba64b0adf68c655bd8"/>
+  <project name="external/update_engine" revision="ef212877ada6fe629f52485113b35a81ab31009b"/>
+  <project name="external/gstreamer-rockchip" revision="9db260682e11ff6d5ca70f22e3a9e980a5f6ecd1"/>
+  <project name="external/libmali" revision="b7ecd5cfa445caa4f4abe8bc7f46ec379cdf3723"/>
+  <project name="external/linux-rga" revision="6d1f45675881876a61b59e76222b1183379aa556" upstream="rk3588/firefly"/>
+  <project name="external/recovery" revision="8b9b25f08e6d8c997542bb24cfa943d76ac8dd02"/>
+  <project name="external/security/bin" revision="68a2fde8aadcfde9fec65af03db2c641d6631675"/>
+  <project name="tools" revision="04bc8f00d0e006f0005ac4c98a0df37c3e8e6d42">
+    <linkfile dest="tools/windows/RKDevTool/RKDevTool_Release/config.cfg" src="windows/RKDevTool/RKDevTool_Release/rk3588-config.cfg"/>
+    <linkfile dest="tools/windows/RKDevTool/rockdev/package-file" src="windows/RKDevTool/rockdev/rk3588-package-file"/>
+    <linkfile dest="tools/windows/RKDevTool/rockdev/mkupdate.bat" src="windows/RKDevTool/rockdev/rk3588-mkupdate.bat"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3588-mkupdate.sh"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3588-package-file"/>
+  </project>
+  <project name="external/xserver" revision="cf932183d75eae6e94fdcc8cae06d3d2f6adc544"/>
+  <project name="kernel" revision="5020e552110ea2d61f4351f8b31a9d7cefc1de0b" upstream="rk3588/firefly"/>
+  <project name="external/mpp" revision="33269e39e7de30f7a3903f31422a3b567fec762c" upstream="firefly_new"/>
+  <project name="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" revision="1934cf2613704878c3f46ca1f3b6c6a1307ac661"/>
+  <project name="rkbin" revision="183f878fe6bedde4cd1b1d1b6c23d4403038e818"/>
+  <project name="external/rknn-toolkit2" revision="1fc1fa917d6a44732c2fbcaf546e81782cc23b97"/>
+  <project name="external/rknpu2" revision="bdb48d1e89c27247267a2b688209c92e93603fae"/>
+</manifest>
