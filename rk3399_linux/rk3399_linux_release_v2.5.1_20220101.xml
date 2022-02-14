@@ -8,16 +8,16 @@
   <project name="app/demo" revision="db94c6389891aef75298bc98972dd4fcc82a4a10" upstream="firefly"/>
   <project name="app/multicamera" revision="6c3b01afba79d69b3ed6c1d55bb5dc87f51b8df2" upstream="firefly"/>
   <project name="app/multivideoplayer" revision="5d566e0b2ab416c251b54d59d6237e7164c7e270" upstream="firefly"/>
-  <project name="app/qcamera" revision="1cf0d51ba5448151cf93cd4446a153de245274c1" upstream="firefly"/>
-  <project name="app/qfm" revision="7e94be4d1ce41e395909da8b963ad46c65ca285f" upstream="firefly"/>
+  <project name="app/qcamera" revision="ce40544ce8446ee3b0048385b8134e3239ffbd88" upstream="firefly"/>
+  <project name="app/qfm" revision="7e94be4d1ce41e395909da8b963ad46c65ca285f" upstream="rk3399/firefly"/>
   <project name="app/qplayer" revision="0121646c9fe2335eef9a963071d07b797a17487e" upstream="firefly"/>
   <project name="app/qsetting" revision="7719da2d42787bac1a6fe075f2ddf6157cd5d678" upstream="firefly"/>
   <project name="app/aiserver" revision="bb655ebcbf57fd044bb0f36e020bed32d3c9657c" upstream="firefly"/>
-  <project name="buildroot" revision="9d1ec4bd77cf358e1233801667f933b0586753cc" upstream="firefly">
+  <project name="buildroot" revision="00b5f43bea14d91c4651e4d44ed7d9ee9000b4fd" upstream="rk3399/firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
-  <project name="buildroot-dl" path="buildroot/dl" revision="35623f25081352ed86e40002c18959418f6fe914" upstream="firefly"/>
+  <project name="buildroot-dl" path="buildroot/dl" revision="fdd8e09a425da8cb4541b0a65ced333cb22d02ad" upstream="firefly"/>
   <project name="device/rockchip" revision="b9512c1c1f78451a6e48333a7df65d496b20ff84" upstream="firefly">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
@@ -39,7 +39,7 @@
   <project name="external/ble_wificonfig" revision="3b56e0e268634216df1f992d944bb30158e86786" upstream="firefly"/>
   <project name="external/bluetooth_bsa" revision="4e596c44f756568f4a9f39faee3a09d582831983" upstream="firefly"/>
   <project name="external/bluez-alsa" revision="e383251a22fef7213b7e5a804e4c7a7ca621c80d" upstream="firefly"/>
-  <project name="external/broadcom_bsa" revision="0367344b9b15986ba98b39dafcd9b99fdc33c820" upstream="firefly"/>
+  <project name="external/broadcom_bsa" revision="46234ce7a904794754bba79cb7c9f26d39605311" upstream="rk3399/firefly"/>
   <project name="external/cae_vad" revision="86f5f3d4616888feea0c3916a9663f29a3af28ba" upstream="firefly"/>
   <project name="external/camera_engine_rkisp" revision="fafcd69874d20a7737425cc16a70619b220f8a2e" upstream="firefly"/>
   <project name="external/chromium" revision="bba90aee6a986fca85e8cf79c2917ebf5a2b6e17" upstream="firefly"/>
@@ -51,7 +51,7 @@
   <project name="external/ipc_share_memory" revision="7e7c3de48f72f55d184e3705ab5a170ce815756a" upstream="firefly"/>
   <project name="external/libdrm" revision="6b4258541a585426b128a365be89c11a1c363e02" upstream="firefly"/>
   <project name="external/libmali" revision="ec70b4f9112352fdb9e6848146dc8bbe13176727" upstream="firefly"/>
-  <project name="external/linux-rga" revision="659adb09e544e29e04408134d59045819e810c06" upstream="firefly"/>
+  <project name="external/linux-rga" revision="659adb09e544e29e04408134d59045819e810c06" upstream="rk356x/firefly"/>
   <project name="external/minigui" revision="56dfcf3f4d2978cabe7684ca64073ebdfaae73b6" upstream="firefly"/>
   <project name="external/minigui_desktop" revision="9fa64dabb6bae25c07c2fc6ed40de6123f71f493" upstream="firefly"/>
   <project name="external/minilogger" revision="5f0fa4698d5305d8653c2352bfcf1d9aa57064a4" upstream="firefly"/>
