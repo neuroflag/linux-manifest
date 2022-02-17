@@ -90,7 +90,7 @@
   <project name="external/update_engine" revision="ef212877ada6fe629f52485113b35a81ab31009b" upstream="firefly"/>
   <project name="external/uvc_app" revision="97915cfca3f11b828de2a289a3c233fd6dbef6f5" upstream="rk356x/firefly"/>
   <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="firefly"/>
-  <project name="kernel" revision="59795969723da3dc335baed9989b7291a3bc9a4d" upstream="rk356x/firefly"/>
+  <project name="kernel" revision="7805f70921cbd95f9a2d3ed0d3eae498000d455d" upstream="rk356x/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu" revision="427f5439bf87835ff3b20746acc8aaafba7d4f53" upstream="firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="firefly"/>
   <project name="rkbin" revision="511d09dd3889816070ad418a42d564acf66b2457" upstream="firefly"/>
