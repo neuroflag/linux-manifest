@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="ssh://git@git.t-firefly.com:8022/rk-linux" name="firefly-linux"/>
-  
-  <default remote="firefly-linux" revision="firefly" sync-j="4"/>
-  
+  <include name="rv1126_rv1109/rv1126_rv1109_linux_bsp_release_20220125_v2.2.4a.xml" />
   <project name="app/CameraFactoryTestServer" revision="4bf562db7718264772ed9c52e1afc54ccebc8356" upstream="firefly"/>
   <project name="app/QFacialGate" revision="7c6e84dc947b0fc68b733621236b8dd6ea3e76cd" upstream="firefly"/>
   <project name="app/QLauncher" revision="a17ceb273aaa6f5c9aaf9f570d4ee56e28135c9d" upstream="firefly"/>
@@ -40,16 +37,6 @@
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
   <project name="buildroot-dl" path="buildroot/dl" revision="fdd8e09a425da8cb4541b0a65ced333cb22d02ad" upstream="firefly"/>
-  <project name="device/rockchip" revision="3cf2ecf1149c8e6fbbad6ea3a2fe8c9bc41e7524" upstream="firefly">
-    <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
-    <linkfile dest="build.sh" src="common/build.sh"/>
-    <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
-    <linkfile dest="device/rockchip/.target_product" src="rv1126_rv1109"/>
-  </project>
-  <project name="docs" revision="0e118e472f3c4ceae4d5792915873cec1afdcef9" upstream="rv1126_rv1109/firefly-2.0"/>
-  <project name="docs-soc_internal" path="docs/.Socs" revision="1b478792ba79234ed78cedff8f6c29ce798be3d6" upstream="rv1126_rv1109/firefly-2.0">
-    <linkfile dest="docs/RV1126_RV1109" src="RV1126_RV1109"/>
-  </project>
   <project name="external/CallFunIpc" revision="b23fcde9739d9bdcc3c477caa0a845355825711f" upstream="firefly"/>
   <project name="external/alsa-config" revision="ed287a5d5c7b6972065e2b41ae420c2758dd77cc" upstream="firefly"/>
   <project name="external/app" revision="3a06ebb791eb8bc6d2b41876f895d121be987f41" upstream="firefly"/>
@@ -93,16 +80,4 @@
   <project name="external/uvc_app" revision="3288aa612391323e53fd0acecd63513e17af5b9b" upstream="rv1126_rv1109/firefly"/>
   <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="firefly"/>
   <project name="external/xhlpr_app" revision="df87025816a12ab78c74bf2bb4c57761e97f1b2f" upstream="firefly"/>
-  <project name="kernel" revision="6fd235100bdf924de332f081fc8730cac50889d5" upstream="rv1126_rv1109/firefly"/>
-  <project name="prebuilts/gcc/linux-x86/arm/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf" revision="cd2382618b38127f00aacee606b9955c82f698ec" upstream="firefly"/>
-  <project name="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="firefly"/>
-  <project name="rkbin" revision="18918b724e9961b2cec3dee2c21019b9092198a2" upstream="firefly"/>
-  <project name="tools" revision="bf55dff464b804987c82d3dd0275ab2c36b653ee" upstream="firefly">
-    <linkfile dest="tools/windows/RKDevTool/RKDevTool_Release/config.cfg" src="windows/RKDevTool/RKDevTool_Release/rv1126_rv1109-config.cfg"/>
-    <linkfile dest="tools/windows/RKDevTool/rockdev/package-file" src="windows/RKDevTool/rockdev/rv1126_rv1109-package-file"/>
-    <linkfile dest="tools/windows/RKDevTool/rockdev/mkupdate.bat" src="windows/RKDevTool/rockdev/rv1126_rv1109-mkupdate.bat"/>
-    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rv1126_rv1109-mkupdate.sh"/>
-    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rv1126_rv1109-package-file"/>
-  </project>
-  <project name="u-boot" revision="c1bd6ed8bb49333e0148582874719f4224719c19" upstream="rv1126_rv1109/firefly"/>
 </manifest>
