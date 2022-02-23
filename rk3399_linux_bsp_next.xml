@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="ssh://git@git.t-firefly.com:8022/rk-linux" name="firefly-linux"/>
-
-  <default remote="firefly-linux" revision="firefly" sync-j="4"/>
-
+  <include name="firefly_gitlab.xml" />
   <project name="device/rockchip" revision="b9512c1c1f78451a6e48333a7df65d496b20ff84" upstream="firefly">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
