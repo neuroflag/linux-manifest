@@ -73,9 +73,4 @@
   <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="firefly"/>
   <project name="debian" revision="c40d6bf2e98b53e1d4e3c3421bb990e17d865a73" upstream="firefly"/>
 
-  <!--yocto project-->
-  <project name="yocto/build/conf" path="yocto/build/conf">
-    <linkfile dest="yocto/build/conf/local.conf" src="rk3399/firefly-rk3399.conf"/>
-  </project>
-  <include name="yocto.xml" />
 </manifest>
