@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="rk3288/rk3288_linux_bsp_release_20220225_v2.3.0a.xml" />
+  <project name="app/QLauncher" />
+  <project name="app/demo" />
+  <project name="app/multicamera" />
+  <project name="app/multivideoplayer" />
+  <project name="app/qcamera" />
+  <project name="app/qfm" />
+  <project name="app/qplayer" />
+  <project name="app/qsetting" />
+  <project name="buildroot" >
+    <linkfile dest="Makefile" src="build/Makefile"/>
+    <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
+  </project>
+  <project name="buildroot-dl" path="buildroot/dl" />
+  <project name="distro" />
+  <project name="download" path="distro/download" />
+  <project name="external/LocalPlayer" />
+  <project name="external/RKNPUTools" />
+  <project name="external/alsa-config" />
+  <project name="external/app" />
+  <project name="external/audioservice" />
+  <project name="external/avb" />
+  <project name="external/ble_wificonfig" />
+  <project name="external/bluetooth_bsa" />
+  <project name="external/bluez-alsa" />
+  <project name="external/broadcom_bsa" />
+  <project name="external/cae_vad" />
+  <project name="external/camera_engine_rkisp" />
+  <project name="external/chromium" />
+  <project name="external/deviceio_release" />
+  <project name="external/eq_drc_process" />
+  <project name="external/gstreamer-rockchip" />
+  <project name="external/ipc_share_memory" />
+  <project name="external/libdrm" />
+  <project name="external/libmali" />
+  <project name="external/linux-rga" />
+  <project name="external/minigui" />
+  <project name="external/minigui_desktop" />
+  <project name="external/mpp" />
+  <project name="external/mpv" />
+  <project name="external/powermanager" />
+  <project name="external/recovery" />
+  <project name="external/rk_hw_vad" />
+  <project name="external/rk_pcba_test" />
+  <project name="external/rk_webui" />
+  <project name="external/rkmedia" />
+  <project name="external/rknn-toolkit" />
+  <project name="external/rknn_demo" />
+  <project name="external/rknpu" />
+  <project name="external/rkscript" />
+  <project name="external/rkssd" />
+  <project name="external/rktoolkit" />
+  <project name="external/rkupdate" />
+  <project name="external/rkwifibt" />
+  <project name="external/rockx" />
+  <project name="external/rtc_demo" />
+  <project name="external/security/bin" />
+  <project name="external/security/rk_tee_user" />
+  <project name="external/softapDemo" />
+  <project name="external/softapServer" />
+  <project name="external/tensorflow" />
+  <project name="external/update_engine" />
+  <project name="external/uvc_app" />
+  <project name="external/wakeWordAgent" />
+  <project name="external/wifiAutoSetup" />
+  <project name="debian" />
+
+  <notice>Yocto project.</notice>
+  <project dest-branch="warrior" name="yocto/meta-browser" path="yocto/meta-browser" />
+  <project dest-branch="warrior" name="yocto/meta-clang" path="yocto/meta-clang" />
+  <project dest-branch="warrior" name="yocto/meta-openembedded" path="yocto/meta-openembedded" />
+  <project dest-branch="zeus" name="yocto/meta-python2" path="yocto/meta-python2" />
+  <project dest-branch="warrior" name="yocto/meta-qt5" path="yocto/meta-qt5" />
+  <project dest-branch="rk3399/warrior" name="yocto/meta-rockchip" path="yocto/meta-rockchip" />
+  <project dest-branch="firefly" name="yocto/meta-rust" path="yocto/meta-rust" />
+  <project dest-branch="warrior" name="yocto/poky" path="yocto/poky" >
+    <linkfile dest="yocto/scripts" src="scripts"/>
+    <linkfile dest="yocto/bitbake" src="bitbake"/>
+    <linkfile dest="yocto/meta-poky" src="meta-poky"/>
+    <linkfile dest="yocto/.templateconf" src=".templateconf"/>
+    <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
+    <linkfile dest="yocto/README.md" src="../../.repo/manifests/README_yocto.md"/>
+    <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
+  </project>
+  <project dest-branch="firefly" name="yocto/build/conf" path="yocto/build/conf" remote="firefly-linux" >
+    <linkfile dest="yocto/build/conf/local.conf" src="firefly-rk3399.conf"/>
+  </project>
+</manifest>
