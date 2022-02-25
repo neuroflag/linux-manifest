@@ -10,7 +10,7 @@
   <project name="app/rkffplay" revision="f25b1e7c31321c39ccb10b344526cc0c38fb38ff" upstream="firefly"/>
   <project name="app/settings" revision="d94cd894eaa299c53387dffd272e688523334d5e" upstream="rk3308/firefly"/>
   <project name="app/video" revision="369ec9703488979594ce045008871813ce8b60d4" upstream="rk3308/firefly"/>
-  <project name="buildroot" revision="17607837f3cc6eca97862d6412d66bc3deff4f27" upstream="rk3308/firefly">
+  <project name="buildroot" revision="96d117c63c989812cc8761259ff7bec9a7119311" upstream="rk3308/firefly">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
@@ -42,7 +42,8 @@
   <project name="external/ladspaSDK" revision="8f1ea54678480bd61b39062c9441737334ab5032" upstream="firefly"/>
   <project name="external/minigui" revision="d4e774c2d40071ae78131df0bc01f52e25ef7935" upstream="firefly"/>
   <project name="external/minigui_desktop" revision="9fa64dabb6bae25c07c2fc6ed40de6123f71f493" upstream="firefly"/>
-  <project name="external/recovery" revision="b080e7bba2265e61aa2eab9d996fdc11469eedd7" upstream="firefly"/>
+  <project name="external/quectel-cm" revision="c1c1505533f35de97af4186ab93e36650147ba1f" upstream="firefly"/>
+  <project name="external/recovery" revision="a43250caf66c1da0f6dc60c64621476685271057" upstream="firefly"/>
   <project name="external/rk_hw_vad" revision="2fa6aaf920a6e8a9912b0407ba4f50b9c6e96b10" upstream="firefly"/>
   <project name="external/rk_pcba_test" revision="7d97b390d9a0817c2573a77a6178e03b96523334" upstream="firefly"/>
   <project name="external/rk_webui" revision="23d1035aede0b74ae119b8bd65cf0ed93c4100a6" upstream="firefly"/>
@@ -50,16 +51,16 @@
   <project name="external/rkupdate" revision="40b9c1ed1f69b90e97986d41b8270dc3c8042479" upstream="firefly"/>
   <project name="external/rkwifibt" revision="5b8a34dcc21b465445a007ad4bc45c1770b73a1c" upstream="firefly"/>
   <project name="external/rtc_demo" revision="e1e8f6704a31b36982745f7627bc9b8959f54157" upstream="firefly"/>
-  <project name="external/security/bin" revision="0d2fc6056541122e8525baf20afa402658e05a5f" upstream="firefly"/>
+  <project name="external/security/bin" revision="1045db0528dc6d797edd5b4c3f48cf21f73ec5da" upstream="firefly"/>
   <project name="external/softapDemo" revision="4c7d1bd3d28df276d263f49324b022b44b3a1c85" upstream="firefly"/>
   <project name="external/softapServer" revision="9158517316a050190273c6809ea88467a4276e16" upstream="firefly"/>
-  <project name="external/update_engine" revision="ef212877ada6fe629f52485113b35a81ab31009b" upstream="firefly"/>
+  <project name="external/update_engine" revision="047d95d37b628563389eb397f19fe5f1c0c8eb05" upstream="firefly"/>
   <project name="external/wakeWordAgent" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6" upstream="firefly"/>
-  <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="firefly"/>
+  <project name="external/wifiAutoSetup" revision="d2cfc6b2ca9754311542f91e481e8576fd4ecbc0" upstream="firefly"/>
   <project name="kernel" revision="8a5ec110b0a046d3b0febbaa0188fa40de55918f" upstream="rk3308/firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu" revision="427f5439bf87835ff3b20746acc8aaafba7d4f53" upstream="firefly"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="firefly"/>
-  <project name="rkbin" revision="12816083b6303f852fc3604b2e5b0d51d1a51dd8" upstream="firefly"/>
+  <project name="rkbin" revision="864654a0849fa1facd8f53eb7509620a232d3c07" upstream="firefly"/>
   <project name="tools" revision="f546a4fb1f6d1a62c084321eb9a42f0ac2d6e659" upstream="firefly">
     <linkfile dest="tools/windows/RKDevTool/RKDevTool_Release/config.cfg" src="windows/RKDevTool/RKDevTool_Release/rk3308-config.cfg"/>
     <linkfile dest="tools/windows/RKDevTool/rockdev/package-file" src="windows/RKDevTool/rockdev/rk3308-package-file"/>
