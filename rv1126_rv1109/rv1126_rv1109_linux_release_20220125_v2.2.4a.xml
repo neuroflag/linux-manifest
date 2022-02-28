@@ -1,83 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="rv1126_rv1109/rv1126_rv1109_linux_bsp_release_20220125_v2.2.4a.xml" />
-  <project name="app/CameraFactoryTestServer" revision="4bf562db7718264772ed9c52e1afc54ccebc8356" />
-  <project name="app/QFacialGate" revision="7c6e84dc947b0fc68b733621236b8dd6ea3e76cd" />
-  <project name="app/QLauncher" revision="a17ceb273aaa6f5c9aaf9f570d4ee56e28135c9d" />
-  <project name="app/aiserver" revision="7eed014b42ce4571165f9a13645996892a3a631e" />
-  <project name="app/camera" revision="44a961358dcf912504a951e7caf60c7d55ed999a" />
-  <project name="app/cvr_app" revision="14f67cec30f7bf0f577de9e05d7c5b9d065d5a81" />
-  <project name="app/dbserver" revision="ed4479a42b462a0f23e39fe77e2decc009fc0938" />
-  <project name="app/dbtool" revision="1e74ed454eacd45d59a333d694261bf73ffc1b18" />
-  <project name="app/firefly_rkmedia_demo" revision="b07ac310c5dd75fe07cba4b449e745882f547e07" />
-  <project name="app/firefly_rkmedia_uvc" revision="976aae2610f9fd8a2a2e69b7ef66a957ed7ba148" />
-  <project name="app/firefly_rockx_demo" revision="7ec36f3bd40f853f1a9bb55ac9daa5aa2ceb714a" />
-  <project name="app/ipc-daemon" revision="30b8dc6f23c4623324bcd051659ef8b45018a8c2" />
-  <project name="app/ipcweb-backend" revision="935963cd03ebd32a077149a279983a8590aa8606" />
-  <project name="app/ipcweb-ng" revision="906538780841e32e658a1fd64445b7e358f1b151" />
-  <project name="app/libIPCProtocol" revision="45cdd16d137929a06ad6231eca4d17eed5a967d6" />
-  <project name="app/libgdbus" revision="79370be32dde657abf1128c90c72b93e75d814ed" />
-  <project name="app/librkdb" revision="72fd398899e791dcf0a02b484a9be404063ed94e" />
-  <project name="app/mediaserver" revision="9984bdd38dafc5fe6ac54e83361d6411e9c0a113" />
-  <project name="app/minigui_demo" revision="4e0eaf998640e0538792619e0d2f8641c5896f69" />
-  <project name="app/multivideoplayer" revision="5d566e0b2ab416c251b54d59d6237e7164c7e270" />
-  <project name="app/netserver" revision="2c696348c2e4dd2eb278efd38370255e752eb4d7" />
-  <project name="app/qcamera" revision="1a86667048e5646b29d113872ca4adfaf232ec21" />
-  <project name="app/qfm" revision="7e94be4d1ce41e395909da8b963ad46c65ca285f" />
-  <project name="app/qplayer" revision="0121646c9fe2335eef9a963071d07b797a17487e" />
-  <project name="app/qsetting" revision="7719da2d42787bac1a6fe075f2ddf6157cd5d678" />
-  <project name="app/rkaiq_switch_mode" revision="69005dd96f46b04d51ca4ccc7a01c083420d84fd" />
-  <project name="app/rkaiq_tool_server" revision="d702dc17181c4fe30b82db5a3c456f123c0650c2" />
-  <project name="app/smart_display_service" revision="4dbf0071b20f1f3c95595a5e2a550505da94ed11" />
-  <project name="app/startup_app_ipc" revision="9ab2893bd39ef11855c956cc0198726c93c39746" />
-  <project name="app/storage_manager" revision="213aded5fbf9dc2fd05c0fd529aa3da55a6fea93" />
-  <project name="app/video" revision="b81dab76a6ebccba5b43738092bd88e9073acbdb" />
-  <project name="buildroot" revision="34f8cc077741ed9b0ad3a65b6888990d02f0e278" >
+  <project name="app/CameraFactoryTestServer" />
+  <project name="app/QFacialGate" />
+  <project name="app/QLauncher" />
+  <project name="app/aiserver" />
+  <project name="app/camera" />
+  <project name="app/cvr_app" />
+  <project name="app/dbserver" />
+  <project name="app/dbtool" />
+  <project name="app/firefly_rkmedia_demo" />
+  <project name="app/firefly_rkmedia_uvc" />
+  <project name="app/firefly_rockx_demo" />
+  <project name="app/ipc-daemon" />
+  <project name="app/ipcweb-backend" />
+  <project name="app/ipcweb-ng" />
+  <project name="app/libIPCProtocol" />
+  <project name="app/libgdbus" />
+  <project name="app/librkdb" />
+  <project name="app/mediaserver" />
+  <project name="app/minigui_demo" />
+  <project name="app/multivideoplayer" />
+  <project name="app/netserver" />
+  <project name="app/qcamera" />
+  <project name="app/qfm" />
+  <project name="app/qplayer" />
+  <project name="app/qsetting" />
+  <project name="app/rkaiq_switch_mode" />
+  <project name="app/rkaiq_tool_server" />
+  <project name="app/smart_display_service" />
+  <project name="app/startup_app_ipc" />
+  <project name="app/storage_manager" />
+  <project name="app/video" />
+  <project name="buildroot" >
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
-  <project name="buildroot-dl" path="buildroot/dl" revision="fdd8e09a425da8cb4541b0a65ced333cb22d02ad" />
-  <project name="external/CallFunIpc" revision="b23fcde9739d9bdcc3c477caa0a845355825711f" />
-  <project name="external/alsa-config" revision="ed287a5d5c7b6972065e2b41ae420c2758dd77cc" />
-  <project name="external/app" revision="3a06ebb791eb8bc6d2b41876f895d121be987f41" />
-  <project name="external/arcface_app" revision="a00aab1c6a7908fb0bb185f90efad5ad03ac72b6" />
-  <project name="external/avb" revision="64b5ea0130d7440084796f6a23d7cd91fac988b8" />
-  <project name="external/ble_wificonfig" revision="3b56e0e268634216df1f992d944bb30158e86786" />
-  <project name="external/bluetooth_bsa" revision="51b1afeefd0984dc1965379513a2931e85d281fa" />
-  <project name="external/broadcom_bsa" revision="46234ce7a904794754bba79cb7c9f26d39605311" />
-  <project name="external/camera_engine_rkaiq" revision="a933bbe479865fdcd5c0eb4951b75244c8a6db8f" />
-  <project name="external/common_algorithm" revision="c0e48be28b4f1660bcbd7bb521de67662461d0cc" />
-  <project name="external/deviceio_release" revision="187439b6c9ed867c5a28d8b39cb2ecf19ba9dae6" />
-  <project name="external/eq_drc_process" revision="6fe472aa76ed71922742863c8f94222dab3dbf3c" />
-  <project name="external/gstreamer-rockchip" revision="e3752b8a04d03f070d688ca47244b0eaed0bbcbd" />
-  <project name="external/isp2-ipc" revision="832a468fbdee27db24e657fdc8d5b52b41feefe5" />
-  <project name="external/ladspaSDK" revision="136f0cfc8b05ce07ea898b9ede1f2e572a1e97dd" />
-  <project name="external/linux-rga" revision="9b744c310600ed20501e0cbf0f487bef24f39787" />
-  <project name="external/lvgl" revision="51fe6a21e922cda81ca6ed2defe1628529593511" />
-  <project name="external/minigui" revision="56dfcf3f4d2978cabe7684ca64073ebdfaae73b6" />
-  <project name="external/minilogger" revision="5f0fa4698d5305d8653c2352bfcf1d9aa57064a4" />
-  <project name="external/mpp" revision="20d071113175d07a7088dd92be64362b20b1cd46" />
-  <project name="external/pcba_adb_test" revision="0a1ca61f27007e8374d21f3af167ee5e02923f19" />
-  <project name="external/recovery" revision="b080e7bba2265e61aa2eab9d996fdc11469eedd7" />
-  <project name="external/rk_pcba_test" revision="36e07775f017df15a8f20e62f52cb59e1ed3ae10" />
-  <project name="external/rkadk" revision="0fbf09ea295bccc81c068977d9f43c1850b2e7e5" />
-  <project name="external/rkfacial" revision="8db5eef2fdccd941650e3afb11b751bd657a466d" />
-  <project name="external/rkmedia" revision="1c42d036698b7dcf66582eeeef5f046c334a9c9b" />
-  <project name="external/rknn-toolkit" revision="70306ede1e9322c3fe63d1149596df2038287891" />
-  <project name="external/rknpu" revision="b010399b7595945381ddd63853ecf1218a130427" />
-  <project name="external/rkscript" revision="d9ec9ed751b8bc5b77143848bf0278e614707a9b" />
-  <project name="external/rkssd" revision="1c50d336e770a8ce09ae33b3e09d2783d5b4c2d9" />
-  <project name="external/rktoolkit" revision="77fb41f99185a6f9dc2c9c69e099f417d8ae905d" />
-  <project name="external/rkupdate" revision="1e014c0295f960a23b5b351c0bb3e1c6903d0bf6" />
-  <project name="external/rkwifibt" revision="9b816bd85d67b920f06ab978f33d37a40f8bb7e4" />
-  <project name="external/rockface" revision="c15e36566c5bf07e1f8449e9087d73533b4ff420" />
-  <project name="external/rockit" revision="c0f42dcfb74ec195dfec7ac96d6fdab4719083b8" />
-  <project name="external/rockx" revision="19ffaec48095f6ee53b798d7d0ba3de86515449a" />
-  <project name="external/rtc_demo" revision="01ea9377beae66a544191ff5dbd920f19ba4614c" />
-  <project name="external/security/bin" revision="f59085ce658bd69678b68fd4840fb86937678125" />
-  <project name="external/security/rk_tee_user" revision="3f953515576dab722325a5cb10b551adb52c77b4" />
-  <project name="external/uac_app" revision="ea59dca532288686841ad6ba64b0adf68c655bd8" />
-  <project name="external/uvc_app" revision="3288aa612391323e53fd0acecd63513e17af5b9b" />
-  <project name="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" />
-  <project name="external/xhlpr_app" revision="df87025816a12ab78c74bf2bb4c57761e97f1b2f" />
+  <project name="buildroot-dl" path="buildroot/dl" />
+  <project name="external/CallFunIpc" />
+  <project name="external/alsa-config" />
+  <project name="external/app" />
+  <project name="external/arcface_app" />
+  <project name="external/avb" />
+  <project name="external/ble_wificonfig" />
+  <project name="external/bluetooth_bsa" />
+  <project name="external/broadcom_bsa" />
+  <project name="external/camera_engine_rkaiq" />
+  <project name="external/common_algorithm" />
+  <project name="external/deviceio_release" />
+  <project name="external/eq_drc_process" />
+  <project name="external/gstreamer-rockchip" />
+  <project name="external/isp2-ipc" />
+  <project name="external/ladspaSDK" />
+  <project name="external/linux-rga" />
+  <project name="external/lvgl" />
+  <project name="external/minigui" />
+  <project name="external/minilogger" />
+  <project name="external/mpp" />
+  <project name="external/pcba_adb_test" />
+  <project name="external/recovery" />
+  <project name="external/rk_pcba_test" />
+  <project name="external/rkadk" />
+  <project name="external/rkfacial" />
+  <project name="external/rkmedia" />
+  <project name="external/rknn-toolkit" />
+  <project name="external/rknpu" />
+  <project name="external/rkscript" />
+  <project name="external/rkssd" />
+  <project name="external/rktoolkit" />
+  <project name="external/rkupdate" />
+  <project name="external/rkwifibt" />
+  <project name="external/rockface" />
+  <project name="external/rockit" />
+  <project name="external/rockx" />
+  <project name="external/rtc_demo" />
+  <project name="external/security/bin" />
+  <project name="external/security/rk_tee_user" />
+  <project name="external/uac_app" />
+  <project name="external/uvc_app" />
+  <project name="external/wifiAutoSetup" />
+  <project name="external/xhlpr_app" />
 </manifest>
