@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="include/firefly_gitlab.xml" />
+  <default remote="firefly-linux" sync-j="4" revision="rk3399pro/firefly"/>
+  <project name="device/rockchip" >
+    <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
+    <linkfile dest="build.sh" src="common/build.sh"/>
+    <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
+    <linkfile dest="device/rockchip/.BoardConfig.mk" src="rk3399/BoardConfig.mk"/>
+  </project>
+  <project name="docs" />
+  <project name="docs-soc_internal" path="docs/.Socs" >
+    <linkfile dest="docs/RK3399" src="RK3399"/>
+  </project>
+  <project name="kernel" />
+  <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" />
+  <project name="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" />
+  <project name="rkbin" />
+  <project name="tools" >
+    <linkfile dest="tools/windows/RKDevTool/RKDevTool_Release/config.cfg" src="windows/RKDevTool/RKDevTool_Release/rk3399-config.cfg"/>
+    <linkfile dest="tools/windows/RKDevTool/rockdev/package-file" src="windows/RKDevTool/rockdev/rk3399-package-file"/>
+    <linkfile dest="tools/windows/RKDevTool/rockdev/mkupdate.bat" src="windows/RKDevTool/rockdev/rk3399-mkupdate.bat"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3399-mkupdate.sh"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3399-package-file"/>
+  </project>
+  <project name="u-boot" />
+
+</manifest>

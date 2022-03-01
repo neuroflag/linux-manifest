@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="rk3399pro_linux_bsp_next.xml" />
+  <project name="app/QLauncher" />
+  <project name="app/demo" />
+  <project name="app/multicamera" />
+  <project name="app/multivideoplayer" />
+  <project name="app/qcamera" />
+  <project name="app/qfm" />
+  <project name="app/qplayer" />
+  <project name="app/qsetting" />
+  <project name="app/aiserver" />
+  <project name="buildroot" >
+    <linkfile dest="Makefile" src="build/Makefile"/>
+    <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
+  </project>
+  <project name="buildroot-dl" path="buildroot/dl" />
+  <project name="distro" />
+  <project name="download" path="distro/download" />
+  <project name="external/LocalPlayer" />
+  <project name="external/RKNPUTools" />
+  <project name="external/alsa-config" />
+  <project name="external/app" />
+  <project name="external/audioservice" />
+  <project name="external/avb" />
+  <project name="external/ble_wificonfig" />
+  <project name="external/bluetooth_bsa" />
+  <project name="external/bluez-alsa" />
+  <project name="external/broadcom_bsa" />
+  <project name="external/cae_vad" />
+  <project name="external/camera_engine_rkisp" />
+  <project name="external/chromium" />
+  <project name="external/common_algorithm" />
+  <project name="external/deviceio_release" />
+  <project name="external/eq_drc_process" />
+  <project name="external/libglCompositor" />
+  <project name="external/gstreamer-rockchip" />
+  <project name="external/ipc_share_memory" />
+  <project name="external/libdrm" />
+  <project name="external/libmali" />
+  <project name="external/linux-rga" />
+  <project name="external/minigui" />
+  <project name="external/minigui_desktop" />
+  <project name="external/minilogger" />
+  <project name="external/pcba_adb_test" />
+  <project name="external/mpp" />
+  <project name="external/mpv" />
+  <project name="external/powermanager" />
+  <project name="external/recovery" />
+  <project name="external/rk_hw_vad" />
+  <project name="external/rk_pcba_test" />
+  <project name="external/rk_webui" />
+  <project name="external/rkmedia" />
+  <project name="external/rknn-toolkit" />
+  <project name="external/rknn_demo" />
+  <project name="external/rknpu" />
+  <project name="external/rkscript" />
+  <project name="external/rkssd" />
+  <project name="external/rktoolkit" />
+  <project name="external/rkupdate" />
+  <project name="external/rkwifibt" />
+  <project name="external/rockx" />
+  <project name="external/rtc_demo" />
+  <project name="external/security/bin" />
+  <project name="external/security/rk_tee_user" />
+  <project name="external/softapDemo" />
+  <project name="external/softapServer" />
+  <project name="external/tensorflow" />
+  <project name="external/uac_app" />
+  <project name="external/update_engine" />
+  <project name="external/uvc_app" />
+  <project name="external/wakeWordAgent" />
+  <project name="external/wifiAutoSetup" />
+  <project name="debian" />
+
+</manifest>
