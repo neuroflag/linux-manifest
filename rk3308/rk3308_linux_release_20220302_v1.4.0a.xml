@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <include name="rk3308_linux_bsp_next.xml" />
+  <include name="rk3308/rk3308_linux_bsp_release_20220302_v1.4.0a.xml" />
   <project name="app/QLauncher"/>
   <project name="app/gallery"/>
   <project name="app/music"/>

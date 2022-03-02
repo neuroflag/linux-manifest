@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="include/firefly_gitlab.xml" />
-  <default remote="firefly-linux" sync-j="4" revision="rk3308/firefly"/>
+  <default remote="firefly-linux" sync-j="4" dest-branch="rk3308/firefly" revision="refs/tags/rk3308/linux_release_v1.4.0a"/>
   <project name="device/rockchip" >
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
