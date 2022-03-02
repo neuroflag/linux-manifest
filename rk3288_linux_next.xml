@@ -34,6 +34,7 @@
   <project name="external/minilogger"/>
   <project name="external/mpp"/>
   <project name="external/pcba_adb_test"/>
+  <project name="external/quectel-cm"/>
   <project name="external/recovery"/>
   <project name="external/rk_pcba_test"/>
   <project name="external/rkscript"/>
