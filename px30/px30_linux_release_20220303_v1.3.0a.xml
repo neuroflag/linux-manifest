@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="px30/px30_linux_bsp_release_20220303_v1.3.0a.xml" />
+  <project name="app/QLauncher" />
+  <project name="app/multicamera" />
+  <project name="app/multivideoplayer" />
+  <project name="app/qcamera" />
+  <project name="app/qfm" />
+  <project name="app/qplayer" />
+  <project name="app/qsetting" />
+  <project name="buildroot" >
+    <linkfile dest="Makefile" src="build/Makefile"/>
+    <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
+  </project>
+  <project name="buildroot-dl" path="buildroot/dl" />
+  <project name="distro" />
+  <project name="download" path="distro/download" />
+  <project name="external/alsa-config" />
+  <project name="external/bluetooth_bsa" />
+  <project name="external/bluez-alsa" />
+  <project name="external/broadcom_bsa" />
+  <project name="external/camera_engine_rkisp" />
+  <project name="external/deviceio_release" />
+  <project name="external/gstreamer-rockchip" />
+  <project name="external/libdrm" />
+  <project name="external/libmali" />
+  <project name="external/linux-rga" />
+  <project name="external/mpp" />
+  <project name="external/recovery" />
+  <project name="external/rk_pcba_test" />
+  <project name="external/rkscript" />
+  <project name="external/rktoolkit" />
+  <project name="external/rkupdate" />
+  <project name="external/rkwifibt" />
+  <project name="external/security/bin" />
+  <project name="external/security/rk_tee_user" />
+  <project name="external/softapDemo" />
+  <project name="external/softapServer" />
+  <project name="external/tensorflow" />
+
+  <!--yocto project-->
+  <project name="yocto/build/conf" path="yocto/build/conf">
+    <linkfile dest="yocto/build/conf/local.conf" src="px30/px30.conf"/>
+  </project>
+  <include name="yocto.xml" />
+</manifest>
