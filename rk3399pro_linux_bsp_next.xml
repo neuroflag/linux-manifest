@@ -6,11 +6,11 @@
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
-    <linkfile dest="device/rockchip/.BoardConfig.mk" src="rk3399/BoardConfig.mk"/>
+    <linkfile dest="device/rockchip/.BoardConfig.mk" src="rk3399pro/BoardConfig.mk"/>
   </project>
   <project name="docs" />
   <project name="docs-soc_internal" path="docs/.Socs" >
-    <linkfile dest="docs/RK3399" src="RK3399"/>
+    <linkfile dest="docs/RK3399PRO" src="RK3399PRO"/>
   </project>
   <project name="kernel" />
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" />

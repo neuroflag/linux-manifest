@@ -9,14 +9,14 @@
   <project name="app/qfm" />
   <project name="app/qplayer" />
   <project name="app/qsetting" />
-  <project name="app/aiserver" />
+  <!--<project name="app/aiserver" />-->
   <project name="buildroot" >
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
   <project name="buildroot-dl" path="buildroot/dl" />
-  <project name="distro" />
-  <project name="download" path="distro/download" />
+  <!--<project name="distro" />-->
+  <!--<project name="download" path="distro/download" />>-->
   <project name="external/LocalPlayer" />
   <project name="external/RKNPUTools" />
   <project name="external/alsa-config" />
@@ -30,10 +30,10 @@
   <project name="external/cae_vad" />
   <project name="external/camera_engine_rkisp" />
   <project name="external/chromium" />
-  <project name="external/common_algorithm" />
+  <!--<project name="external/common_algorithm" />>-->
   <project name="external/deviceio_release" />
   <project name="external/eq_drc_process" />
-  <project name="external/libglCompositor" />
+  <!--<project name="external/libglCompositor" />-->
   <project name="external/gstreamer-rockchip" />
   <project name="external/ipc_share_memory" />
   <project name="external/libdrm" />
@@ -41,8 +41,8 @@
   <project name="external/linux-rga" />
   <project name="external/minigui" />
   <project name="external/minigui_desktop" />
-  <project name="external/minilogger" />
-  <project name="external/pcba_adb_test" />
+  <!--<project name="external/minilogger" />-->
+  <!--<project name="external/pcba_adb_test" />-->
   <project name="external/mpp" />
   <project name="external/mpv" />
   <project name="external/powermanager" />
@@ -66,11 +66,13 @@
   <project name="external/softapDemo" />
   <project name="external/softapServer" />
   <project name="external/tensorflow" />
-  <project name="external/uac_app" />
+  <!--<project name="external/uac_app" />-->
   <project name="external/update_engine" />
   <project name="external/uvc_app" />
   <project name="external/wakeWordAgent" />
   <project name="external/wifiAutoSetup" />
+  <!-- This is rknpu-fw" />-->
+  <project name="external/rknpu-fw" />
   <project name="debian" />
 
 </manifest>
