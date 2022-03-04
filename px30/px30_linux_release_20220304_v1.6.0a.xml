@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <include name="px30_linux_bsp_release_20220304_v1.6.0a.xml" />
+  <include name="px30/px30_linux_bsp_release_20220304_v1.6.0a.xml" />
   <project name="app/aiserver"/>
   <project name="app/QLauncher"/>
   <project name="app/multivideoplayer"/>
