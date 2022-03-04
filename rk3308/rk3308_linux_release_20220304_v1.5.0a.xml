@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="rk3308/rk3308_linux_bsp_release_20220304_v1.5.0a.xml" />
+  <project name="app/QLauncher"/>
+  <project name="app/gallery"/>
+  <project name="app/music"/>
+  <project name="app/rkffplay"/>
+  <project name="app/settings"/>
+  <project name="app/video"/>
+  <project name="buildroot">
+    <linkfile dest="Makefile" src="build/Makefile"/>
+    <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
+  </project>
+  <project name="buildroot-dl" path="buildroot/dl"/>
+  <project name="external/DuerClientSDK"/>
+  <project name="external/LocalPlayer"/>
+  <project name="external/alexaClientSDK"/>
+  <project name="external/alsa-config"/>
+  <project name="external/app"/>
+  <project name="external/audioservice"/>
+  <project name="external/bluetooth_bsa"/>
+  <project name="external/bluez-alsa"/>
+  <project name="external/broadcom_bsa"/>
+  <project name="external/cae_vad"/>
+  <project name="external/deviceio_release" path="external/deviceio" />
+  <project name="external/eq_drc_process" />
+  <project name="external/iflytekSDK" />
+  <project name="external/ipc_share_memory" />
+  <project name="external/ladspaSDK" />
+  <project name="external/minigui" />
+  <project name="external/minigui_desktop" />
+  <project name="external/quectel-cm" />
+  <project name="external/recovery" />
+  <project name="external/rk_hw_vad" />
+  <project name="external/rk_pcba_test" />
+  <project name="external/rk_webui" />
+  <project name="external/rkscript" />
+  <project name="external/rkupdate" />
+  <project name="external/rkwifibt" />
+  <project name="external/rtc_demo" />
+  <project name="external/security/bin" />
+  <project name="external/security/rk_tee_user" />
+  <project name="external/softapDemo" />
+  <project name="external/softapServer" />
+  <project name="external/update_engine" />
+  <project name="external/wakeWordAgent" />
+  <project name="external/wifiAutoSetup" />
+</manifest>

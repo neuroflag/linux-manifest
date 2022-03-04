@@ -395,3 +395,11 @@ Kernel更新：
 6. 新增RK3308 DuerOS 使用说明.pdf
 7. 新增Rockchip RK3308 Datasheet V1.1 20180412.pdf
 8. 更新Rockchip RK3308 Linux软件开发指南 V1.01-20180528.pdf
+
+[rk3308_linux_release_20220302_v1.4.0a.xml 更新日志]
+基于Rockchip V1.4.0，兼容ROC-3308B-CC-PLUS, 不向后兼容产品ROC-3308B-CC，ROC-3308-CC
+
+[rk3308_linux_release_20220304_v1.5.0a.xml 更新日志]
+1，支持RK3308BS新主控
+2，更改firefly开发板电源域IO-DOMAIN
+3，更改4寸屏和7寸屏IO驱动强度
