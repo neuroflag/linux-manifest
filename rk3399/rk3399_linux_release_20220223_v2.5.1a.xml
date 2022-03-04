@@ -72,10 +72,4 @@
   <project name="external/wakeWordAgent" />
   <project name="external/wifiAutoSetup" />
   <project name="debian" />
-
-  <!--yocto project-->
-  <project name="yocto/build/conf" path="yocto/build/conf">
-    <linkfile dest="yocto/build/conf/local.conf" src="rk3399/firefly-rk3399.conf"/>
-  </project>
-  <include name="yocto.xml" />
 </manifest>
