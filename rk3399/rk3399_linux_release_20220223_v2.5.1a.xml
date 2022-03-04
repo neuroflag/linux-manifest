@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <include name="rk3399pro/rk3399pro_linux_bsp_release_20220304_v1.4.2a.xml" />
+  <include name="rk3399/rk3399_linux_bsp_release_20220223_v2.5.1a.xml" />
   <project name="app/QLauncher" />
   <project name="app/demo" />
   <project name="app/multicamera" />
