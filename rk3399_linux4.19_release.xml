@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="rk3399_linux_release.xml" />
+  <remove-project name="kernel" />
+  <project name="kernel" upstream="rk3399/firefly-4.19"/>
+</manifest>
