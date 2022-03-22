@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="ssh://git@git.t-firefly.com:8022/rk-linux" name="firefly-linux"/>
-  
+  <include name="include/firefly_gitlab.xml" />
   <default remote="firefly-linux" revision="firefly" sync-j="4"/>
-  
   <project name="app/QLauncher" revision="012d80183048fe8361b6a0b948cda4ee9aef3cae" upstream="firefly"/>
   <project name="app/demo" revision="c6a4acd3b1164708cb88ad46f8656badc4126040" upstream="firefly"/>
   <project name="app/face_detect" revision="6c5631e2d192ea0d9f60a16977923b26ad5c7b0d" upstream="firefly"/>
