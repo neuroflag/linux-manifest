@@ -4,5 +4,5 @@
   <default remote="firefly-linux" sync-j="4"/>
 
   <!--yocto project-->
-  <include name="yocto/yocto_honister_release.xml" />
+  <include name="yocto/yocto_honister_next.xml" />
 </manifest>
