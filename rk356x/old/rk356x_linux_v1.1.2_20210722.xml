@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="ssh://git@git.t-firefly.com:8022/rk-linux" name="firefly-linux"/>
+  <remote fetch="." name="firefly-linux"/>
   
   <default remote="firefly-linux" revision="firefly" sync-j="4"/>
   
