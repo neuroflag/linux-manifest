@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <include name="rv1126_rv1109/rv1126_rv1109_linux_bsp_release_20220224_v2.2.5b.xml" />
+  <include name="rv1126_rv1109/rv1126_rv1109_linux_bsp_release_20220324_v2.2.5b.xml" />
   <project name="app/CameraFactoryTestServer" />
   <project name="app/QFacialGate" />
   <project name="app/QLauncher" />
