@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <include name="rk3588_linux_bsp_next.xml" />
+  <include name="rk3588/rk3588_linux_bsp_release_20220422_v0.1.0a.xml" />
   <project name="external/security/rk_tee_user" />
   <project name="app/qfm" />
   <project name="app/QLauncher" />

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="include/firefly_gitlab.xml" />
-  <default remote="firefly-linux" sync-j="4" revision="rk3588/firefly"/>
+  <default remote="firefly-linux" sync-j="4" dest-branch="rk3588/firefly" revision="refs/tags/rk3588/linux_release_v0.1.0a"/>
   <project name="u-boot" />
   <project name="docs" >
     <linkfile dest="docs/.Socs/RK3588/Rockchip_Developer_Guide_Linux_Software_CN.pdf" src="Rockchip_Developer_Guide_Linux_Software_CN.pdf"/>
