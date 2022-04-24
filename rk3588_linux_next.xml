@@ -16,7 +16,7 @@
   <project name="external/drm-cursor" />
   <project name="external/alsa-config" />
   <project name="external/avb" />
-  <project clone-depth="1" name="external/camera_engine_rkaiq" />
+  <project name="external/camera_engine_rkaiq" />
   <project name="external/chromium" />
   <project name="external/rkwifibt-app" />
   <project name="external/rockchip-test" />
