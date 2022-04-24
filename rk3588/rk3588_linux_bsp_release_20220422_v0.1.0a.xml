@@ -9,7 +9,7 @@
   <project name="docs-soc_internal" path="docs/.Socs" >
     <linkfile dest="docs/RK3588" src="RK3588"/>
   </project>
-  <project name="device/rockchip" revision="firefly" >
+  <project name="device/rockchip" dest-branch="firefly" >
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
