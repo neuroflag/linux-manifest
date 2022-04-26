@@ -30,7 +30,7 @@
   <project name="external/gstreamer-rockchip" />
   <project name="external/libmali" />
   <project name="external/linux-rga" />
-  <project name="external/recovery" />
+  <project name="external/recovery" revision="firefly"/>
   <project name="external/security/bin" />
   <project name="external/xserver" />
   <project name="external/mpp" />
