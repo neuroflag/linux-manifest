@@ -23,7 +23,7 @@
   <project name="uefi" />
   <project name="external/libglCompositor" />
   <project name="external/rk_pcba_test" />
-  <project name="external/rkscript" />
+  <project name="external/rkscript" revision="firefly"/>
   <project name="external/rktoolkit" />
   <project name="external/rkupdate" />
   <project name="external/rkwifibt" />
