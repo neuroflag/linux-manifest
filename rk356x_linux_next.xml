@@ -9,6 +9,7 @@
   <project name="app/qcamera"/>
   <project name="app/qfm"/>
   <project name="app/qplayer"/>
+  <project name="app/rkaiq_tool_server"/>
   <project name="app/qsetting"/>
   <project name="buildroot">
     <linkfile dest="Makefile" src="build/Makefile"/>
