@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="rk356x/rk356x_linux_bsp_release_20220516_v1.2.4a.xml"/>
+
+  <project name="app/QLauncher"/>
+  <project name="app/aiserver"/>
+  <project name="app/eptz_demo"/>
+  <project name="app/multivideoplayer"/>
+  <project name="app/qcamera"/>
+  <project name="app/qfm"/>
+  <project name="app/qplayer"/>
+  <project name="app/rkaiq_tool_server"/>
+  <project name="app/qsetting"/>
+  <project name="buildroot">
+    <linkfile dest="Makefile" src="build/Makefile"/>
+    <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
+  </project>
+  <project name="buildroot-dl" path="buildroot/dl"/>
+  <project name="debian"/>
+  <project name="external/alsa-config"/>
+  <project name="external/avb"/>
+  <project name="external/ble_wificonfig"/>
+  <project name="external/bluetooth_bsa"/>
+  <project name="external/bluez-alsa"/>
+  <project name="external/broadcom_bsa"/>
+  <project name="external/camera_engine_rkaiq"/>
+  <project name="external/chromium"/>
+  <project name="external/common_algorithm"/>
+  <project name="external/deviceio_release"/>
+  <project name="external/eq_drc_process"/>
+  <project name="external/gstreamer-rockchip"/>
+  <project name="external/libglCompositor"/>
+  <project name="external/libmali"/>
+  <project name="external/linux-rga"/>
+  <project name="external/mpp"/>
+  <project name="external/quectel-cm"/>
+  <project name="external/recovery"/>
+  <project name="external/rk_pcba_test"/>
+  <project name="external/rkfacial"/>
+  <project name="external/rknn-toolkit2"/>
+  <project name="external/rknpu2"/>
+  <project name="external/rkscript"/>
+  <project name="external/rktoolkit"/>
+  <project name="external/rkupdate"/>
+  <project name="external/rkwifibt"/>
+  <project name="external/rockit"/>
+  <project name="external/security/bin"/>
+  <project name="external/security/rk_tee_user"/>
+  <project name="external/uac_app"/>
+  <project name="external/uvc_app"/>
+</manifest>
