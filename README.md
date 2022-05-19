@@ -1,27 +1,29 @@
-为避免重要的更新在某些平台上依赖，现在制定以下规则：
 
-# Firefly Linux repo 仓库管理原则
+# 获取SDK
 
-- 1. 与平台无关，涉及到固件打包、命名、格式等的git仓库，所有平台必须使用一个分支。
-- 2. 与平台相关，应用层的软件，所有平台尽量使用同一分支。
-- 3. 与平台相关，如内核、u-boot等分支，可以使用不同的分支管理。
+## XML 介绍
+以rk356x为例子：
 
-附上：
-## 1. 必须同一分支管理的仓库：
-* device/rockchip
-* tools
+* rk356x_linux_release.xml SDK的 release 版本
+* rk356x_linux_next.xml SDK的开发版本
+* rk356x_linux_bsp_release.xml bsp的 release 版本
+* rk356x_linux_bsp_next.xml bsp的开发版本
 
-## 2. 尽量同一分支管理的仓库：
 
-* rkbin
-* app
-* buildroot
-* distro
-* docs
-* external
-* prebuilts
-* rk-rootfs-build
+## 拉取SDK
+```
+mkdir ~/proj/rk356x_linux_release_20211019/
+cd ~/proj/rk356x_linux_release_20211019/
 
-## 3. 可以使用不同分支管理的仓库：
-* kernel
-* u-boot
+## 完整 SDK
+repo init --no-clone-bundle --repo-url https://gitlab.com/firefly-linux/git-repo.git -u https://gitlab.com/firefly-linux/manifests.git -b master -m rk356x_linux_release.xml
+
+## BSP （ 只包含基础仓库和编译工具 ）
+## BSP 包括 device/rockchip 、docs 、 kernel 、 u-boot 、 rkbin 、 tools 和交叉编译链
+repo init --no-clone-bundle --repo-url https://gitlab.com/firefly-linux/git-repo.git -u https://gitlab.com/firefly-linux/manifests.git -b master -m rk356x_linux_bsp_release.xml
+```
+
+后续可以使用以下命令更新 SDK：
+```
+.repo/repo/repo sync -c --no-tags
+```
