@@ -403,3 +403,4 @@ Kernel更新：
 1，支持RK3308BS新主控
 2，更改firefly开发板电源域IO-DOMAIN
 3，更改4寸屏和7寸屏IO驱动强度
+4, 支持quectel-CM和热插拔：EC200N、EC200S、EC200T、EC200A、EC20
