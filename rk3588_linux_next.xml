@@ -36,5 +36,4 @@
   <project name="external/mpp" />
   <project name="external/rknn-toolkit2" />
   <project name="external/rknpu2" />
-  <project name="external/quectel-cm" />
 </manifest>
