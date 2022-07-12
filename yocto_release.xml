@@ -1,8 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <include name="include/firefly_gitlab.xml" />
-  <default remote="firefly-linux" sync-j="4"/>
-
-  <!--yocto project-->
-  <include name="yocto/yocto_honister_release.xml" />
-</manifest>
+yocto/yocto_honister_release_20220712_v1.1.xml
