@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <notice>Your yocto-sources have been sync'd successfully.</notice>
+  <include name="include/firefly_gitlab.xml" />
+  <default remote="firefly-linux" sync-j="4"/>
 
   <project dest-branch="honister" name="yocto/meta-browser" path="yocto/meta-browser" revision="d25d8ee98a656b2534d0eec6138ef264529fab4f"/>
   <project dest-branch="honister" name="yocto/meta-clang" path="yocto/meta-clang" revision="088904d40231d9e099c2f5039cd3c2bc47d332d1"/>
