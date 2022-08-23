@@ -15,13 +15,11 @@
   <project name="debian" />
   <project name="external/drm-cursor" />
   <project name="external/alsa-config" />
-  <project name="external/avb" />
   <project name="external/camera_engine_rkaiq" />
   <project name="external/chromium" />
   <project name="external/rkwifibt-app" />
   <project name="external/rockchip-test" />
   <project name="uefi" />
-  <project name="external/libglCompositor" />
   <project name="external/rk_pcba_test" />
   <project name="external/rkscript" revision="firefly"/>
   <project name="external/rktoolkit" />
@@ -32,8 +30,10 @@
   <project name="external/linux-rga" />
   <project name="external/recovery" revision="firefly"/>
   <project name="external/security/bin" />
+  <project name="external/security/librkcrypto" />
   <project name="external/xserver" />
   <project name="external/mpp" />
   <project name="external/rknn-toolkit2" />
   <project name="external/rknpu2" />
+  <project name="external/rockit" />
 </manifest>
