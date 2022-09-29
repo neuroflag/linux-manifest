@@ -43,7 +43,7 @@
   <project name="external/minigui" revision="d4e774c2d40071ae78131df0bc01f52e25ef7935" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
   <project name="external/minigui_desktop" revision="4aae808ece4829a1a1ee3ae9fa4bf294c5f6f0a3" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
   <project name="external/quectel-cm" revision="021ef58c246a50df7de05e77ef21a010f0ded8c2" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
-  <project name="external/recovery" revision="76deea2cf237ab0d8d40a849dd9d29b5c07de6ce" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/recovery" revision="8d67bbd21713c5d3aa25980b16d8dca0bac89bf1" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
   <project name="external/rk_hw_vad" revision="2fa6aaf920a6e8a9912b0407ba4f50b9c6e96b10" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
   <project name="external/rk_pcba_test" revision="7d97b390d9a0817c2573a77a6178e03b96523334" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
   <project name="external/rk_webui" revision="23d1035aede0b74ae119b8bd65cf0ed93c4100a6" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
