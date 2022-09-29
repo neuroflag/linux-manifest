@@ -58,7 +58,7 @@
   <project name="external/update_engine" revision="047d95d37b628563389eb397f19fe5f1c0c8eb05" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
   <project name="external/wakeWordAgent" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
   <project name="external/wifiAutoSetup" revision="d2cfc6b2ca9754311542f91e481e8576fd4ecbc0" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
-  <project name="kernel" revision="930e61aaf28fb211bc98d1909ce903b14d40598a" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="kernel" revision="d24207213fbcbac7c0d8743bdeb687e3b7941ecd" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu" revision="427f5439bf87835ff3b20746acc8aaafba7d4f53" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
   <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
   <project name="rkbin" revision="4512b79f362413a014e586c0886029fae82274b6" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
