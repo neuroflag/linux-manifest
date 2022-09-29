@@ -10,7 +10,7 @@
   <project name="app/rkffplay" revision="549c8275a21a33ef5a47fd68c7a3b55c341ff7ec" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
   <project name="app/settings" revision="d94cd894eaa299c53387dffd272e688523334d5e" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
   <project name="app/video" revision="369ec9703488979594ce045008871813ce8b60d4" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
-  <project name="buildroot" revision="291143ccb4d45715ed60084426f57e9153518908" upstream="refs/tags/rk3308/linux_release_v1.5.0a">
+  <project name="buildroot" revision="b1f34308e9897c7e1271b2796b27ba9414f1e8b0" upstream="refs/tags/rk3308/linux_release_v1.5.0a">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
@@ -43,7 +43,7 @@
   <project name="external/minigui" revision="d4e774c2d40071ae78131df0bc01f52e25ef7935" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
   <project name="external/minigui_desktop" revision="4aae808ece4829a1a1ee3ae9fa4bf294c5f6f0a3" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
   <project name="external/quectel-cm" revision="021ef58c246a50df7de05e77ef21a010f0ded8c2" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
-  <project name="external/recovery" revision="a43250caf66c1da0f6dc60c64621476685271057" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/recovery" revision="76deea2cf237ab0d8d40a849dd9d29b5c07de6ce" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
   <project name="external/rk_hw_vad" revision="2fa6aaf920a6e8a9912b0407ba4f50b9c6e96b10" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
   <project name="external/rk_pcba_test" revision="7d97b390d9a0817c2573a77a6178e03b96523334" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
   <project name="external/rk_webui" revision="23d1035aede0b74ae119b8bd65cf0ed93c4100a6" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
