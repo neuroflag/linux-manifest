@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="." name="firefly-linux"/>
+  
+  <default dest-branch="rk3308/firefly" remote="firefly-linux" revision="refs/tags/rk3308/linux_release_v1.5.0a" sync-j="4"/>
+  
+  <project name="app/QLauncher" revision="d2f9d87c3705214983d0a8a7e826d1671510954f" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="app/gallery" revision="0707472bcb23a4ee27f430611f736979907c49b1" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="app/music" revision="d4973ea777212c0a1626d2134c3a4aaf8a6a7541" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="app/rkffplay" revision="549c8275a21a33ef5a47fd68c7a3b55c341ff7ec" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="app/settings" revision="d94cd894eaa299c53387dffd272e688523334d5e" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="app/video" revision="369ec9703488979594ce045008871813ce8b60d4" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="buildroot" revision="291143ccb4d45715ed60084426f57e9153518908" upstream="refs/tags/rk3308/linux_release_v1.5.0a">
+    <linkfile dest="Makefile" src="build/Makefile"/>
+    <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
+  </project>
+  <project name="buildroot-dl" path="buildroot/dl" revision="74bc0446d1e0a477b77bb6a097b1850f44d0e33b" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="device/rockchip" revision="69ae55812b52e441ea9a63770200eec66603ae0a" upstream="refs/tags/rk3308/linux_release_v1.5.0a">
+    <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
+    <linkfile dest="build.sh" src="common/build.sh"/>
+    <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
+    <linkfile dest="device/rockchip/.target_product" src="rk3308"/>
+  </project>
+  <project name="docs" revision="895097a4a9064eaeac1b5d9d07b05ee0f405d94d" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="docs-soc_internal" path="docs/.Socs" revision="e776a6939053b9122445ff102706def2254725fd" upstream="refs/tags/rk3308/linux_release_v1.5.0a">
+    <linkfile dest="docs/RK3308" src="RK3308"/>
+  </project>
+  <project name="external/DuerClientSDK" revision="e366033a83adb6187ee765915696d70cd36b4231" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/LocalPlayer" revision="e7d5cc72e5f0da13f2765aa02bd22d03ebc82750" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/alexaClientSDK" revision="ff020e9008a87b655c47f1534a887f3e29ae84c9" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/alsa-config" revision="30d750e5dc846d15d1a5159e47bf3e1121953eb3" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/app" revision="1cfad9fbba2dfaeaf941e8094cbc91bd539f1e15" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/audioservice" revision="68fa86817d762d4b761add42dcd03abe746bea61" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/bluetooth_bsa" revision="357c73583f374d4d97e3b2949b13791989240358" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/bluez-alsa" revision="cae05879aac86e2da29fc354e1dea7f3e2df7cb3" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/broadcom_bsa" revision="9cd208a2d6a2e2e5d7414f625bcd655819e20e29" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/cae_vad" revision="86f5f3d4616888feea0c3916a9663f29a3af28ba" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/deviceio_release" path="external/deviceio" revision="2a4cc70222ed1c859368405237b5af8504879f68" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/eq_drc_process" revision="39bf5cb0237d6f5704afd822857d3ce65d3158dc" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/iflytekSDK" revision="cb2d4b5b6cc3bc4122fefb19fdf84db751ea09f1" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/ipc_share_memory" revision="7e7c3de48f72f55d184e3705ab5a170ce815756a" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/ladspaSDK" revision="8f1ea54678480bd61b39062c9441737334ab5032" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/minigui" revision="d4e774c2d40071ae78131df0bc01f52e25ef7935" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/minigui_desktop" revision="4aae808ece4829a1a1ee3ae9fa4bf294c5f6f0a3" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/quectel-cm" revision="021ef58c246a50df7de05e77ef21a010f0ded8c2" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/recovery" revision="a43250caf66c1da0f6dc60c64621476685271057" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/rk_hw_vad" revision="2fa6aaf920a6e8a9912b0407ba4f50b9c6e96b10" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/rk_pcba_test" revision="7d97b390d9a0817c2573a77a6178e03b96523334" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/rk_webui" revision="23d1035aede0b74ae119b8bd65cf0ed93c4100a6" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/rkscript" revision="ff27f4cddf7c300225ace5a9e60b93f4c4fd532d" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/rkupdate" revision="534d8750105c2649e24648b40551fa1304f5eeab" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/rkwifibt" revision="5b8a34dcc21b465445a007ad4bc45c1770b73a1c" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/rtc_demo" revision="e1e8f6704a31b36982745f7627bc9b8959f54157" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/security/bin" revision="1045db0528dc6d797edd5b4c3f48cf21f73ec5da" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/security/rk_tee_user" revision="44def95246908e23c1f415f3a25520308beb8ccf" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/softapDemo" revision="4c7d1bd3d28df276d263f49324b022b44b3a1c85" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/softapServer" revision="9158517316a050190273c6809ea88467a4276e16" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/update_engine" revision="047d95d37b628563389eb397f19fe5f1c0c8eb05" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/wakeWordAgent" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="external/wifiAutoSetup" revision="d2cfc6b2ca9754311542f91e481e8576fd4ecbc0" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="kernel" revision="930e61aaf28fb211bc98d1909ce903b14d40598a" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="prebuilts/gcc/linux-x86/aarch64/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu" revision="427f5439bf87835ff3b20746acc8aaafba7d4f53" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="rkbin" revision="4512b79f362413a014e586c0886029fae82274b6" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+  <project name="tools" revision="e4f9b09688b0c4966451c98f0eaede8d1de69e32" upstream="refs/tags/rk3308/linux_release_v1.5.0a">
+    <linkfile dest="tools/windows/RKDevTool/RKDevTool_Release/config.cfg" src="windows/RKDevTool/RKDevTool_Release/rk3308-config.cfg"/>
+    <linkfile dest="tools/windows/RKDevTool/rockdev/package-file" src="windows/RKDevTool/rockdev/rk3308-package-file"/>
+    <linkfile dest="tools/windows/RKDevTool/rockdev/mkupdate.bat" src="windows/RKDevTool/rockdev/rk3308-mkupdate.bat"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3308-mkupdate.sh"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3308-package-file"/>
+  </project>
+  <project name="u-boot" revision="8e1ac1bfcbb69968910ba413b31cbc317b77b262" upstream="refs/tags/rk3308/linux_release_v1.5.0a"/>
+</manifest>
