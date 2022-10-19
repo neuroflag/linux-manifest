@@ -30,7 +30,7 @@
   <project name="external/chromium" />
   <project name="external/deviceio_release" />
   <project name="external/gstreamer-rockchip" />
-  <project name="external/libdrm-rockchip" path="external/libdrm" />
+  <project name="external/libdrm" />
   <project name="external/libmali" />
   <project name="external/linux-rga" />
   <project name="external/minigui" />
@@ -59,7 +59,7 @@
   <project name="external/uvc_app" />
   <project name="external/wakeWordAgent" />
   <project name="external/wifiAutoSetup" />
-  <project name="rk-rootfs-build" path="debian" />
+  <project name="debian" />
   <project name="yocto/build/conf" />
   <project name="yocto/meta-openembedded" />
   <project name="yocto/meta-qt5" />
