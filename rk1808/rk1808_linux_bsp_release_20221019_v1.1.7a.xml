@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="include/firefly_gitlab.xml" />
+  <default remote="firefly-linux" sync-j="4" dest-branch="rk1808/firefly" revision="refs/tags/rk1808/linux_release_v1.1.7a"/>
+  <project name="u-boot" />
+  <project name="docs" />
+  <project name="device/rockchip" dest-branch="rk1808/firefly" >
+    <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
+    <linkfile dest="build.sh" src="common/build.sh"/>
+    <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
+    <linkfile dest="device/rockchip/.target_product" src="rk1808"/>
+    <linkfile dest="device/rockchip/.BoardConfig.mk" src="rk1808/BoardConfig.mk" />
+    <linkfile dest="firefly-update.sh" src="common/firefly-update.sh"/>
+  </project>
+  <project name="tools" >
+    <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk1808-config.cfg"/>
+    <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk1808-package-file"/>
+    <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk1808-mkupdate.bat"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk1808-mkupdate.sh"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk1808-package-file"/>
+  </project>
+  <project name="kernel" />
+  <project name="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" />
+  <project name="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" />
+  <project name="rkbin" />
+</manifest>
