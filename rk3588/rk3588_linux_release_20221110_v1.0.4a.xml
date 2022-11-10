@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="rk3588/rk3588_linux_bsp_release_20221110_v1.0.4a.xml" />
+  <project name="external/security/rk_tee_user" />
+  <project name="app/qfm" />
+  <project name="app/QLauncher" />
+  <project name="app/multivideoplayer" />
+  <project name="app/qcamera" />
+  <project name="app/qplayer" />
+  <project name="app/qsetting" />
+  <project name="buildroot" >
+    <linkfile dest="Makefile" src="build/Makefile"/>
+    <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
+  </project>
+  <project name="debian" />
+  <project name="external/drm-cursor" />
+  <project name="external/alsa-config" />
+  <project name="external/camera_engine_rkaiq" />
+  <project name="external/chromium" />
+  <project name="external/rkwifibt-app" />
+  <project name="external/rockchip-test" />
+  <project name="uefi" />
+  <project name="external/rk_pcba_test" />
+  <project name="external/rkscript" dest-branch="firefly"/>
+  <project name="external/rktoolkit" />
+  <project name="external/rkupdate" />
+  <project name="external/rkwifibt" />
+  <project name="external/gstreamer-rockchip" />
+  <project name="external/libmali" />
+  <project name="external/linux-rga" />
+  <project name="external/recovery" dest-branch="firefly"/>
+  <project name="external/security/bin" />
+  <project name="external/xserver" />
+  <project name="external/mpp" />
+  <project name="external/rknn-toolkit2" />
+  <project name="external/rknpu2" />
+  <project name="external/security/librkcrypto" />
+  <project name="external/rockit" />
+</manifest>
