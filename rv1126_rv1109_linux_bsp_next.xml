@@ -2,7 +2,7 @@
 <manifest>
   <include name="include/firefly_gitlab.xml" />
   <default remote="firefly-linux" sync-j="4" revision="rv1126_rv1109/firefly"/>
-  <project name="device/rockchip" revision="firefly" >
+  <project name="device/rockchip" revision="rv1126_rv1109/firefly" >
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
