@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <include name="rk356x/rk356x_linux_bsp_release_20221224_v1.3.2a.xml"/>
+  <include name="rk356x/rk356x_linux_bsp_release_20230129_v1.3.2a.xml"/>
 
   <project name="app/QLauncher"/>
   <project name="app/aiserver"/>
