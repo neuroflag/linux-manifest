@@ -13,7 +13,6 @@
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
   <project name="buildroot-dl" path="buildroot/dl"/>
-  <project name="debian"/>
   <project name="external/alsa-config"/>
   <project name="external/app"/>
   <project name="external/avb"/>

@@ -73,6 +73,5 @@
   <project name="external/wifiAutoSetup" />
   <!-- This is rknpu-fw" />-->
   <project name="external/rknpu-fw" />
-  <project name="debian" />
 
 </manifest>

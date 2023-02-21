@@ -17,8 +17,6 @@
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
   <project name="buildroot-dl" path="buildroot/dl" />
-  <project name="distro" />
-  <project name="download" path="distro/download" />
   <project name="external/LocalPlayer" />
   <project name="external/RKNPUTools" />
   <project name="external/alsa-config" />
@@ -59,7 +57,6 @@
   <project name="external/uvc_app" />
   <project name="external/wakeWordAgent" />
   <project name="external/wifiAutoSetup" />
-  <project name="debian" />
   <project name="yocto/build/conf" />
   <project name="yocto/meta-openembedded" />
   <project name="yocto/meta-qt5" />
