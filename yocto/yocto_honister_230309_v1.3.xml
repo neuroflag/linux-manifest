@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="include/firefly_gitlab.xml" />
-  <default remote="firefly-linux" dest-branch="honister" revision="honister_v1.3" sync-j="4"/>
+  <default remote="firefly-linux" dest-branch="honister" revision="refs/tags/honister_v1.3" sync-j="4"/>
 
   <project name="yocto/meta-browser" path="yocto/meta-browser"/>
   <project name="yocto/meta-clang" path="yocto/meta-clang"/>
