@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="include/firefly_gitlab.xml" />
+  <default remote="firefly-linux" sync-j="4" dest-branch="rk3588/firefly" revision="refs/tags/rk3588/linux_release_v1.0.6f"/>
+  <project name="u-boot" />
+  <project name="docs" >
+    <linkfile dest="docs/.Socs/RK3588/Rockchip_Developer_Guide_Linux_Software_CN.pdf" src="Rockchip_Developer_Guide_Linux_Software_CN.pdf"/>
+  </project>
+  <project name="docs-soc_internal" path="docs/.Socs" >
+    <linkfile dest="docs/RK3588" src="RK3588"/>
+  </project>
+  <project name="device/rockchip" dest-branch="firefly" >
+    <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
+    <linkfile dest="build.sh" src="common/build.sh"/>
+    <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
+    <linkfile dest="device/rockchip/.target_product" src="rk3588"/>
+    <linkfile dest="firefly-update.sh" src="common/firefly-update.sh"/>
+  </project>
+  <project name="tools" >
+    <linkfile dest="tools/windows/RKDevTool/RKDevTool_Release/config.cfg" src="windows/RKDevTool/RKDevTool_Release/rk3588-config.cfg"/>
+    <linkfile dest="tools/windows/RKDevTool/rockdev/package-file" src="windows/RKDevTool/rockdev/rk3588-package-file"/>
+    <linkfile dest="tools/windows/RKDevTool/rockdev/mkupdate.bat" src="windows/RKDevTool/rockdev/rk3588-mkupdate.bat"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3588-mkupdate.sh"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3588-package-file"/>
+  </project>
+  <project name="kernel" />
+  <project name="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" />
+  <project name="prebuilts/gcc/linux-x86/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" />
+  <project name="rkbin" />
+</manifest>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <include name="rk3588_linux_bsp_next.xml" />
+  <include name="rk3588/rk3588_linux_bsp_release_20230403_v1.0.6f.xml" />
   <project name="external/security/rk_tee_user" />
   <project name="app/qfm" />
   <project name="app/QLauncher" />
@@ -19,28 +19,28 @@
   <project name="external/rockchip-test" />
   <project name="uefi" />
   <project name="external/rk_pcba_test" />
-  <project name="external/rkscript" revision="firefly"/>
+  <project name="external/rkscript" dest-branch="firefly"/>
   <project name="external/rktoolkit" />
   <project name="external/rkupdate" />
   <project name="external/rkwifibt" />
   <project name="external/gstreamer-rockchip" />
   <project name="external/libmali" />
   <project name="external/linux-rga" />
-  <project name="external/recovery" revision="firefly"/>
+  <project name="external/recovery" dest-branch="firefly"/>
   <project name="external/security/bin" />
-  <project name="external/security/librkcrypto" />
   <project name="external/xserver" />
   <project name="external/mpp" />
   <project name="external/rknn-toolkit2" />
   <project name="external/rknpu2" />
+  <project name="external/security/librkcrypto" />
   <project name="external/rockit" />
-  <project name="yocto/build/conf" path="yocto/build/conf" revision="yocto-next/firefly"/>
-  <project name="yocto/meta-openembedded" path="yocto/meta-openembedded" revision="honister"/>
-  <project name="yocto/meta-qt5" path="yocto/meta-qt5" revision="honister"/>
-  <project name="yocto/meta-rockchip" path="yocto/meta-rockchip" revision="firefly/honister"/>
-  <project name="yocto/meta-clang" path="yocto/meta-clang" revision="honister"/>
-  <project name="yocto/meta-browser" path="yocto/meta-browser" revision="honister"/>
-  <project name="yocto/poky" path="yocto/poky" revision="honister">
+  <project name="yocto/build/conf" path="yocto/build/conf" dest-branch="yocto-next/firefly"/>
+  <project name="yocto/meta-openembedded" path="yocto/meta-openembedded" dest-branch="honister"/>
+  <project name="yocto/meta-qt5" path="yocto/meta-qt5" dest-branch="honister"/>
+  <project name="yocto/meta-rockchip" path="yocto/meta-rockchip" dest-branch="firefly/honister"/>
+  <project name="yocto/meta-clang" path="yocto/meta-clang" dest-branch="honister"/>
+  <project name="yocto/meta-browser" path="yocto/meta-browser" dest-branch="honister"/>
+  <project name="yocto/poky" path="yocto/poky" dest-branch="honister">
     <linkfile dest="yocto/scripts" src="scripts"/>
     <linkfile dest="yocto/bitbake" src="bitbake"/>
     <linkfile dest="yocto/meta-poky" src="meta-poky"/>
