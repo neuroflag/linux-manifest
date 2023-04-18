@@ -50,11 +50,11 @@ function build_release()
     fi
 
     sdk_name=$(realpath .repo/manifest.xml  |awk -F '/' '{print $(NF) }'| awk -F '.' '{print $(1) }')
-    run split -b 4000M ${sdk_name}.sdk.tar ${sdk_name}.sdk.split -d -a 2 --verbose
+    run split -b 4000M linux_sdk_tar/${sdk_name}.sdk.tar linux_sdk_tar/${sdk_name}.sdk.split -d -a 2 --verbose
 
     # Create MD5
     log "I: Running command: ls ${sdk_name}.sdk.split* |sort | xargs md5sum | tee md5sum.txt"
-    ls ${sdk_name}.sdk.split* |sort | xargs md5sum | tee md5sum.txt
+    ls linux_sdk_tar/${sdk_name}.sdk.split* |sort | xargs md5sum | tee md5sum.txt
 }
 
 function build_tar()
@@ -65,7 +65,12 @@ function build_tar()
         exit 1
     fi
     sdk_name=$(realpath .repo/manifest.xml  |awk -F '/' '{print $(NF) }'| awk -F '.' '{print $(1) }')
-    run tar cf ${sdk_name}.sdk.tar  .repo/
+
+    rm -rf
+    if [ ! -d linux_sdk ];then
+        mkdir -p linux_sdk_tar
+    fi
+    run tar cf linux_sdk_tar/${sdk_name}.sdk.tar  .repo/
 }
 
 
@@ -194,12 +199,7 @@ function unpack()
         exit 1
     fi
 
-    rm -rf
-    if [ ! -d linux_sdk ];then
-        mkdir -p linux_sdk
-    fi
-
-    cat md5sum.txt  |awk -F ' ' '{print $2}'| xargs cat | tar -xv -C linux_sdk
+    cat md5sum.txt  |awk -F ' ' '{print $2}'| xargs cat | tar -xv
 
     if [ "$?" = "0" ];then
         log "Uppack linux sdk success!"
@@ -230,6 +230,7 @@ function usage()
 {
     echo -e "Usage:"
     echo -e "$0 unpack \t unpack linux SDK"
+    #echo -e "$0 sync_local \t only update working tree, don't fetch"
 }
 
 
