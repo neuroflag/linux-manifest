@@ -49,7 +49,7 @@ function build_release()
         log "Failed"
     fi
 
-    sdk_name=$(realpath .repo/manifest.xml  |awk -F '/' '{print $(NF) }'| awk -F '.' '{print $(1) }')
+    sdk_name=$(realpath .repo/manifest.xml  |awk -F '/' '{print $(NF) }'| awk -F '.xml' '{print $(1) }')
     run split -b 4000M linux_sdk_tar/${sdk_name}.sdk.tar linux_sdk_tar/${sdk_name}.sdk.split -d -a 2 --verbose
 
     # Create MD5
@@ -64,7 +64,7 @@ function build_tar()
         log "Failed"
         exit 1
     fi
-    sdk_name=$(realpath .repo/manifest.xml  |awk -F '/' '{print $(NF) }'| awk -F '.' '{print $(1) }')
+    sdk_name=$(realpath .repo/manifest.xml  |awk -F '/' '{print $(NF) }'| awk -F '.xml' '{print $(1) }')
 
     rm -rf
     if [ ! -d linux_sdk ];then
