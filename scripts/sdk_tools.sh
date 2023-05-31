@@ -42,22 +42,8 @@ function run() {
         do_with_retry ${max_try_time} "$@"
 }
 
+
 function build_release()
-{
-    if [ ! -f ".repo/manifest.xml" ]; then
-        log ".repo/manifest.xml: No such file or directory"
-        log "Failed"
-    fi
-
-    sdk_name=$(realpath .repo/manifest.xml  |awk -F '/' '{print $(NF) }'| awk -F '.xml' '{print $(1) }')
-    run split -b 4000M linux_sdk_tar/${sdk_name}.sdk.tar linux_sdk_tar/${sdk_name}.sdk.split -d -a 2 --verbose
-
-    # Create MD5
-    log "I: Running command: ls ${sdk_name}.sdk.split* |sort | xargs md5sum | tee md5sum.txt"
-    ls linux_sdk_tar/${sdk_name}.sdk.split* |sort | xargs md5sum | tee md5sum.txt
-}
-
-function build_tar()
 {
     if [ ! -f ".repo/manifest.xml" ]; then
         log ".repo/manifest.xml: No such file or directory"
@@ -66,11 +52,27 @@ function build_tar()
     fi
     sdk_name=$(realpath .repo/manifest.xml  |awk -F '/' '{print $(NF) }'| awk -F '.xml' '{print $(1) }')
 
-    rm -rf
+    rm -rf linux_sdk_tar
     if [ ! -d linux_sdk ];then
         mkdir -p linux_sdk_tar
     fi
-    run tar cf linux_sdk_tar/${sdk_name}.sdk.tar  .repo/
+
+    log "I: Running command: tar cf -  .repo/ | split -b 4000M - linux_sdk_tar/${sdk_name}.sdk.split -d -a 2 --verbose"
+    tar cf -  .repo/ | split -b 4000M - linux_sdk_tar/${sdk_name}.sdk.split -d -a 2 --verbose
+
+    # Create MD5
+    log "I: Running command: ls ${sdk_name}.sdk.split* |sort | xargs md5sum | tee md5sum.txt"
+    ls linux_sdk_tar/${sdk_name}.sdk.split* |sort | xargs md5sum | tee md5sum.txt
+
+    # create README
+    README
+
+    rm -rf $sdk_name
+    if [ ! -d linux_sdk ];then
+        mkdir -p $sdk_name
+    fi
+
+    ls | grep -v $sdk_name| xargs -I {} mv {} $sdk_name
 }
 
 
@@ -236,8 +238,7 @@ function usage()
 
 for option in ${OPTIONS}; do
     case $option in
-        tar) build_tar ;;
-        release) build_release; README ;;
+        release) build_release;;
         sync_local) f_sync_local;;
         check_md5) do_check_md5;;
         unpack) do_check_md5; unpack;;
