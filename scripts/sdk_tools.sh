@@ -287,7 +287,7 @@ EOF
 
 }
 
-getopt_cmd=$(getopt -o xC:pch --long unpack,directory::,check_md5,sync -n $(basename $0) -- "$@")
+getopt_cmd=$(getopt -o xC:pch --long help,release,unpack,directory::,check_md5,sync -n $(basename $0) -- "$@")
 [ $? -ne 0 ] && show_help && exit 1
 eval set -- "$getopt_cmd"
 while [ -n "$1" ]
@@ -309,7 +309,7 @@ do
         --sync)
             task=sync
             shift 1;;
-        -h)
+        -h|--help)
             show_help
             exit 0
             ;;
