@@ -3,6 +3,7 @@
 #source bootloader-arm64/scripts/envsetup.sh
 
 OPTIONS="${@:-allff}"
+UPGRADE_PATH=./
 
 
 function log() {
@@ -124,24 +125,30 @@ cat << EOF > ${README_FILE}
 1. 解压SDK
 
 chmod +x $0
-$0 unpack
+
+创建一个目录以存放SDK：比如我现在这个是3588的SDK，我想解压到上一层文件夹，避免污染当前目录
+
+mkdir ../firefly_rk3588_SDK
+$0 --unpack -C ../firefly_rk3588_SDK
 
 
 2. 还原工作目录
 
-$0 sync_local
+选择刚才解压后的目录
 
+$0 --sync -C ../firefly_rk3588_SDK
 
 可以使用上面脚本执行或者手动执行命令，选择其中一种即可
 
-
+# 进入刚刚解压后的目录，比如我这里是../firefly_rk3588_SDK
+cd ../firefly_rk3588_SDK
 .repo/repo/repo sync -l
 .repo/repo/repo start firefly --all
 
 
 3. 更新SDK
 
-前面2个步骤只在第一次解压SDK时执行，后续更新SDK只需执行第3步骤，进行网络更新
+前面2个步骤只在第一次解压SDK时执行，后续更新SDK只需进入SDK目录执行第3步骤，进行网络更新
 
 .repo/repo/repo sync -c --no-tags
 
@@ -168,17 +175,28 @@ The first time you use the SDK, you need to perform 3 steps. If you want to upda
 1. Unpack the SDK
 
 chmod +x $0
-$0 unpack
+
+mkdir ../firefly_sdk
+
+
+Create a directory to store the SDK: For example, my current SDK is 3588, and I want to decompress it to the upper folder to avoid polluting the current directory
+
+mkdir ../firefly_rk3588_SDK
+$0 --unpack -C ../firefly_rk3588_SDK
 
 
 2. Restore the working directory
 
-$0 sync_local
+Select the directory you just decompressed
+
+$0 --sync -C ../firefly_rk3588_SDK
 
 
 You can use the above script to execute or manually execute the command, choose one of them
 
 
+# Enter the directory just after decompression, for example, here is ../firefly_rk3588_SDK
+cd ../firefly_rk3588_SDK
 .repo/repo/repo sync -l
 .repo/repo/repo start firefly --all
 
@@ -192,7 +210,7 @@ The first two steps are only performed when the SDK is decompressed for the firs
 EOF
 }
 
-function unpack()
+function do_unpack()
 {
     log "Unpack linux sdk:"
     if [ ! -f "md5sum.txt" ]; then
@@ -201,7 +219,7 @@ function unpack()
         exit 1
     fi
 
-    cat md5sum.txt  |awk -F ' ' '{print $2}'| xargs cat | tar -xv
+    cat md5sum.txt  |awk -F ' ' '{print $2}'| xargs cat | tar -xv -C $UPGRADE_PATH
 
     if [ "$?" = "0" ];then
         log "Uppack linux sdk success!"
@@ -236,12 +254,99 @@ function usage()
 }
 
 
-for option in ${OPTIONS}; do
-    case $option in
-        release) build_release;;
-        sync_local) f_sync_local;;
-        check_md5) do_check_md5;;
-        unpack) do_check_md5; unpack;;
-        *) usage ;;
-	esac
+# for option in ${OPTIONS}; do
+#     case $option in
+#         release) build_release;;
+#         sync_local) f_sync_local;;
+#         check_md5) do_check_md5;;
+#         unpack) do_check_md5; do_unpack;;
+#         *) usage ;;
+# 	esac
+# done
+
+function show_help(){
+
+cat << EOF
+$0
+参数说明：
+  -h, --help:           打印帮助信息
+  -p, --release         打包SDK
+  -C, --directory=DIR   output directory
+  -x, --unpack          unpack SDK
+  -c, --check_md5       check md5
+  --sync                sync sdk
+
+e.g.
+
+# unpack sdk
+$0 --unpack
+
+# pack sdk
+$0 --release
+EOF
+
+}
+
+getopt_cmd=$(getopt -o xC:pch --long unpack,directory::,check_md5,sync -n $(basename $0) -- "$@")
+[ $? -ne 0 ] && show_help && exit 1
+eval set -- "$getopt_cmd"
+while [ -n "$1" ]
+do
+    case "$1" in
+        -C|--directory)
+            # unpack directory
+            UPGRADE_PATH="$2"
+            shift 2;;
+        -x|--unpack)
+            task=unpack
+            shift 1;;
+        -p|--release)
+            task=release
+            shift 1;;
+        -c|--check_md5)
+            task=check_md5
+            shift 1;;
+        --sync)
+            task=sync
+            shift 1;;
+        -h)
+            show_help
+            exit 0
+            ;;
+        --)
+            shift
+            break ;;
+        ?|*)
+            show_help
+            exit 0
+    esac
 done
+
+
+if [ ! -d "$UPGRADE_PATH" ]; then
+    echo "directory $UPGRADE_PATH not exit"
+    exit 1
+fi
+
+case $task in
+    unpack)
+        #do_check_md5
+        rm -rf $UPGRADE_PATH/.repo
+        do_unpack
+        ;;
+    sync)
+        run pushd $UPGRADE_PATH
+        f_sync_local
+        run pushd
+        ;;
+    check_md5)
+        #do_check_md5
+        :
+        ;;
+    release)
+        build_release
+        ;;
+    ?|*)
+        echo "no task"
+esac
+
