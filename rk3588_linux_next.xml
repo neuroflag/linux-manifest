@@ -35,13 +35,13 @@
   <project name="external/rknn-toolkit2" />
   <project name="external/rknpu2" />
   <project name="external/rockit" />
-  <project name="yocto/build/conf" path="yocto/build/conf" revision="yocto-next/firefly"/>
-  <project name="yocto/meta-openembedded" path="yocto/meta-openembedded" revision="honister"/>
-  <project name="yocto/meta-qt5" path="yocto/meta-qt5" revision="honister"/>
-  <project name="yocto/meta-rockchip" path="yocto/meta-rockchip" revision="firefly/honister"/>
-  <project name="yocto/meta-clang" path="yocto/meta-clang" revision="honister"/>
-  <project name="yocto/meta-browser" path="yocto/meta-browser" revision="honister"/>
-  <project name="yocto/poky" path="yocto/poky" revision="honister">
+  <project name="yocto/build/conf" path="yocto/build/conf" revision="rk3588/firefly"/>
+  <project name="yocto/meta-openembedded" path="yocto/meta-openembedded" revision="rk3588/firefly"/>
+  <project name="yocto/meta-qt5" path="yocto/meta-qt5" revision="rk3588/firefly"/>
+  <project name="yocto/meta-rockchip" path="yocto/meta-rockchip" revision="firefly/kirkstone"/>
+  <project name="yocto/meta-clang" path="yocto/meta-clang" revision="rk3588/firefly"/>
+  <project name="yocto/meta-browser" path="yocto/meta-browser" revision="rk3588/firefly"/>
+  <project name="yocto/poky" path="yocto/poky" revision="rk3588/firefly">
     <linkfile dest="yocto/scripts" src="scripts"/>
     <linkfile dest="yocto/bitbake" src="bitbake"/>
     <linkfile dest="yocto/meta-poky" src="meta-poky"/>
