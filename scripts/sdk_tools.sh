@@ -330,7 +330,7 @@ fi
 
 case $task in
     unpack)
-        #do_check_md5
+        do_check_md5
         rm -rf $UPGRADE_PATH/.repo
         do_unpack
         ;;
@@ -340,7 +340,7 @@ case $task in
         run pushd
         ;;
     check_md5)
-        #do_check_md5
+        do_check_md5
         :
         ;;
     release)
