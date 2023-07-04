@@ -4,9 +4,9 @@
   <default remote="firefly-linux" revision="rk356x/firefly-5.10" sync-j="4"/>
 
   <project name="device/rockchip">
-    <linkfile dest="build.sh" src="common/build.sh"/>
+	<linkfile dest="build.sh" src="common/scripts/build.sh"/>
 	<linkfile dest="Makefile" src="common/Makefile"/>
-    <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
+	<linkfile dest="rkflash.sh" src="common/scripts/rkflash.sh"/>
   </project>
 
   <project name="docs" path="docs"/>
