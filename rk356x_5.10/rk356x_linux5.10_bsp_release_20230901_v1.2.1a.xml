@@ -7,6 +7,7 @@
 	<linkfile dest="build.sh" src="common/scripts/build.sh"/>
 	<linkfile dest="Makefile" src="common/Makefile"/>
 	<linkfile dest="rkflash.sh" src="common/scripts/rkflash.sh"/>
+	<linkfile dest="firefly-update.sh" src="common/scripts/firefly-update.sh"/>
   </project>
 
   <project name="docs" path="docs"/>
