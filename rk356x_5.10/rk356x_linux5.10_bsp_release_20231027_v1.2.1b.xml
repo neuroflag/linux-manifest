@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="include/firefly_gitlab.xml" /> 
+  <default remote="firefly-linux" dest-branch="rk356x/firefly-5.10" revision="refs/tags/rk356x/linux5.10_release_v1.2.1b" sync-j="4"/>
+
+  <project name="device/rockchip">
+	<linkfile dest="build.sh" src="common/scripts/build.sh"/>
+	<linkfile dest="Makefile" src="common/Makefile"/>
+	<linkfile dest="rkflash.sh" src="common/scripts/rkflash.sh"/>
+	<linkfile dest="firefly-update.sh" src="common/scripts/firefly-update.sh"/>
+  </project>
+
+  <project name="docs" path="docs"/>
+  <project name="docs-cn" path="docs/cn" revision="rk356x/firefly-5.10">
+    <linkfile dest="docs/cn/RK3566_RK3568/Rockchip_Developer_Guide_Linux_Software_CN.pdf" src="Rockchip_Developer_Guide_Linux_Software_CN.pdf"/>
+  </project>
+  <project name="docs-en" path="docs/en" revision="rk356x/firefly-5.10"/>
+  <project name="docs-soc_internal-cn" path="docs/cn/RK3566_RK3568" revision="rk356x/firefly-5.10"/>
+  <project name="docs-soc_internal-en" path="docs/en/RK3566_RK3568" revision="rk356x/firefly-5.10"/>
+
+  <project name="kernel"/>
+  <project name="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" />
+  <project name="prebuilts/gcc/linux-x86/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" />
+  <project name="rkbin"/>
+  <project name="tools"/>
+
+  <project name="u-boot"/>
+</manifest>
