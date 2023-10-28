@@ -13,7 +13,7 @@
   <project name="buildroot">
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
-  <project name="debian"/>
+  <project name="buildroot-dl" path="buildroot/dl"/>
   <project name="external/drm-cursor"/>
   <project name="external/alsa-config"/>
   <project name="external/camera_engine_rkaiq"/>
