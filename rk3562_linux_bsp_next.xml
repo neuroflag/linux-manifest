@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <include name="include/firefly_gitlab.xml" />
+  <default remote="firefly-linux" revision="rk3562/firefly" sync-j="4"/>
+
+  <project name="u-boot"/>
+  <project name="device/rockchip">
+    <linkfile src="common/scripts/build.sh" dest="build.sh"/>
+    <linkfile src="common/Makefile" dest="Makefile"/>
+    <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
+  </project>
+  <project name="tools"/>
+  <project name="kernel"/>
+  <project name="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu"/>
+  <project name="prebuilts/gcc/linux-x86/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf"/>
+  <project name="rkbin"/>
+  <project name="docs-cn" path="docs/cn"/>
+  <project name="docs-en" path="docs/en"/>
+  <project name="docs-soc_internal-cn" path="docs/cn/RK3562"/>
+  <project name="docs-soc_internal-en" path="docs/en/RK3562"/>
+</manifest>
