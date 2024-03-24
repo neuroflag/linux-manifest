@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="rk3588_linux_release.xml" />
+    <remote name="neuroflag"
+        fetch="https://github.com/neuroflag/"
+        pushurl="ssh://git@github.com/neuroflag" />
+    <remove-project name="yocto/build/conf" />
+    <remove-project name="yocto/meta-browser" />
+    <remove-project name="yocto/meta-clang" />
+    <remove-project name="yocto/meta-openembedded" />
+    <remove-project name="yocto/meta-qt5" />
+    <remove-project name="yocto/meta-rockchip" />
+    <remove-project name="yocto/poky" />
+</manifest>

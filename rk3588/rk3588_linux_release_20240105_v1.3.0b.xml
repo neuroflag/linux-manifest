@@ -46,6 +46,5 @@
     <linkfile dest="yocto/meta-poky" src="meta-poky"/>
     <linkfile dest="yocto/.templateconf" src=".templateconf"/>
     <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
-    <linkfile dest="yocto/README.md" src="../../.repo/manifests/README_yocto.md"/>
   </project>
 </manifest>
