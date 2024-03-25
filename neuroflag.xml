@@ -11,4 +11,9 @@
     <remove-project name="yocto/meta-qt5" />
     <remove-project name="yocto/meta-rockchip" />
     <remove-project name="yocto/poky" />
+    <remove-project name="kernel" />
+    <project path="kernel" name="kernel" remote="neuroflag" revision="neuroflag" />
+    <project path="neuroflag" name="rockchip" remote="neuroflag" revision="neuroflag/main">
+        <copyfile dest="device/rockchip/rk3588/neuroflag-hermione-rk3588.mk" src="device/neuroflag/hermione-rk3588.mk" />
+    </project>
 </manifest>
